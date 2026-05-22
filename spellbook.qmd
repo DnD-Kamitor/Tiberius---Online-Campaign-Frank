@@ -403,10 +403,10 @@ toc: false
   <!-- Color Spray -->
   <div class="sb-card">
     <div class="sb-head sbh-illusion">
-      <span class="sb-name">Color Spray</span>
-      <span class="sb-sublabel">Illusion · 1st Level · Wizard (no 3rd slots yet)</span>
+      <span class="sb-name">Color Spray ⭐</span>
+      <span class="sb-sublabel">Illusion · 1st Level · Wizard · Prepared</span>
     </div>
-    <div class="sb-tags"></div>
+    <div class="sb-tags"><span class="sb-tag prepared">Prepared</span></div>
     <div class="sb-stats-grid">
       <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action</span></div>
       <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">Self (15-ft cone)</span></div>

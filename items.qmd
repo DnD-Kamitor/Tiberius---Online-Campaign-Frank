@@ -33,6 +33,9 @@ When you throw this javelin and speak its command word, it transforms into a bol
 | # | Item | Qty | Source | Value | Status | Notes |
 |---|---|---|---|---|---|---|
 | 1 | Golden Neck with Blood | 1 | Found | ? | K | Equipment slot |
+| 2 | Belt | 1 | Found | ? | K | **Unidentified** — needs Identify |
+| 3 | Necklace | 1 | Found | ? | K | **Unidentified** — needs Identify |
+| 4 | Chain Mail | 1 | Found | ? | K | **Unidentified — presumed magical** — needs Identify |
 
 ### Pack & Consumables
 | # | Item | Qty | Source | Value | Status | Notes |
@@ -207,6 +210,36 @@ When you throw this javelin and speak its command word, it transforms into a bol
       <td>Ball Bearings (bag of 1000)</td><td style="text-align:center">1</td>
       <td>Purchased</td><td style="text-align:right">1 GP</td>
       <td style="text-align:center">K</td><td>DC 10 DEX or fall prone</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">1</td>
+      <td>2026-05-22</td>
+      <td>Belt (unidentified)</td>
+      <td style="text-align:center">1</td>
+      <td>Found / Loot</td>
+      <td style="text-align:right">?</td>
+      <td style="text-align:center">K</td>
+      <td>Needs Identify — may be magical</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">1</td>
+      <td>2026-05-22</td>
+      <td>Necklace (unidentified)</td>
+      <td style="text-align:center">1</td>
+      <td>Found / Loot</td>
+      <td style="text-align:right">?</td>
+      <td style="text-align:center">K</td>
+      <td>Needs Identify — may be magical</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">1</td>
+      <td>2026-05-22</td>
+      <td>Chain Mail (unidentified)</td>
+      <td style="text-align:center">1</td>
+      <td>Found / Loot</td>
+      <td style="text-align:right">?</td>
+      <td style="text-align:center">K</td>
+      <td><b>Presumed magical</b> — needs Identify</td>
     </tr>
     <!-- Add new rows here -->
   </tbody>

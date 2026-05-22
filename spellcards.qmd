@@ -238,7 +238,7 @@ Top border colour = school of magic. **C** = Concentration · **R** = Ritual · 
   </div>
 
   <div class="spell-card sc-illusion">
-    <div class="spell-header"><span class="spell-name">Color Spray</span><span class="spell-level-badge">1st (cast @ 3rd slot)</span></div>
+    <div class="spell-header"><span class="spell-name">Color Spray ⭐</span><span class="spell-level-badge">1st Level · PREPARED</span></div>
     <div class="spell-school">Illusion · Wizard</div>
     <div class="spell-stats">
       <span><b>Cast:</b> Action</span><span><b>Range:</b> Self (15-ft cone)</span>
