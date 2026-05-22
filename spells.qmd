@@ -266,7 +266,7 @@ Use this to record every spell cast this session for the permanent ledger.
 
 | Spell | Level | Key Effect | Slot |
 |---|---|---|---|
-| **Hunter's Mark** | 1st | Bonus 1d6/hit vs marked target, Conc. 1 hr · 1/day free | 1st |
-| *(+ 1 more Ranger spell — TBD)* | | | |
+| **Hunter's Mark** | 1st | Bonus 1d6/hit vs marked target, Conc. 1 hr · 1/day free (Favored Enemy) | 1st |
+| **Cure Wounds** | 1st | Heal **2d8 + WIS** HP on touch | 1st |
 
 → Full stat blocks: [Spell Cards 🃏](spellcards.qmd)

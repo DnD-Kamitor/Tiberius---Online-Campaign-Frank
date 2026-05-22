@@ -74,9 +74,10 @@ Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger 
 | **Feats** | Magic Initiate (Cleric) · **War Caster** *(Wizard 4)* |
 | **Wizard Skills** | Arcana +6, History +6, Investigation +6, Religion +6 |
 | **Ranger Proficiencies** | Light armor, Medium armor, Shields · Simple & Martial weapons |
-| **Ranger Skills** | *(3 from: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival — TBD)* |
+| **Ranger Skills** | Stealth, Perception *(+1 TBD — Investigation already a Wizard proficiency)* |
 | **Saving Throws** | INT, WIS (Wizard) · STR, DEX (Ranger) |
-| **Favored Enemy** | *(creature type — TBD)* |
+| **Favored Enemy** | **Hobgoblin** — Hunter's Mark always prepared; 1/day no slot cost |
+| **Weapon Mastery** | Light Crossbow (**Slow** — target speed −10 ft) · Warhammer (**Push** — push 10 ft) |
 
 ### ⚔️ War Caster *(Wizard 4 feat)*
 
@@ -92,7 +93,8 @@ Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger 
 
 | Weapon | Attack | Damage | Notes |
 |---|---|---|---|
-| Light Crossbow | +5 | 1d8 P | Ammunition, Loading, Two-Handed; 80/320 ft |
+| Light Crossbow | +5 | 1d8 P | Ammunition, Loading, Two-Handed; 80/320 ft · Mastery: **Slow** |
+| Warhammer | +2 | 1d8/1d10 B | Versatile · Mastery: **Push** (10 ft) |
 | Quarterstaff | +2 | 1d6/1d8 B | Versatile |
 | Javelin of Lightning | +2 | 1d6 P / 4d6 ⚡ | Magic; throw: 5ft×120ft line, DC 14 DEX, 1/dawn |
 

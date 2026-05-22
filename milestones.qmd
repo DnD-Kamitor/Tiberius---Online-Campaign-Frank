@@ -30,13 +30,13 @@ subtitle: "XP · Levels · Features · Notable Events"
 | Feature | Details |
 |---|---|
 | **Spellcasting** | WIS-based · DC 11 · Attack +3 · 1 prepared Ranger spell |
-| **Favored Enemy** | *(creature type TBD)* — Hunter's Mark always prepared; 1/day no slot cost |
-| **Weapon Mastery** | Can use Mastery property of 2 weapons *(TBD which)* |
+| **Favored Enemy** | **Hobgoblin** — Hunter's Mark always prepared; 1/day no slot cost |
+| **Weapon Mastery** | Light Crossbow (**Slow** — target speed −10 ft) · Warhammer (**Push** — push 10 ft on hit) |
 | **Armor** | Light, Medium, Shields now available |
 | **Weapons** | Simple + Martial weapons |
 | **Saving Throws** | STR, DEX added |
-| **Skills (×3)** | *(TBD from: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival)* |
-| **Subclass** | *(TBD: Hunter, Beast Master, Gloom Stalker, Fey Wanderer, Swarmkeeper)* |
+| **Skills (×3)** | Stealth, Perception *(+1 TBD — Investigation already a Wizard proficiency; swap for Athletics, Insight, Nature, Survival, or Animal Handling)* |
+| **Subclass** | *(TBD at Ranger 3: Hunter, Beast Master, Gloom Stalker, Fey Wanderer, Swarmkeeper)* |
 
 ---
 
@@ -83,10 +83,10 @@ subtitle: "XP · Levels · Features · Notable Events"
 
 ## 📋 Things Still to Fill In
 
-- [ ] Wizard 4 ASI / Feat choice
-- [ ] Ranger subclass (Hunter / Beast Master / Gloom Stalker / Fey Wanderer / Swarmkeeper)
-- [ ] Favored Enemy creature type
-- [ ] Ranger skill choices (×3)
-- [ ] Weapon Mastery weapons (×2)
-- [ ] Ranger prepared spell (besides Hunter's Mark)
-- [ ] HP total (d6×4 Wizard + d10×1 Ranger + CON modifier ×5)
+- [x] ~~Wizard 4 ASI / Feat choice~~ → **War Caster**
+- [x] ~~Favored Enemy creature type~~ → **Hobgoblin**
+- [x] ~~Weapon Mastery weapons (×2)~~ → Light Crossbow (Slow) · Warhammer (Push)
+- [x] ~~Ranger prepared spell (besides Hunter's Mark)~~ → **Cure Wounds**
+- [ ] Ranger skill 3rd choice *(Investigation already Wizard — pick from: Athletics, Insight, Nature, Perception, Stealth, Survival, Animal Handling)*
+- [ ] Ranger subclass at Ranger 3 *(Hunter / Beast Master / Gloom Stalker / Fey Wanderer / Swarmkeeper)*
+- [ ] CON + WIS scores → HP total (d6×4 Wizard + d10×1 Ranger + CON mod ×5)
