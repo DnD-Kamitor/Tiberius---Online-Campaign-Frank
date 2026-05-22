@@ -11,7 +11,7 @@ subtitle: "XP · Levels · Features · Notable Events"
 | Wizard 2 | 2 | — | Spellbook growth (+2), Improved Minor Illusion | 1st ×3 |
 | Wizard 3 | 3 | — | 2nd-level slots | 1st ×4 · 2nd ×2 |
 | **Wizard 4** | **4** | **2026-05-22** | **War Caster feat** · Prepared spells → 7 | **1st ×4 · 2nd ×3** |
-| **Ranger 1** ◄ | **5** | **2026-05-22** | **Spellcasting (WIS), Favored Enemy, Weapon Mastery · Medium armor + Shields + Martial weapons** | **shared pool** |
+| **Ranger 1** ◄ | **5** | **2026-05-22** | **Spellcasting (WIS), Favored Enemy, Weapon Mastery · Medium armor + Shields + Martial weapons** | **1st×4 · 2nd×3 · 3rd×2** |
 | Wizard 5 | 6 | | 3rd-level slots | 1st×4 · 2nd×3 · 3rd×2 |
 | Ranger 2 | 7 | | Fighting Style | + |
 | Ranger 3 | 8 | | **Ranger Conclave (subclass)** *(choose at this level)* | + |
@@ -20,7 +20,7 @@ subtitle: "XP · Levels · Features · Notable Events"
 | Wizard 8 | 10 | | | … |
 
 ::: {.callout-note appearance="simple"}
-**Multiclass spell slots (D&D 2024):** Wizard 4 (full caster = 4) + Ranger 1 (half caster = 0) = **level 4** on the multiclass table → 1st ×4 · 2nd ×3. Slots are shared; Wizard spells use INT, Ranger spells use WIS.
+**Multiclass spell slots (D&D 2024):** Wizard 4 (full caster = 4) + Ranger 1 (half caster = 1) = **level 5** on the multiclass table → 1st ×4 · 2nd ×3 · 3rd ×2. Slots are shared; Wizard spells use INT, Ranger spells use WIS.
 :::
 
 ---
@@ -35,7 +35,7 @@ subtitle: "XP · Levels · Features · Notable Events"
 | **Armor** | Light, Medium, Shields now available |
 | **Weapons** | Simple + Martial weapons |
 | **Saving Throws** | STR, DEX added |
-| **Skills (×3)** | Stealth, Perception *(+1 TBD — Investigation already a Wizard proficiency; swap for Athletics, Insight, Nature, Survival, or Animal Handling)* |
+| **Skills (×3)** | Stealth, Perception *(+1 open — Investigation was duplicate of Wizard proficiency; choose from: Athletics, Insight, Nature, Survival, Animal Handling)* |
 | **Subclass** | *(TBD at Ranger 3: Hunter, Beast Master, Gloom Stalker, Fey Wanderer, Swarmkeeper)* |
 
 ---
@@ -87,6 +87,6 @@ subtitle: "XP · Levels · Features · Notable Events"
 - [x] ~~Favored Enemy creature type~~ → **Hobgoblin**
 - [x] ~~Weapon Mastery weapons (×2)~~ → Light Crossbow (Slow) · Warhammer (Push)
 - [x] ~~Ranger prepared spell (besides Hunter's Mark)~~ → **Cure Wounds**
-- [ ] Ranger skill 3rd choice *(Investigation already Wizard — pick from: Athletics, Insight, Nature, Perception, Stealth, Survival, Animal Handling)*
+- [ ] Ranger skill 3rd choice *(pick from: Athletics, Insight, Nature, Survival, Animal Handling)*
 - [ ] Ranger subclass at Ranger 3 *(Hunter / Beast Master / Gloom Stalker / Fey Wanderer / Swarmkeeper)*
 - [ ] CON + WIS scores → HP total (d6×4 Wizard + d10×1 Ranger + CON mod ×5)

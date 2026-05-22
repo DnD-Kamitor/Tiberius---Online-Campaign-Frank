@@ -52,11 +52,11 @@ subtitle: "Wizard 4 (Illusionist) / Ranger 1 · Character Level 5 · Frank's Cam
 | **Passive Perception** | 11 |
 | **Wizard Save DC** | **14** · **Wizard Attack** +6 · **Prepared Wizard Spells** 7 |
 | **Ranger Save DC** | 11 (WIS) · **Ranger Attack** +3 · **Prepared Ranger Spells** 1 |
-| **Spell Slots** | 1st ×4 · 2nd ×3 |
+| **Spell Slots** | 1st ×4 · 2nd ×3 · 3rd ×2 |
 | **Arcane Recovery** | Recover up to **2 levels** of slots on a short rest (1/day) |
 
 ::: {.callout-tip appearance="simple"}
-**Multiclass spell slots (D&D 2024):** Wizard 4 = 4 full levels · Ranger 1 = 0 half-levels → Combined level 4 → **1st ×4, 2nd ×3**.
+**Multiclass spell slots (D&D 2024):** Wizard 4 = 4 full levels · Ranger 1 = 1 half-level → Combined level 5 → **1st ×4, 2nd ×3, 3rd ×2**.
 Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger spells use WIS.
 :::
 
@@ -74,7 +74,7 @@ Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger 
 | **Feats** | Magic Initiate (Cleric) · **War Caster** *(Wizard 4)* |
 | **Wizard Skills** | Arcana +6, History +6, Investigation +6, Religion +6 |
 | **Ranger Proficiencies** | Light armor, Medium armor, Shields · Simple & Martial weapons |
-| **Ranger Skills** | Stealth, Perception *(+1 TBD — Investigation already a Wizard proficiency)* |
+| **Ranger Skills** | Stealth, Perception *(+1 open — Investigation was duplicate of Wizard proficiency)* |
 | **Saving Throws** | INT, WIS (Wizard) · STR, DEX (Ranger) |
 | **Favored Enemy** | **Hobgoblin** — Hunter's Mark always prepared; 1/day no slot cost |
 | **Weapon Mastery** | Light Crossbow (**Slow** — target speed −10 ft) · Warhammer (**Push** — push 10 ft) |

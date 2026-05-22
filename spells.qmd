@@ -39,7 +39,7 @@ const AR_KEY     = 'tiberius-ar-v1';
 const SLOT_CONFIG = [
   { level: '1st', max: 4, label: '1st Level' },
   { level: '2nd', max: 3, label: '2nd Level' },
-  { level: '3rd', max: 0, label: '3rd Level (future)', future: true },
+  { level: '3rd', max: 2, label: '3rd Level' },
 ];
 
 // ── Daily abilities ─────────────────────────────────────────
