@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.quarto/
+# Quarto render cache
+*_files/
+# Don't ignore docs/ — that's what GitHub Pages serves
+
+/.quarto/
+**/*.quarto_ipynb

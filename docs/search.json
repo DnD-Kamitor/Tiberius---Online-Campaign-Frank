@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tiberius Inscriptus Interlinearis",
+    "section": "",
+    "text": "Player: Chris · Campaign: Frank’s · Character #: 3 · Last updated: 2026-05-22"
+  },
+  {
+    "objectID": "index.html#core-stats",
+    "href": "index.html#core-stats",
+    "title": "Tiberius Inscriptus Interlinearis",
+    "section": "Core Stats",
+    "text": "Core Stats\n\n\nSTR 8 −1\n\n\nDEX 14 +2\n\n\nCON — —\n\n\nINT 17 +3\n\n\nWIS — 0\n\n\nCHA 8 −1\n\n\n\n\n\nStat\nValue\n\n\n\n\nHP\n3 (d6/level)\n\n\nAC\n15 (Unarmoured +3)\n\n\nInitiative\n+2\n\n\nSpeed\n30 ft\n\n\nProficiency Bonus\n+2\n\n\nPassive Perception\n10\n\n\nSave DC\n13 · Attack Bonus +5 · Prepared Spells 6"
+  },
+  {
+    "objectID": "index.html#class-background",
+    "href": "index.html#class-background",
+    "title": "Tiberius Inscriptus Interlinearis",
+    "section": "Class & Background",
+    "text": "Class & Background\n\n\n\n\n\n\n\nClass\nWizard\n\n\nSubclass\nIllusionist\n\n\nBackground\nAcolyte\n\n\nSpecies\nHuman\n\n\nLanguages\nDraconic, Common, Elven\n\n\nFeat\nMagic Initiate (Cleric)\n\n\nSkills (proficient)\nArcana +7, History +5, Investigation +5, Religion +5\n\n\nSkills (half-prof)\nAcrobatics +2, Sleight of Hand +2, Stealth +2"
+  },
+  {
+    "objectID": "index.html#weapons",
+    "href": "index.html#weapons",
+    "title": "Tiberius Inscriptus Interlinearis",
+    "section": "Weapons",
+    "text": "Weapons\n\n\n\n\n\n\n\n\n\nWeapon\nAttack\nDamage\nNotes\n\n\n\n\nLight Crossbow\n+4\n1d8 P\nAmmunition, Loading, Two-Handed; 80/320 ft\n\n\nQuarterstaff\n+1\n1d6 / 1d8 B\nVersatile\n\n\nJavelin of Lightning\n+1\n1d6 P / 4d6 ⚡\nMagic; throw for 5ft×120ft line, DC 13 DEX, 1/dawn"
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Tiberius Inscriptus Interlinearis",
+    "section": "Quick Links",
+    "text": "Quick Links\n\n📄 PDF Character Sheet — printable\n💰 Treasury Ledger\n✨ Spell Usage Journal\n🎒 Item Acquisitions Log\n🎯 Milestones & Level-up Log"
+  },
+  {
+    "objectID": "spells.html",
+    "href": "spells.html",
+    "title": "Spell Usage Journal",
+    "section": "",
+    "text": "Tick boxes each time you expend a slot. Reset on long rest.\n\n\n\nLevel\nMax\nSlots\n\n\n\n\n1st\n4\n[ ] [ ] [ ] [ ]\n\n\n2nd\n2\n[ ] [ ]\n\n\n3rd\n—\n(future)\n\n\n4th\n—\n(future)\n\n\n5th+\n—\n(future)"
+  },
+  {
+    "objectID": "spells.html#spell-slots",
+    "href": "spells.html#spell-slots",
+    "title": "Spell Usage Journal",
+    "section": "",
+    "text": "Tick boxes each time you expend a slot. Reset on long rest.\n\n\n\nLevel\nMax\nSlots\n\n\n\n\n1st\n4\n[ ] [ ] [ ] [ ]\n\n\n2nd\n2\n[ ] [ ]\n\n\n3rd\n—\n(future)\n\n\n4th\n—\n(future)\n\n\n5th+\n—\n(future)"
+  },
+  {
+    "objectID": "spells.html#known-spells",
+    "href": "spells.html#known-spells",
+    "title": "Spell Usage Journal",
+    "section": "Known Spells",
+    "text": "Known Spells\n\nCantrips (always available, no slot)\n\n\n\nSpell\nSource\nNotes\n\n\n\n\nFire Bolt\nWizard\n1d10 fire, 120 ft\n\n\nPoison Spray\nWizard\n1d12 poison, 10 ft, CON save\n\n\nTrue Strike\nWizard\nNext attack with advantage\n\n\nGuidance\nCleric (Acolyte)\n+1d4 to ability check\n\n\nThaumaturgy\nCleric (Acolyte)\nMinor magical effects\n\n\nMinor Illusion\nIllusionist\nSound or image\n\n\nToll the Dead\nMagic Initiate\n1d8/1d12 necrotic, WIS save\n\n\nStarry Wisp\nMagic Initiate\n1d8 radiant, 60 ft, reveals target\n\n\n\n\n\nLevel 1\n\n\n\nSpell\nPrepared?\nRitual?\nNotes\n\n\n\n\nCommand\n○\n—\nCleric; one-word command\n\n\nMagic Missile\n○\n—\n3×1d4+1 force, auto-hit\n\n\nMage Armor\n●\n—\nPrepared · AC = 13+DEX\n\n\nGrease\n○\n—\nMagic Initiate\n\n\nUnseen Servant\n○\n®\n\n\n\nFind Familiar\n○\n®\n\n\n\nComprehend Languages\n○\n®\n\n\n\nTensor’s Floating Disk\n○\n®\n\n\n\nSilent Image\n○\n—\n(cast at level 2)\n\n\nSilvery Barbs\n○\n—\n(cast at level 2)\n\n\nColor Spray\n○\n—\n(cast at level 3)\n\n\n\n\n\nLevel 2\n\n\n\nSpell\nPrepared?\nNotes\n\n\n\n\nMagic Weapon\n○\n(cast at level 3)\n\n\nNystul’s Magic Aura\n○\nIllusionist\n\n\nInvisibility\n○\nIllusionist\n\n\nRope Trick\n○\n(cast at level 3, Slot B)"
+  },
+  {
+    "objectID": "spells.html#cast-log",
+    "href": "spells.html#cast-log",
+    "title": "Spell Usage Journal",
+    "section": "Cast Log",
+    "text": "Cast Log\n\n\n\nSess.\nDate\nSpell Name\nLvl Cast\nSlot Used\nTarget / Area\nNotes / Outcome\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCantrips use no slots — still worth logging for tactics review."
+  },
+  {
+    "objectID": "milestones.html",
+    "href": "milestones.html",
+    "title": "Milestones & Level-up Log",
+    "section": "",
+    "text": "Lvl\nXP Needed\nDate\nNew Features / ASI / Feats\nSpell Slots\nSpells Added\n\n\n\n\n1\n0\n—\nSpellcasting, Arcane Recovery, Illusionist subclass\n1st ×2\n\n\n\n2\n300\n—\nSpellbook growth (+2)\n1st ×3\n\n\n\n3 ◄\n900\n2026-05-22\n2nd-level slots · Improved Minor Illusion\n1st ×4 · 2nd ×2\n\n\n\n4\n2,700\n\nASI or Feat\n1st ×4 · 2nd ×3\n\n\n\n5\n6,500\n\n3rd-level slots\n1st ×4 · 2nd ×3 · 3rd ×2\n\n\n\n6\n14,000\n\nMalleable Illusions (subclass)\n…\n\n\n\n7\n23,000\n\n\n…\n\n\n\n8\n34,000\n\nASI or Feat\n…\n\n\n\n9\n48,000\n\n5th-level slots\n…\n\n\n\n10\n64,000\n\nIllusory Self (subclass)\n…\n\n\n\n11\n85,000\n\n6th-level slots\n…\n\n\n\n12\n100,000\n\nASI or Feat\n…"
+  },
+  {
+    "objectID": "milestones.html#level-progression",
+    "href": "milestones.html#level-progression",
+    "title": "Milestones & Level-up Log",
+    "section": "",
+    "text": "Lvl\nXP Needed\nDate\nNew Features / ASI / Feats\nSpell Slots\nSpells Added\n\n\n\n\n1\n0\n—\nSpellcasting, Arcane Recovery, Illusionist subclass\n1st ×2\n\n\n\n2\n300\n—\nSpellbook growth (+2)\n1st ×3\n\n\n\n3 ◄\n900\n2026-05-22\n2nd-level slots · Improved Minor Illusion\n1st ×4 · 2nd ×2\n\n\n\n4\n2,700\n\nASI or Feat\n1st ×4 · 2nd ×3\n\n\n\n5\n6,500\n\n3rd-level slots\n1st ×4 · 2nd ×3 · 3rd ×2\n\n\n\n6\n14,000\n\nMalleable Illusions (subclass)\n…\n\n\n\n7\n23,000\n\n\n…\n\n\n\n8\n34,000\n\nASI or Feat\n…\n\n\n\n9\n48,000\n\n5th-level slots\n…\n\n\n\n10\n64,000\n\nIllusory Self (subclass)\n…\n\n\n\n11\n85,000\n\n6th-level slots\n…\n\n\n\n12\n100,000\n\nASI or Feat\n…"
+  },
+  {
+    "objectID": "milestones.html#session-milestone-log",
+    "href": "milestones.html#session-milestone-log",
+    "title": "Milestones & Level-up Log",
+    "section": "Session Milestone Log",
+    "text": "Session Milestone Log\n\n\n\nSess.\nDate\nXP Earned\nTotal XP\nKey Events / Decisions / Notes\n\n\n\n\n0\n2026-05-22\n—\n900\nParty treasury: 11,350 GP. Purchased Javelin of Lightning (Tiberius), Gloves of Thievery (Jakhad), Mind Sharpener (Tela), Mind Sharpener ring (Aella). Party balance: 8,950 GP."
+  },
+  {
+    "objectID": "milestones.html#death-save-history",
+    "href": "milestones.html#death-save-history",
+    "title": "Milestones & Level-up Log",
+    "section": "Death Save History",
+    "text": "Death Save History\n\n\n\nSess.\nDate\nCause / Enemy\nSuccesses\nFailures\nOutcome"
+  },
+  {
+    "objectID": "milestones.html#notes-on-next-level-up-level-4",
+    "href": "milestones.html#notes-on-next-level-up-level-4",
+    "title": "Milestones & Level-up Log",
+    "section": "Notes on Next Level-up (Level 4)",
+    "text": "Notes on Next Level-up (Level 4)\nWhen Tiberius reaches 2,700 XP and hits Level 4:\n\nChoose ASI (+2 to one score or +1 to two) OR a Feat\nGain another spell slot (2nd becomes ×3)\nAdd 2 spells to spellbook\nSuggestions: bump INT to 18 (+4 mod, DC 14, Attack +6) or take War Caster / Resilient (CON)"
+  },
+  {
+    "objectID": "items.html",
+    "href": "items.html",
+    "title": "Item Acquisitions Log",
+    "section": "",
+    "text": "Weapon · Uncommon · No attunement required\n\nAcquired Sess. 0 · 2026-05-22 · Cost: 600 GP\nWhen you throw this javelin and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide and 120 feet long. Each creature in the line (excluding you) must succeed on a DC 13 DEX saving throw or take 4d6 lightning damage (half on success). The javelin then returns to its normal form at the target point. Can’t be used this way again until the next dawn.\n↗ D&D 2024 wiki"
+  },
+  {
+    "objectID": "items.html#magic-items",
+    "href": "items.html#magic-items",
+    "title": "Item Acquisitions Log",
+    "section": "",
+    "text": "Weapon · Uncommon · No attunement required\n\nAcquired Sess. 0 · 2026-05-22 · Cost: 600 GP\nWhen you throw this javelin and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide and 120 feet long. Each creature in the line (excluding you) must succeed on a DC 13 DEX saving throw or take 4d6 lightning damage (half on success). The javelin then returns to its normal form at the target point. Can’t be used this way again until the next dawn.\n↗ D&D 2024 wiki"
+  },
+  {
+    "objectID": "items.html#starting-inventory-level-3",
+    "href": "items.html#starting-inventory-level-3",
+    "title": "Item Acquisitions Log",
+    "section": "Starting Inventory (Level 3)",
+    "text": "Starting Inventory (Level 3)\n\n\n\n\n\n\n\n\n\n\n\n\n#\nItem\nQty\nSource\nEst. Value\nStatus\nNotes\n\n\n\n\n1\nLight Crossbow\n1\nStarting\n25 GP\nK\nAmmunition, Loading, Two-Handed\n\n\n2\nQuarterstaff\n1\nStarting\n2 SP\nK\nVersatile 1d8\n\n\n3\nGolden Neck with Blood\n1\nFound\n?\nK\nEquipment slot\n\n\n4\nScholar’s Pack\n1\nStarting\n40 GP\nK\nBackpack + contents below\n\n\n5\nBook\n1\nPack\n25 GP\nK\n\n\n\n6\nInk (1 oz.)\n1\nPack\n10 GP\nK\n\n\n\n7\nInk Pen\n1\nPack\n2 CP\nK\n\n\n\n8\nLamp\n1\nPack\n5 SP\nK\n\n\n\n9\nOil (flask)\n10\nPack\n1 GP ea\nK\n\n\n\n10\nParchment (sheet)\n10\nPack\n1 GP ea\nK\n\n\n\n11\nTinderbox\n1\nPack\n5 SP\nK\n\n\n\n12\nSilver Urn\n1\nTreasure\n?\nK\nUnappraised"
+  },
+  {
+    "objectID": "items.html#acquisitions-changes-log",
+    "href": "items.html#acquisitions-changes-log",
+    "title": "Item Acquisitions Log",
+    "section": "Acquisitions & Changes Log",
+    "text": "Acquisitions & Changes Log\n\n\n\nSess.\nDate\nItem Name\nQty\nSource / How\nValue (GP)\nStatus\nNotes\n\n\n\n\n0\n2026-05-22\nJavelin of Lightning\n1\nPurchased\n600\nK\nMagic weapon, uncommon, no attunement"
+  },
+  {
+    "objectID": "items.html#attunement-slots-max-3",
+    "href": "items.html#attunement-slots-max-3",
+    "title": "Item Acquisitions Log",
+    "section": "Attunement Slots (max 3)",
+    "text": "Attunement Slots (max 3)\n\n\n\nSlot\nItem\nStatus\n\n\n\n\n1\n(empty)\n\n\n\n2\n(empty)\n\n\n\n3\n(empty)"
+  },
+  {
+    "objectID": "treasury.html",
+    "href": "treasury.html",
+    "title": "Treasury Ledger",
+    "section": "",
+    "text": "Out = gold leaving the party · In = gold arriving · Running balance in GP equivalent"
+  },
+  {
+    "objectID": "treasury.html#current-balances",
+    "href": "treasury.html#current-balances",
+    "title": "Treasury Ledger",
+    "section": "Current Balances",
+    "text": "Current Balances\n\n\n\nLocation\nCP\nSP\nEP\nGP\nPP\n\n\n\n\nTiberius — On Person\n202\n69\n—\n586\n—\n\n\nElectrum (22 × 0.5 GP)\n—\n—\n22\n11 GP equiv.\n—\n\n\nBanked\n—\n—\n—\n450\n—\n\n\nTreasure (Silver Urn)\n—\n—\n—\n? unappraised\n—\n\n\nTOTAL (Tiberius est.)\n\n\n\n~1,058 GP\n\n\n\n\n\n\n\n\n\n\nParty treasury after Sess. 0 purchases: 11,350 − 2,400 = 8,950 GP\n\n\n\nParty balance: 8,950 GP"
+  },
+  {
+    "objectID": "treasury.html#transaction-log",
+    "href": "treasury.html#transaction-log",
+    "title": "Treasury Ledger",
+    "section": "Transaction Log",
+    "text": "Transaction Log\n\n\n\nSess.\nDate\nType\nDescription / Source\nOut (GP)\nIn (GP)\nNet\nParty Balance\n\n\n\n\n0\n2026-05-22\nOpen\nOpening balance — party treasury (7,000 + 3,900 + 450 banked)\n\n11,350\n+11,350\n11,350\n\n\n0\n2026-05-22\nBuy\nGloves of Thievery — Jakhad (rogue)\n600\n\n−600\n10,750\n\n\n0\n2026-05-22\nBuy\nJavelin of Lightning — Tiberius\n600\n\n−600\n10,150\n\n\n0\n2026-05-22\nBuy\nMind Sharpener — Tela (druid)\n600\n\n−600\n9,550\n\n\n0\n2026-05-22\nBuy\nMind Sharpener (ring) — Aella (cleric)\n600\n\n−600\n8,950"
+  },
+  {
+    "objectID": "treasury.html#currency-conversion-reference",
+    "href": "treasury.html#currency-conversion-reference",
+    "title": "Treasury Ledger",
+    "section": "Currency Conversion Reference",
+    "text": "Currency Conversion Reference\n\n\n\nCoin\nAbbr\nGP Value\n\n\n\n\nCopper Piece\nCP\n0.01 GP\n\n\nSilver Piece\nSP\n0.1 GP\n\n\nElectrum Piece\nEP\n0.5 GP\n\n\nGold Piece\nGP\n1 GP\n\n\nPlatinum Piece\nPP\n10 GP"
+  }
+]

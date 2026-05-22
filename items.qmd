@@ -1,0 +1,86 @@
+---
+title: "Item Acquisitions Log"
+subtitle: "Status: K=Kept · S=Sold · U=Used · G=Given · L=Lost"
+---
+
+## Magic Items
+
+::: {.magic-card}
+#### Javelin of Lightning
+::: {.rarity}
+Weapon · Uncommon · No attunement required
+:::
+Acquired **Sess. 0 · 2026-05-22** · Cost: 600 GP
+
+When you throw this javelin and speak its command word, it transforms into a bolt of lightning, forming a line **5 feet wide and 120 feet long**. Each creature in the line (excluding you) must succeed on a **DC 13 DEX saving throw** or take **4d6 lightning damage** (half on success). The javelin then returns to its normal form at the target point. Can't be used this way again until the next dawn.
+
+[↗ D&D 2024 wiki](https://dnd2024.wikidot.com/magic-item:javelin-of-lightning)
+:::
+
+---
+
+## Starting Inventory (Level 3)
+
+| # | Item | Qty | Source | Est. Value | Status | Notes |
+|---|---|---|---|---|---|---|
+| 1 | Light Crossbow | 1 | Starting | 25 GP | K | Ammunition, Loading, Two-Handed |
+| 2 | Quarterstaff | 1 | Starting | 2 SP | K | Versatile 1d8 |
+| 3 | Golden Neck with Blood | 1 | Found | ? | K | Equipment slot |
+| 4 | Scholar's Pack | 1 | Starting | 40 GP | K | Backpack + contents below |
+| 5 | Book | 1 | Pack | 25 GP | K | |
+| 6 | Ink (1 oz.) | 1 | Pack | 10 GP | K | |
+| 7 | Ink Pen | 1 | Pack | 2 CP | K | |
+| 8 | Lamp | 1 | Pack | 5 SP | K | |
+| 9 | Oil (flask) | 10 | Pack | 1 GP ea | K | |
+| 10 | Parchment (sheet) | 10 | Pack | 1 GP ea | K | |
+| 11 | Tinderbox | 1 | Pack | 5 SP | K | |
+| 12 | Silver Urn | 1 | Treasure | ? | K | Unappraised |
+
+---
+
+## Acquisitions & Changes Log
+
+```{=html}
+<table class="ledger">
+  <thead>
+    <tr>
+      <th>Sess.</th>
+      <th>Date</th>
+      <th>Item Name</th>
+      <th>Qty</th>
+      <th>Source / How</th>
+      <th>Value (GP)</th>
+      <th>Status</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="credit">
+      <td style="text-align:center">0</td>
+      <td>2026-05-22</td>
+      <td><a href="https://dnd2024.wikidot.com/magic-item:javelin-of-lightning">Javelin of Lightning</a></td>
+      <td style="text-align:center">1</td>
+      <td>Purchased</td>
+      <td style="text-align:right">600</td>
+      <td style="text-align:center">K</td>
+      <td>Magic weapon, uncommon, no attunement</td>
+    </tr>
+    <!-- Add new rows here -->
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+```
+
+---
+
+## Attunement Slots (max 3)
+
+| Slot | Item | Status |
+|---|---|---|
+| 1 | *(empty)* | |
+| 2 | *(empty)* | |
+| 3 | *(empty)* | |

@@ -1,0 +1,73 @@
+---
+title: "Milestones & Level-up Log"
+subtitle: "XP · Levels · Features · Notable Events"
+---
+
+## Level Progression
+
+| Lvl | XP Needed | Date | New Features / ASI / Feats | Spell Slots | Spells Added |
+|---|---|---|---|---|---|
+| 1 | 0 | — | Spellcasting, Arcane Recovery, Illusionist subclass | 1st ×2 | |
+| 2 | 300 | — | Spellbook growth (+2) | 1st ×3 | |
+| **3** ◄ | **900** | **2026-05-22** | **2nd-level slots · Improved Minor Illusion** | **1st ×4 · 2nd ×2** | |
+| 4 | 2,700 | | ASI or Feat | 1st ×4 · 2nd ×3 | |
+| 5 | 6,500 | | 3rd-level slots | 1st ×4 · 2nd ×3 · 3rd ×2 | |
+| 6 | 14,000 | | Malleable Illusions (subclass) | … | |
+| 7 | 23,000 | | | … | |
+| 8 | 34,000 | | ASI or Feat | … | |
+| 9 | 48,000 | | 5th-level slots | … | |
+| 10 | 64,000 | | Illusory Self (subclass) | … | |
+| 11 | 85,000 | | 6th-level slots | … | |
+| 12 | 100,000 | | ASI or Feat | … | |
+
+---
+
+## Session Milestone Log
+
+```{=html}
+<table class="ledger">
+  <thead>
+    <tr>
+      <th>Sess.</th>
+      <th>Date</th>
+      <th>XP Earned</th>
+      <th>Total XP</th>
+      <th>Key Events / Decisions / Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center">0</td>
+      <td>2026-05-22</td>
+      <td style="text-align:right">—</td>
+      <td style="text-align:right">900</td>
+      <td>Party treasury: 11,350 GP. Purchased Javelin of Lightning (Tiberius), Gloves of Thievery (Jakhad), Mind Sharpener (Tela), Mind Sharpener ring (Aella). Party balance: 8,950 GP.</td>
+    </tr>
+    <!-- Add session rows here -->
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+```
+
+---
+
+## Death Save History
+
+| Sess. | Date | Cause / Enemy | Successes | Failures | Outcome |
+|---|---|---|---|---|---|
+| | | | | | |
+
+---
+
+## Notes on Next Level-up (Level 4)
+
+When Tiberius reaches **2,700 XP** and hits Level 4:
+
+- Choose **ASI** (+2 to one score or +1 to two) **OR** a **Feat**
+- Gain another spell slot (2nd becomes ×3)
+- Add 2 spells to spellbook
+- Suggestions: bump **INT to 18** (+4 mod, DC 14, Attack +6) or take **War Caster / Resilient (CON)**

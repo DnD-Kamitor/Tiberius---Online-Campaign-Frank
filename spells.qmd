@@ -1,0 +1,93 @@
+---
+title: "Spell Usage Journal"
+subtitle: "Track every cast · Spell DC 13 · Attack +5 · INT-based"
+---
+
+## Spell Slots
+
+Tick boxes each time you expend a slot. Reset on long rest.
+
+| Level | Max | Slots |
+|---|---|---|
+| 1st | 4 | `[ ] [ ] [ ] [ ]` |
+| 2nd | 2 | `[ ] [ ]` |
+| 3rd | — | *(future)* |
+| 4th | — | *(future)* |
+| 5th+ | — | *(future)* |
+
+---
+
+## Known Spells
+
+### Cantrips (always available, no slot)
+
+| Spell | Source | Notes |
+|---|---|---|
+| Fire Bolt | Wizard | 1d10 fire, 120 ft |
+| Poison Spray | Wizard | 1d12 poison, 10 ft, CON save |
+| True Strike | Wizard | Next attack with advantage |
+| Guidance | Cleric (Acolyte) | +1d4 to ability check |
+| Thaumaturgy | Cleric (Acolyte) | Minor magical effects |
+| Minor Illusion | Illusionist | Sound or image |
+| Toll the Dead | Magic Initiate | 1d8/1d12 necrotic, WIS save |
+| Starry Wisp | Magic Initiate | 1d8 radiant, 60 ft, reveals target |
+
+### Level 1
+
+| Spell | Prepared? | Ritual? | Notes |
+|---|---|---|---|
+| Command | ○ | — | Cleric; one-word command |
+| Magic Missile | ○ | — | 3×1d4+1 force, auto-hit |
+| Mage Armor | ● | — | **Prepared** · AC = 13+DEX |
+| Grease | ○ | — | Magic Initiate |
+| Unseen Servant | ○ | ® | |
+| Find Familiar | ○ | ® | |
+| Comprehend Languages | ○ | ® | |
+| Tensor's Floating Disk | ○ | ® | |
+| Silent Image | ○ | — | *(cast at level 2)* |
+| Silvery Barbs | ○ | — | *(cast at level 2)* |
+| Color Spray | ○ | — | *(cast at level 3)* |
+
+### Level 2
+
+| Spell | Prepared? | Notes |
+|---|---|---|
+| Magic Weapon | ○ | *(cast at level 3)* |
+| Nystul's Magic Aura | ○ | Illusionist |
+| Invisibility | ○ | Illusionist |
+| Rope Trick | ○ | *(cast at level 3, Slot B)* |
+
+---
+
+## Cast Log
+
+```{=html}
+<table class="ledger">
+  <thead>
+    <tr>
+      <th>Sess.</th>
+      <th>Date</th>
+      <th>Spell Name</th>
+      <th>Lvl Cast</th>
+      <th>Slot Used</th>
+      <th>Target / Area</th>
+      <th>Notes / Outcome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Add cast records here -->
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+```
+
+::: {.callout-tip appearance="simple"}
+Cantrips use no slots — still worth logging for tactics review.
+:::

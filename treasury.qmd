@@ -1,0 +1,115 @@
+---
+title: "Treasury Ledger"
+subtitle: "Party Gold · Session-by-session accounting"
+---
+
+::: {.callout-tip appearance="simple"}
+**Out** = gold leaving the party · **In** = gold arriving · Running balance in GP equivalent
+:::
+
+## Current Balances
+
+| Location | CP | SP | EP | GP | PP |
+|---|---|---|---|---|---|
+| Tiberius — On Person | 202 | 69 | — | 586 | — |
+| Electrum (22 × 0.5 GP) | — | — | 22 | *11 GP equiv.* | — |
+| Banked | — | — | — | 450 | — |
+| Treasure (Silver Urn) | — | — | — | *? unappraised* | — |
+| **TOTAL (Tiberius est.)** | | | | **~1,058 GP** | |
+
+::: {.callout-note appearance="simple"}
+**Party treasury after Sess. 0 purchases:** 11,350 − 2,400 = **8,950 GP**
+:::
+
+<span class="balance-badge">Party balance: 8,950 GP</span>
+
+---
+
+## Transaction Log
+
+```{=html}
+<table class="ledger">
+  <thead>
+    <tr>
+      <th>Sess.</th>
+      <th>Date</th>
+      <th>Type</th>
+      <th>Description / Source</th>
+      <th>Out (GP)</th>
+      <th>In (GP)</th>
+      <th>Net</th>
+      <th>Party Balance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="credit">
+      <td style="text-align:center">0</td>
+      <td>2026-05-22</td>
+      <td>Open</td>
+      <td>Opening balance — party treasury (7,000 + 3,900 + 450 banked)</td>
+      <td></td>
+      <td style="text-align:right">11,350</td>
+      <td style="text-align:right">+11,350</td>
+      <td style="text-align:right"><strong>11,350</strong></td>
+    </tr>
+    <tr class="debit">
+      <td style="text-align:center">0</td>
+      <td>2026-05-22</td>
+      <td>Buy</td>
+      <td>Gloves of Thievery — Jakhad (rogue)</td>
+      <td style="text-align:right">600</td>
+      <td></td>
+      <td style="text-align:right">−600</td>
+      <td style="text-align:right"><strong>10,750</strong></td>
+    </tr>
+    <tr class="debit">
+      <td style="text-align:center">0</td>
+      <td>2026-05-22</td>
+      <td>Buy</td>
+      <td><a href="https://dnd2024.wikidot.com/magic-item:javelin-of-lightning">Javelin of Lightning</a> — Tiberius</td>
+      <td style="text-align:right">600</td>
+      <td></td>
+      <td style="text-align:right">−600</td>
+      <td style="text-align:right"><strong>10,150</strong></td>
+    </tr>
+    <tr class="debit">
+      <td style="text-align:center">0</td>
+      <td>2026-05-22</td>
+      <td>Buy</td>
+      <td><a href="https://dnd2024.wikidot.com/magic-item:mind-sharpener">Mind Sharpener</a> — Tela (druid)</td>
+      <td style="text-align:right">600</td>
+      <td></td>
+      <td style="text-align:right">−600</td>
+      <td style="text-align:right"><strong>9,550</strong></td>
+    </tr>
+    <tr class="debit">
+      <td style="text-align:center">0</td>
+      <td>2026-05-22</td>
+      <td>Buy</td>
+      <td><a href="https://dnd2024.wikidot.com/magic-item:mind-sharpener">Mind Sharpener (ring)</a> — Aella (cleric)</td>
+      <td style="text-align:right">600</td>
+      <td></td>
+      <td style="text-align:right">−600</td>
+      <td style="text-align:right"><strong>8,950</strong></td>
+    </tr>
+    <!-- Add new rows here -->
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+```
+
+---
+
+## Currency Conversion Reference
+
+| Coin | Abbr | GP Value |
+|---|---|---|
+| Copper Piece | CP | 0.01 GP |
+| Silver Piece | SP | 0.1 GP |
+| Electrum Piece | EP | 0.5 GP |
+| Gold Piece | GP | 1 GP |
+| Platinum Piece | PP | 10 GP |

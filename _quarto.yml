@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "The Goodbook — Tiberius"
+  description: "Campaign ledger for Tiberius Inscriptus Interlinearis · Frank's Campaign"
+  favicon: "assets/favicon.png"
+  navbar:
+    background: "#3D2B0F"
+    foreground: "#F5EDD6"
+    title: "📖 Tiberius Goodbook"
+    left:
+      - href: index.qmd
+        text: "⚔️ Character"
+      - href: treasury.qmd
+        text: "💰 Treasury"
+      - href: spells.qmd
+        text: "✨ Spells"
+      - href: items.qmd
+        text: "🎒 Items"
+      - href: milestones.qmd
+        text: "🎯 Milestones"
+  page-footer:
+    left: "Frank's Campaign · Tiberius Inscriptus Interlinearis"
+    right: "Built with [Quarto](https://quarto.org)"
+  repo-url: https://github.com/chris-tonomy/Tiberius---Online-Campaign-Frank
+  repo-actions: [edit]
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/goodbook.scss]
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    df-print: paged

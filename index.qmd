@@ -1,0 +1,82 @@
+---
+title: "Tiberius Inscriptus Interlinearis"
+subtitle: "Wizard (Illusionist) · Level 3 · Frank's Campaign"
+---
+
+::: {.callout-note appearance="simple"}
+**Player:** Chris · **Campaign:** Frank's · **Character #:** 3 · **Last updated:** 2026-05-22
+:::
+
+## Core Stats
+
+::: {.stat-grid}
+::: {.stat-box}
+[STR]{.label}
+[8]{.score}
+[−1]{.mod}
+:::
+::: {.stat-box}
+[DEX]{.label}
+[14]{.score}
+[+2]{.mod}
+:::
+::: {.stat-box}
+[CON]{.label}
+[—]{.score}
+[—]{.mod}
+:::
+::: {.stat-box}
+[INT]{.label}
+[17]{.score}
+[+3]{.mod}
+:::
+::: {.stat-box}
+[WIS]{.label}
+[—]{.score}
+[0]{.mod}
+:::
+::: {.stat-box}
+[CHA]{.label}
+[8]{.score}
+[−1]{.mod}
+:::
+:::
+
+| Stat | Value |
+|---|---|
+| **HP** | 3 (d6/level) |
+| **AC** | 15 (Unarmoured +3) |
+| **Initiative** | +2 |
+| **Speed** | 30 ft |
+| **Proficiency Bonus** | +2 |
+| **Passive Perception** | 10 |
+| **Save DC** | 13 · **Attack Bonus** +5 · **Prepared Spells** 6 |
+
+## Class & Background
+
+| | |
+|---|---|
+| **Class** | Wizard |
+| **Subclass** | Illusionist |
+| **Background** | Acolyte |
+| **Species** | Human |
+| **Languages** | Draconic, Common, Elven |
+| **Feat** | Magic Initiate (Cleric) |
+| **Skills (proficient)** | Arcana +7, History +5, Investigation +5, Religion +5 |
+| **Skills (half-prof)** | Acrobatics +2, Sleight of Hand +2, Stealth +2 |
+
+## Weapons
+
+| Weapon | Attack | Damage | Notes |
+|---|---|---|---|
+| Light Crossbow | +4 | 1d8 P | Ammunition, Loading, Two-Handed; 80/320 ft |
+| Quarterstaff | +1 | 1d6 / 1d8 B | Versatile |
+| Javelin of Lightning | +1 | 1d6 P / 4d6 ⚡ | Magic; throw for 5ft×120ft line, DC 13 DEX, 1/dawn |
+
+## Quick Links
+
+- 📄 [PDF Character Sheet](Tiberius.pdf) — printable
+- 💰 [Treasury Ledger](treasury.qmd)
+- ✨ [Spell Usage Journal](spells.qmd)
+- 🎒 [Item Acquisitions Log](items.qmd)
+- 🎯 [Milestones & Level-up Log](milestones.qmd)

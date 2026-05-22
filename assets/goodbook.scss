@@ -1,0 +1,120 @@
+/*-- scss:defaults --*/
+$parchment:   #F5EDD6;
+$ink-dark:    #1A1008;
+$ink-mid:     #3D2B0F;
+$rule-color:  #8B6914;
+$accent:      #5C3A1E;
+$header-bg:   #3D2B0F;
+$credit-bg:   #EAF5EA;
+$debit-bg:    #FAEAEA;
+$shade-row:   #EDE3C8;
+
+$body-bg:         $parchment;
+$body-color:      $ink-dark;
+$link-color:      $rule-color;
+$headings-color:  $ink-mid;
+$font-family-base: Georgia, "Times New Roman", serif;
+$font-size-base:  0.95rem;
+
+/*-- scss:rules --*/
+
+/* ── Page chrome ── */
+body { background: $parchment; }
+
+.navbar { border-bottom: 2px solid $rule-color; }
+
+h1, h2, h3 {
+  font-family: "Palatino Linotype", Palatino, serif;
+  color: $accent;
+}
+h1 { border-bottom: 2px solid $rule-color; padding-bottom: .3rem; }
+h2 { border-left: 4px solid $rule-color; padding-left: .5rem; }
+
+/* ── Character stat block ── */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: .5rem;
+  margin: 1rem 0;
+}
+.stat-box {
+  background: $header-bg;
+  color: $parchment;
+  border: 1px solid $rule-color;
+  border-radius: 4px;
+  padding: .4rem;
+  text-align: center;
+  font-size: .85rem;
+}
+.stat-box .score  { font-size: 1.5rem; font-weight: bold; }
+.stat-box .mod    { font-size: .9rem; }
+.stat-box .label  { font-size: .7rem; text-transform: uppercase; letter-spacing: .05em; }
+
+/* ── Ledger tables ── */
+table.ledger {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .88rem;
+  margin-top: .5rem;
+}
+table.ledger thead tr {
+  background: $header-bg;
+  color: $parchment;
+}
+table.ledger thead th {
+  padding: .35rem .5rem;
+  text-align: center;
+  border: 1px solid $rule-color;
+}
+table.ledger tbody tr:nth-child(even) { background: $shade-row; }
+table.ledger tbody tr:hover           { background: darken($shade-row, 6%); }
+table.ledger tbody td {
+  padding: .3rem .5rem;
+  border: 1px solid lighten($rule-color, 20%);
+}
+.debit  { background: $debit-bg  !important; color: #8B0000; font-weight: 600; }
+.credit { background: $credit-bg !important; color: #1a5c1a; font-weight: 600; }
+
+/* ── Balance badge ── */
+.balance-badge {
+  display: inline-block;
+  background: $header-bg;
+  color: $parchment;
+  border-radius: 6px;
+  padding: .2rem .7rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 1px solid $rule-color;
+}
+
+/* ── Spell slot pips ── */
+.slot-pip {
+  display: inline-block;
+  width: 14px; height: 14px;
+  border: 2px solid $ink-mid;
+  border-radius: 50%;
+  margin: 0 2px;
+  vertical-align: middle;
+}
+.slot-pip.used {
+  background: $ink-mid;
+}
+
+/* ── Magic item card ── */
+.magic-card {
+  border: 1px solid $rule-color;
+  border-radius: 6px;
+  padding: .6rem 1rem;
+  margin: .5rem 0;
+  background: linear-gradient(135deg, $parchment 80%, lighten($rule-color, 30%));
+}
+.magic-card h4 { margin: 0 0 .2rem; color: $accent; }
+.magic-card .rarity {
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: $rule-color;
+}
+
+/* ── Callout overrides ── */
+.callout { border-left-color: $rule-color; }
