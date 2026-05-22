@@ -18,10 +18,10 @@ subtitle: "Party Gold · Session-by-session accounting"
 | **TOTAL (Tiberius est.)** | | | | **~1,058 GP** | |
 
 ::: {.callout-note appearance="simple"}
-**Party treasury after Sess. 0 purchases:** 11,350 − 2,600 = **8,750 GP**
+**Party treasury after Sess. 0 purchases:** 11,350 − 2,621 = **8,729 GP**
 :::
 
-<span class="balance-badge">Party balance: 8,750 GP</span>
+<span class="balance-badge">Party balance: 8,729 GP</span>
 
 ---
 
@@ -101,6 +101,16 @@ subtitle: "Party Gold · Session-by-session accounting"
       <td></td>
       <td style="text-align:right">−200</td>
       <td style="text-align:right"><strong>8,750</strong></td>
+    </tr>
+    <tr class="debit">
+      <td style="text-align:center">0</td>
+      <td>2026-05-22</td>
+      <td>Buy</td>
+      <td>Adventuring supplies: lighting kit (torches, candles, hooded lantern, oil ×10), exploration kit (rope ×2, grappling hook, pitons ×20, hammer, pole, ladder), writing kit (chalk ×10, sealing wax), tactical kit (hand mirror, caltrops, ball bearings)</td>
+      <td style="text-align:right">21</td>
+      <td></td>
+      <td style="text-align:right">−21</td>
+      <td style="text-align:right"><strong>8,729</strong></td>
     </tr>
     <!-- Add new rows here -->
     <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>

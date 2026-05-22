@@ -19,22 +19,65 @@ When you throw this javelin and speak its command word, it transforms into a bol
 
 ---
 
-## Starting Inventory (Level 3)
+## Current Inventory
 
-| # | Item | Qty | Source | Est. Value | Status | Notes |
+### Weapons & Magic
+| # | Item | Qty | Source | Value | Status | Notes |
 |---|---|---|---|---|---|---|
 | 1 | Light Crossbow | 1 | Starting | 25 GP | K | Ammunition, Loading, Two-Handed |
 | 2 | Quarterstaff | 1 | Starting | 2 SP | K | Versatile 1d8 |
-| 3 | Golden Neck with Blood | 1 | Found | ? | K | Equipment slot |
-| 4 | Scholar's Pack | 1 | Starting | 40 GP | K | Backpack + contents below |
-| 5 | Book | 1 | Pack | 25 GP | K | |
-| 6 | Ink (1 oz.) | 1 | Pack | 10 GP | K | |
-| 7 | Ink Pen | 1 | Pack | 2 CP | K | |
+| 3 | Javelin of Lightning | 1 | Purchased | 600 GP | K | Magic; 4d6 lightning line 1/dawn |
+
+### Worn / Equipped
+| # | Item | Qty | Source | Value | Status | Notes |
+|---|---|---|---|---|---|---|
+| 1 | Golden Neck with Blood | 1 | Found | ? | K | Equipment slot |
+
+### Pack & Consumables
+| # | Item | Qty | Source | Value | Status | Notes |
+|---|---|---|---|---|---|---|
+| 1 | Backpack | 1 | Pack | 2 GP | K | |
+| 2 | Book | 1 | Pack | 25 GP | K | |
+| 3 | Ink (1 oz.) | 1 | Pack | 10 GP | K | |
+| 4 | Ink Pen | 1 | Pack | 2 CP | K | |
+| 5 | Parchment (sheet) | 10 | Pack | 1 SP ea | K | |
+| 6 | Tinderbox | 1 | Pack | 5 SP | K | ✓ already owned |
+| 7 | Oil (flask) | 20 | Pack + Sess.0 | 1 SP ea | K | 10 from pack + 10 bought |
 | 8 | Lamp | 1 | Pack | 5 SP | K | |
-| 9 | Oil (flask) | 10 | Pack | 1 GP ea | K | |
-| 10 | Parchment (sheet) | 10 | Pack | 1 GP ea | K | |
-| 11 | Tinderbox | 1 | Pack | 5 SP | K | |
-| 12 | Silver Urn | 1 | Treasure | ? | K | Unappraised |
+| 9 | Silver Urn | 1 | Treasure | ? | K | Unappraised |
+| 10 | Potion of Healing | 2 | Purchased | 100 GP ea | K | Party stock; 2d4+2 HP |
+
+### Lighting Kit *(Sess. 0)*
+| # | Item | Qty | Cost | Notes |
+|---|---|---|---|---|
+| 1 | Torch | 10 | 1 SP | 1 CP each; 1 hr light, 20 ft bright / 40 ft dim |
+| 2 | Candle | 10 | 1 SP | 1 CP each; 1 hr, 5 ft bright |
+| 3 | Hooded Lantern | 1 | 5 GP | 6 hr/flask; cone or shuttered |
+| 4 | Oil (extra flasks) | 10 | 1 GP | Already counted above |
+
+### Exploration Kit *(Sess. 0)*
+| # | Item | Qty | Cost | Notes |
+|---|---|---|---|---|
+| 1 | Rope, Hempen (50 ft) | 2 | 2 GP | 2 HP, can hold 3 creatures |
+| 2 | Grappling Hook | 1 | 2 GP | Used with rope |
+| 3 | Piton | 20 | 1 GP | 5 CP each |
+| 4 | Hammer | 1 | 1 GP | For pitons / forcing |
+| 5 | 10-foot Pole | 1 | 5 CP | Prod ahead, trip wires |
+| 6 | Ladder, collapsible (10 ft) | 1 | 1 SP | |
+
+### Writing & Tools Kit *(Sess. 0)*
+| # | Item | Qty | Cost | Notes |
+|---|---|---|---|---|
+| 1 | Chalk | 10 | 1 SP | Mark paths, leave signals |
+| 2 | Sealing Wax | 1 | 5 SP | For sealed notes |
+| 3 | Ink, Pen, Parchment | — | — | ✓ already owned from Scholar's Pack |
+
+### Tactical Kit *(Sess. 0)*
+| # | Item | Qty | Cost | Notes |
+|---|---|---|---|---|
+| 1 | Hand Mirror | 1 | 5 GP | Check corners / detect traps |
+| 2 | Caltrops (bag of 20) | 1 | 1 GP | DC 15 DEX or stop + 1 piercing |
+| 3 | Ball Bearings (bag of 1000) | 1 | 1 GP | DC 10 DEX or fall prone |
 
 ---
 
@@ -75,12 +118,97 @@ When you throw this javelin and speak its command word, it transforms into a bol
       <td style="text-align:center">K</td>
       <td>Heals 2d4+2 HP. Party stock.</td>
     </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Torch ×10</td><td style="text-align:center">10</td>
+      <td>Purchased</td><td style="text-align:right">1 SP</td>
+      <td style="text-align:center">K</td><td>1 CP ea; 1 hr, 20 ft bright</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Candle ×10</td><td style="text-align:center">10</td>
+      <td>Purchased</td><td style="text-align:right">1 SP</td>
+      <td style="text-align:center">K</td><td>1 CP ea; 1 hr, 5 ft bright</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Hooded Lantern</td><td style="text-align:center">1</td>
+      <td>Purchased</td><td style="text-align:right">5 GP</td>
+      <td style="text-align:center">K</td><td>6 hr/flask; cone or shuttered</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Oil flask ×10 (extra)</td><td style="text-align:center">10</td>
+      <td>Purchased</td><td style="text-align:right">1 GP</td>
+      <td style="text-align:center">K</td><td>1 SP ea; now 20 total</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Rope, Hempen 50 ft ×2</td><td style="text-align:center">2</td>
+      <td>Purchased</td><td style="text-align:right">2 GP</td>
+      <td style="text-align:center">K</td><td>1 GP ea</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Grappling Hook</td><td style="text-align:center">1</td>
+      <td>Purchased</td><td style="text-align:right">2 GP</td>
+      <td style="text-align:center">K</td><td></td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Piton ×20</td><td style="text-align:center">20</td>
+      <td>Purchased</td><td style="text-align:right">1 GP</td>
+      <td style="text-align:center">K</td><td>5 CP ea</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Hammer</td><td style="text-align:center">1</td>
+      <td>Purchased</td><td style="text-align:right">1 GP</td>
+      <td style="text-align:center">K</td><td>For pitons / forcing</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>10-foot Pole</td><td style="text-align:center">1</td>
+      <td>Purchased</td><td style="text-align:right">5 CP</td>
+      <td style="text-align:center">K</td><td>Prod ahead for traps</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Ladder, collapsible (10 ft)</td><td style="text-align:center">1</td>
+      <td>Purchased</td><td style="text-align:right">1 SP</td>
+      <td style="text-align:center">K</td><td></td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Chalk ×10</td><td style="text-align:center">10</td>
+      <td>Purchased</td><td style="text-align:right">1 SP</td>
+      <td style="text-align:center">K</td><td>Mark paths, leave signals</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Sealing Wax</td><td style="text-align:center">1</td>
+      <td>Purchased</td><td style="text-align:right">5 SP</td>
+      <td style="text-align:center">K</td><td></td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Hand Mirror</td><td style="text-align:center">1</td>
+      <td>Purchased</td><td style="text-align:right">5 GP</td>
+      <td style="text-align:center">K</td><td>Check corners / detect traps</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Caltrops (bag of 20)</td><td style="text-align:center">1</td>
+      <td>Purchased</td><td style="text-align:right">1 GP</td>
+      <td style="text-align:center">K</td><td>DC 15 DEX or stop + 1 piercing</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td><td>2026-05-22</td>
+      <td>Ball Bearings (bag of 1000)</td><td style="text-align:center">1</td>
+      <td>Purchased</td><td style="text-align:right">1 GP</td>
+      <td style="text-align:center">K</td><td>DC 10 DEX or fall prone</td>
+    </tr>
     <!-- Add new rows here -->
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
   </tbody>
 </table>
 ```
