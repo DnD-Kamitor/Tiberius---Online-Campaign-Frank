@@ -1,6 +1,6 @@
 ---
 title: "Spell Tracker"
-subtitle: "Session tracker · Wizard: DC 14, Attack +6 (INT) · Ranger: DC 11, Attack +3 (WIS)"
+subtitle: "Session tracker · Wizard: DC 15, Attack +7 (INT 18) · Ranger: DC 11, Attack +3 (WIS)"
 ---
 
 ::: {.callout-tip appearance="simple"}
@@ -11,14 +11,15 @@ Slots and daily abilities **save in your browser** — survive page refreshes du
 
 ```{=html}
 <div class="tracker-panel">
-  <h3>⚡ Spell Slots</h3>
+  <h3>⚡ Spell Slots <span style="font-size:.75rem;font-weight:normal;color:#8B6914">(shared pool — Wizard INT &amp; Ranger WIS both draw from here)</span></h3>
   <div id="slot-tracker"></div>
   <div class="tracker-buttons" style="margin-top:.75rem">
     <button class="tracker-btn" onclick="resetLongRest()">🌙 Long Rest — reset all slots</button>
     <button class="tracker-btn secondary" onclick="arcaneRecovery()">🔁 Arcane Recovery (Short Rest)</button>
   </div>
   <p style="font-size:.75rem;color:#5C3A1E;margin:.5rem 0 0">
-    <b>Arcane Recovery:</b> once per day on a short rest, recover spell slots with combined level ≤ <b>2</b> (half wizard level, rounded up).
+    <b>Arcane Recovery:</b> once per day on a short rest, recover spell slots with combined level ≤ <b>2</b> (half wizard level, rounded up).<br>
+    <b>Ranger spells</b> (Hunter's Mark, Cure Wounds) use the same slots · Hunter's Mark can also be cast <b>2× per day free</b> via Favored Enemy (Hobgoblin).
   </p>
 </div>
 
@@ -47,7 +48,8 @@ const DAILY_ABILITIES = [
   { id: 'javelin',    label: 'Javelin of Lightning',   note: '1/dawn · 4d6 ⚡ lightning line, DC 14 DEX' },
   { id: 'ar',         label: 'Arcane Recovery',         note: '1/day short rest · recover up to 2 slot levels' },
   { id: 'magearmor',  label: 'Mage Armor',              note: '8 hr duration · AC 15' },
-  { id: 'huntersmark',label: "Hunter's Mark (Ranger)",  note: '1/day free (Favored Enemy) · Conc., 1 hr' },
+  { id: 'huntersmark1', label: "Hunter's Mark — use 1",   note: '2× free/day (Favored Enemy: Hobgoblin) · Conc., 1 hr' },
+  { id: 'huntersmark2', label: "Hunter's Mark — use 2",   note: '2nd free use · uses a slot if both spent' },
 ];
 
 // ── State helpers ───────────────────────────────────────────
@@ -241,7 +243,7 @@ Use this to record every spell cast this session for the permanent ledger.
 
 | Spell | Level | Key Effect | Slots |
 |---|---|---|---|
-**Wizard spells (INT · DC 14 · +6 attack · 7 prepared)**
+**Wizard spells (INT · DC 15 · +7 attack · 8 prepared)**
 
 | Spell | Level | Key Effect | Slot |
 |---|---|---|---|

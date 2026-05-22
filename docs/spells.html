@@ -147,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Spell Tracker</h1>
-<p class="subtitle lead">Session tracker · Wizard: DC 14, Attack +6 (INT) · Ranger: DC 11, Attack +3 (WIS)</p>
+<p class="subtitle lead">Session tracker · Wizard: DC 15, Attack +7 (INT 18) · Ranger: DC 11, Attack +3 (WIS)</p>
 </div>
 
 
@@ -177,14 +177,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="spell-slot-tracker" class="level2">
 <h2 class="anchored" data-anchor-id="spell-slot-tracker">Spell Slot Tracker</h2>
 <div class="tracker-panel">
-  <h3 class="anchored">⚡ Spell Slots</h3>
+  <h3 class="anchored">⚡ Spell Slots <span style="font-size:.75rem;font-weight:normal;color:#8B6914">(shared pool — Wizard INT &amp; Ranger WIS both draw from here)</span></h3>
   <div id="slot-tracker"></div>
   <div class="tracker-buttons" style="margin-top:.75rem">
     <button class="tracker-btn" onclick="resetLongRest()">🌙 Long Rest — reset all slots</button>
     <button class="tracker-btn secondary" onclick="arcaneRecovery()">🔁 Arcane Recovery (Short Rest)</button>
   </div>
   <p style="font-size:.75rem;color:#5C3A1E;margin:.5rem 0 0">
-    <b>Arcane Recovery:</b> once per day on a short rest, recover spell slots with combined level ≤ <b>2</b> (half wizard level, rounded up).
+    <b>Arcane Recovery:</b> once per day on a short rest, recover spell slots with combined level ≤ <b>2</b> (half wizard level, rounded up).<br>
+    <b>Ranger spells</b> (Hunter's Mark, Cure Wounds) use the same slots · Hunter's Mark can also be cast <b>2× per day free</b> via Favored Enemy (Hobgoblin).
   </p>
 </div>
 
@@ -213,7 +214,8 @@ const DAILY_ABILITIES = [
   { id: 'javelin',    label: 'Javelin of Lightning',   note: '1/dawn · 4d6 ⚡ lightning line, DC 14 DEX' },
   { id: 'ar',         label: 'Arcane Recovery',         note: '1/day short rest · recover up to 2 slot levels' },
   { id: 'magearmor',  label: 'Mage Armor',              note: '8 hr duration · AC 15' },
-  { id: 'huntersmark',label: "Hunter's Mark (Ranger)",  note: '1/day free (Favored Enemy) · Conc., 1 hr' },
+  { id: 'huntersmark1', label: "Hunter's Mark — use 1",   note: '2× free/day (Favored Enemy: Hobgoblin) · Conc., 1 hr' },
+  { id: 'huntersmark2', label: "Hunter's Mark — use 2",   note: '2nd free use · uses a slot if both spent' },
 ];
 
 // ── State helpers ───────────────────────────────────────────
@@ -465,7 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tbody>
 </tbody>
 </table>
-<p><strong>Wizard spells (INT · DC 14 · +6 attack · 7 prepared)</strong></p>
+<p><strong>Wizard spells (INT · DC 15 · +7 attack · 8 prepared)</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
