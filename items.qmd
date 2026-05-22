@@ -36,6 +36,8 @@ When you throw this javelin and speak its command word, it transforms into a bol
 | 2 | Belt | 1 | Found | ? | K | **Unidentified** — needs Identify |
 | 3 | Necklace | 1 | Found | ? | K | **Unidentified** — needs Identify |
 | 4 | Chain Mail | 1 | Found | ? | K | **Unidentified — presumed magical** — needs Identify |
+| 5 | Scale Mail | 1 | Found | 50 GP | K | AC 14+DEX (max+2) · Stealth Disadv. · backup / sell |
+| 6 | Greatsword | 1 | Found | 50 GP | K | 2d6 S · Heavy, Two-Handed |
 
 ### Pack & Consumables
 | # | Item | Qty | Source | Value | Status | Notes |
@@ -239,7 +241,27 @@ When you throw this javelin and speak its command word, it transforms into a bol
       <td>Found — Dungeon</td>
       <td style="text-align:right">?</td>
       <td style="text-align:center">K</td>
-      <td><b>Presumed magical</b> — needs Identify · found on dungeon entry</td>
+      <td><b>Presumed magical</b> — needs Identify</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">1</td>
+      <td>2026-05-23</td>
+      <td>Scale Mail</td>
+      <td style="text-align:center">1</td>
+      <td>Found — Dungeon</td>
+      <td style="text-align:right">50 GP</td>
+      <td style="text-align:center">K</td>
+      <td>AC 14 + DEX (max +2) · Stealth Disadv. · sell or keep as backup</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">1</td>
+      <td>2026-05-23</td>
+      <td>Greatsword</td>
+      <td style="text-align:center">1</td>
+      <td>Found — Dungeon</td>
+      <td style="text-align:right">50 GP</td>
+      <td style="text-align:center">K</td>
+      <td>2d6 S · Heavy, Two-Handed · STR-based (+2 to hit for Tiberius)</td>
     </tr>
     <!-- Add new rows here -->
   </tbody>

@@ -67,7 +67,7 @@ subtitle: "XP · Levels · Features · Notable Events"
       <td>2026-05-23</td>
       <td style="text-align:right">—</td>
       <td style="text-align:right">6,500</td>
-      <td>Entered dungeon. Found: Belt (unidentified), Necklace (unidentified), Chain Mail (presumed magical, unidentified). All items need Identify.</td>
+      <td>Entered dungeon. Found: Belt (unidentified), Necklace (unidentified), Chain Mail (presumed magical — unidentified), Scale Mail, Greatsword.</td>
     </tr>
     <tr><td></td><td></td><td></td><td></td><td></td></tr>
     <tr><td></td><td></td><td></td><td></td><td></td></tr>
