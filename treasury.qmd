@@ -11,17 +11,16 @@ subtitle: "Party Gold · Session-by-session accounting"
 
 | Location | CP | SP | EP | GP | PP |
 |---|---|---|---|---|---|
-| Tiberius — On Person | 202 | 69 | — | 586 | — |
-| Electrum (22 × 0.5 GP) | — | — | 22 | *11 GP equiv.* | — |
-| Banked | — | — | — | 450 | — |
+| Tiberius — On Person | 0 | 0 | 0 | 0 | — |
 | Treasure (Silver Urn) | — | — | — | *? unappraised* | — |
-| **TOTAL (Tiberius est.)** | | | | **~1,058 GP** | |
+| **Banked (all remaining)** | — | — | — | **8,729** | — |
+| **TOTAL** | | | | **8,729 GP** | |
 
 ::: {.callout-note appearance="simple"}
-**Party treasury after Sess. 0 purchases:** 11,350 − 2,621 = **8,729 GP**
+**All remaining party gold is banked. Tiberius carries 0 GP on person.**
 :::
 
-<span class="balance-badge">Party balance: 8,729 GP</span>
+<span class="balance-badge">Banked: 8,729 GP · On person: 0 GP</span>
 
 ---
 
@@ -111,6 +110,16 @@ subtitle: "Party Gold · Session-by-session accounting"
       <td></td>
       <td style="text-align:right">−21</td>
       <td style="text-align:right"><strong>8,729</strong></td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td>
+      <td>2026-05-22</td>
+      <td>Bank</td>
+      <td>All remaining gold deposited — Tiberius carries 0 GP on person</td>
+      <td></td>
+      <td></td>
+      <td style="text-align:right">—</td>
+      <td style="text-align:right"><strong>8,729 (banked)</strong></td>
     </tr>
     <!-- Add new rows here -->
     <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>

@@ -144,14 +144,14 @@
     "href": "treasury.html#current-balances",
     "title": "Treasury Ledger",
     "section": "Current Balances",
-    "text": "Current Balances\n\n\n\nLocation\nCP\nSP\nEP\nGP\nPP\n\n\n\n\nTiberius — On Person\n202\n69\n—\n586\n—\n\n\nElectrum (22 × 0.5 GP)\n—\n—\n22\n11 GP equiv.\n—\n\n\nBanked\n—\n—\n—\n450\n—\n\n\nTreasure (Silver Urn)\n—\n—\n—\n? unappraised\n—\n\n\nTOTAL (Tiberius est.)\n\n\n\n~1,058 GP\n\n\n\n\n\n\n\n\n\n\nParty treasury after Sess. 0 purchases: 11,350 − 2,621 = 8,729 GP\n\n\n\nParty balance: 8,729 GP"
+    "text": "Current Balances\n\n\n\nLocation\nCP\nSP\nEP\nGP\nPP\n\n\n\n\nTiberius — On Person\n0\n0\n0\n0\n—\n\n\nTreasure (Silver Urn)\n—\n—\n—\n? unappraised\n—\n\n\nBanked (all remaining)\n—\n—\n—\n8,729\n—\n\n\nTOTAL\n\n\n\n8,729 GP\n\n\n\n\n\n\n\n\n\n\nAll remaining party gold is banked. Tiberius carries 0 GP on person.\n\n\n\nBanked: 8,729 GP · On person: 0 GP"
   },
   {
     "objectID": "treasury.html#transaction-log",
     "href": "treasury.html#transaction-log",
     "title": "Treasury Ledger",
     "section": "Transaction Log",
-    "text": "Transaction Log\n\n\n\nSess.\nDate\nType\nDescription / Source\nOut (GP)\nIn (GP)\nNet\nParty Balance\n\n\n\n\n0\n2026-05-22\nOpen\nOpening balance — party treasury (7,000 + 3,900 + 450 banked)\n\n11,350\n+11,350\n11,350\n\n\n0\n2026-05-22\nBuy\nGloves of Thievery — Jakhad (rogue)\n600\n\n−600\n10,750\n\n\n0\n2026-05-22\nBuy\nJavelin of Lightning — Tiberius\n600\n\n−600\n10,150\n\n\n0\n2026-05-22\nBuy\nMind Sharpener — Tela (druid)\n600\n\n−600\n9,550\n\n\n0\n2026-05-22\nBuy\nMind Sharpener (ring) — Aella (cleric)\n600\n\n−600\n8,950\n\n\n0\n2026-05-22\nBuy\n2× Potion of Healing (100 GP each) — party stock\n200\n\n−200\n8,750\n\n\n0\n2026-05-22\nBuy\nAdventuring supplies: lighting kit (torches, candles, hooded lantern, oil ×10), exploration kit (rope ×2, grappling hook, pitons ×20, hammer, pole, ladder), writing kit (chalk ×10, sealing wax), tactical kit (hand mirror, caltrops, ball bearings)\n21\n\n−21\n8,729"
+    "text": "Transaction Log\n\n\n\nSess.\nDate\nType\nDescription / Source\nOut (GP)\nIn (GP)\nNet\nParty Balance\n\n\n\n\n0\n2026-05-22\nOpen\nOpening balance — party treasury (7,000 + 3,900 + 450 banked)\n\n11,350\n+11,350\n11,350\n\n\n0\n2026-05-22\nBuy\nGloves of Thievery — Jakhad (rogue)\n600\n\n−600\n10,750\n\n\n0\n2026-05-22\nBuy\nJavelin of Lightning — Tiberius\n600\n\n−600\n10,150\n\n\n0\n2026-05-22\nBuy\nMind Sharpener — Tela (druid)\n600\n\n−600\n9,550\n\n\n0\n2026-05-22\nBuy\nMind Sharpener (ring) — Aella (cleric)\n600\n\n−600\n8,950\n\n\n0\n2026-05-22\nBuy\n2× Potion of Healing (100 GP each) — party stock\n200\n\n−200\n8,750\n\n\n0\n2026-05-22\nBuy\nAdventuring supplies: lighting kit (torches, candles, hooded lantern, oil ×10), exploration kit (rope ×2, grappling hook, pitons ×20, hammer, pole, ladder), writing kit (chalk ×10, sealing wax), tactical kit (hand mirror, caltrops, ball bearings)\n21\n\n−21\n8,729\n\n\n0\n2026-05-22\nBank\nAll remaining gold deposited — Tiberius carries 0 GP on person\n\n\n—\n8,729 (banked)"
   },
   {
     "objectID": "treasury.html#currency-conversion-reference",
