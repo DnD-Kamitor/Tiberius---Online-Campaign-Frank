@@ -24,9 +24,10 @@ When you throw this javelin and speak its command word, it transforms into a bol
 ### Weapons & Magic
 | # | Item | Qty | Source | Value | Status | Notes |
 |---|---|---|---|---|---|---|
-| 1 | Light Crossbow | 1 | Starting | 25 GP | K | Ammunition, Loading, Two-Handed |
-| 2 | Quarterstaff | 1 | Starting | 2 SP | K | Versatile 1d8 |
-| 3 | Javelin of Lightning | 1 | Purchased | 600 GP | K | Magic; 4d6 lightning line 1/dawn |
+| 1 | Light Crossbow | 1 | Starting | 25 GP | K | Ammunition, Loading, Two-Handed · Mastery: Slow |
+| 2 | Warhammer | 1 | Ranger 1 | 15 GP | K | Versatile (1d10) · Mastery: Push |
+| 3 | Quarterstaff | 1 | Starting | 2 SP | K | Versatile 1d8 |
+| 4 | Javelin of Lightning | 1 | Purchased | 600 GP | K | Magic; 4d6 lightning line 1/dawn |
 
 ### Worn / Equipped
 | # | Item | Qty | Source | Value | Status | Notes |
@@ -44,8 +45,7 @@ When you throw this javelin and speak its command word, it transforms into a bol
 | 6 | Tinderbox | 1 | Pack | 5 SP | K | ✓ already owned |
 | 7 | Oil (flask) | 20 | Pack + Sess.0 | 1 SP ea | K | 10 from pack + 10 bought |
 | 8 | Lamp | 1 | Pack | 5 SP | K | |
-| 9 | Silver Urn | 1 | Treasure | ? | K | Unappraised |
-| 10 | Potion of Healing | 2 | Purchased | 100 GP ea | K | Party stock; 2d4+2 HP |
+| 9 | Potion of Healing | 2 | Purchased | 100 GP ea | K | Party stock; 2d4+2 HP |
 
 ### Lighting Kit *(Sess. 0)*
 | # | Item | Qty | Cost | Notes |

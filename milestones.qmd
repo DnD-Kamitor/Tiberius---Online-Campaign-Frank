@@ -11,7 +11,7 @@ subtitle: "XP · Levels · Features · Notable Events"
 | Wizard 2 | 2 | — | Spellbook growth (+2), Improved Minor Illusion | 1st ×3 |
 | Wizard 3 | 3 | — | 2nd-level slots | 1st ×4 · 2nd ×2 |
 | **Wizard 4** | **4** | **2026-05-22** | **War Caster feat** · Prepared spells → 7 | **1st ×4 · 2nd ×3** |
-| **Ranger 1** ◄ | **5** | **2026-05-22** | **Spellcasting (WIS), Favored Enemy, Weapon Mastery · Medium armor + Shields + Martial weapons** | **1st×4 · 2nd×3 · 3rd×2** |
+| **Ranger 1** ◄ | **5** | **2026-05-22** | **Spellcasting (WIS), Favored Enemy, Weapon Mastery · Medium armor + Shields + Martial weapons** | **1st×4 · 2nd×3** |
 | Wizard 5 | 6 | | 3rd-level slots | 1st×4 · 2nd×3 · 3rd×2 |
 | Ranger 2 | 7 | | Fighting Style | + |
 | Ranger 3 | 8 | | **Ranger Conclave (subclass)** *(choose at this level)* | + |
@@ -20,7 +20,7 @@ subtitle: "XP · Levels · Features · Notable Events"
 | Wizard 8 | 10 | | | … |
 
 ::: {.callout-note appearance="simple"}
-**Multiclass spell slots (D&D 2024):** Wizard 4 (full caster = 4) + Ranger 1 (half caster = 1) = **level 5** on the multiclass table → 1st ×4 · 2nd ×3 · 3rd ×2. Slots are shared; Wizard spells use INT, Ranger spells use WIS.
+**Multiclass spell slots (D&D 2024):** Wizard 4 (full caster = 4) + Ranger 1 (half caster = 0, floor(1/2)) = **level 4** on the multiclass table → 1st ×4 · 2nd ×3. Slots are shared; Wizard spells use INT, Ranger spells use WIS.
 :::
 
 ---

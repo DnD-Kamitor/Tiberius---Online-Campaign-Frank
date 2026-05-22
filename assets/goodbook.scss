@@ -327,3 +327,141 @@ table.ledger tbody td {
   font-size: .7rem;
 }
 .daily-item.used .daily-check::after { content: "✕"; color: $ink-mid; }
+
+/* ══════════════════════════════════════════════════
+   DETAILED SPELLBOOK CARDS (spellbook.qmd)
+   ══════════════════════════════════════════════════ */
+
+.sb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.sb-card {
+  border: 1px solid #C9A96E;
+  border-radius: 8px;
+  background: #FFFDF7;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.13);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-size: .85rem;
+}
+
+.sb-head {
+  padding: .65rem 1rem .5rem;
+  color: #fff;
+}
+.sb-head .sb-name {
+  font-family: "Palatino Linotype", Palatino, serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: .02em;
+  display: block;
+}
+.sb-head .sb-sublabel {
+  font-size: .72rem;
+  opacity: .88;
+  font-style: italic;
+}
+
+/* school header colours */
+.sbh-evocation    { background: linear-gradient(135deg, #8B0000 0%, #C0392B 100%); }
+.sbh-illusion     { background: linear-gradient(135deg, #4A235A 0%, #7D3C98 100%); }
+.sbh-necromancy   { background: linear-gradient(135deg, #1C2833 0%, #415A77 100%); }
+.sbh-divination   { background: linear-gradient(135deg, #154360 0%, #1F618D 100%); }
+.sbh-transmutation{ background: linear-gradient(135deg, #145A32 0%, #27AE60 100%); }
+.sbh-conjuration  { background: linear-gradient(135deg, #5D4037 0%, #8D6E63 100%); }
+.sbh-enchantment  { background: linear-gradient(135deg, #6D1A36 0%, #B03A6E 100%); }
+.sbh-abjuration   { background: linear-gradient(135deg, #0E4D4D 0%, #117A65 100%); }
+
+.sb-tags {
+  display: flex;
+  gap: .3rem;
+  padding: .3rem .9rem;
+  background: rgba(0,0,0,.04);
+  flex-wrap: wrap;
+  border-bottom: 1px solid #E8D5A3;
+  min-height: 1.8rem;
+}
+.sb-tag {
+  font-size: .65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  padding: .1rem .4rem;
+  border-radius: 3px;
+}
+.sb-tag.conc     { background: #FFF3CD; border: 1px solid #B8860B; color: #7B5E00; }
+.sb-tag.ritual   { background: #E8F4FD; border: 1px solid #1B6CA8; color: #154E80; }
+.sb-tag.react    { background: #FDE8F4; border: 1px solid #8B1A4A; color: #6B0033; }
+.sb-tag.prepared { background: #E8F8E8; border: 1px solid #2A7A2A; color: #1A5C1A; }
+.sb-tag.obsolete { background: #F0E0E0; border: 1px solid #9B3B3B; color: #7B1B1B; text-decoration: line-through; }
+
+.sb-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #E8D5A3;
+}
+.sb-stat {
+  padding: .3rem .9rem;
+  border-right: 1px solid #E8D5A3;
+  font-size: .78rem;
+}
+.sb-stat:nth-child(even) { border-right: none; }
+.sb-stat .sb-stat-lbl {
+  display: block;
+  font-size: .63rem;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: #8B6914;
+  font-weight: 700;
+}
+.sb-stat .sb-stat-val { color: #2D1B00; font-weight: 500; }
+
+.sb-body {
+  padding: .65rem .9rem .5rem;
+  flex: 1;
+  line-height: 1.55;
+  color: #1A0F00;
+}
+.sb-body p { margin: 0 0 .4rem; }
+.sb-body b { color: #3D2B0F; }
+
+.sb-upcast {
+  margin: 0 .9rem .65rem;
+  padding: .4rem .65rem;
+  background: #F3E8C6;
+  border-left: 3px solid #C9A96E;
+  font-size: .76rem;
+  border-radius: 0 4px 4px 0;
+  font-style: italic;
+  color: #4A3000;
+}
+.sb-upcast strong { font-style: normal; color: #3D2B0F; }
+
+.sb-footer {
+  padding: .3rem .9rem;
+  font-size: .68rem;
+  color: #8B6914;
+  border-top: 1px solid #E8D5A3;
+  background: #FAF3E0;
+  font-style: italic;
+}
+
+.sb-section-label {
+  font-family: "Palatino Linotype", Palatino, serif;
+  font-size: 1.05rem;
+  color: $accent;
+  border-left: 4px solid $rule-color;
+  padding-left: .5rem;
+  margin: 1.5rem 0 .75rem;
+}
+
+@media print {
+  .sb-grid { grid-template-columns: repeat(2, 1fr); gap: .75rem; }
+  .sb-card { box-shadow: none; border: 1px solid #C9A96E; }
+  .navbar, .page-footer, .sidebar { display: none !important; }
+}

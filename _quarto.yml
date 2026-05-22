@@ -19,6 +19,8 @@ website:
         text: "✨ Spell Tracker"
       - href: spellcards.qmd
         text: "🃏 Spell Cards"
+      - href: spellbook.qmd
+        text: "📖 Spellbook"
       - href: items.qmd
         text: "🎒 Items"
       - href: milestones.qmd
