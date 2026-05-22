@@ -177,8 +177,11 @@ def page_treasury(s):
         ["0", "2026-05-22", "Buy",
          "Mind Sharpener (ring) — Aella (cleric)",
          "600", "", "−600", "8,950"],
+        ["0", "2026-05-22", "Buy",
+         "2x Potion of Healing (100 GP each) — party stock",
+         "200", "", "−200", "8,750"],
     ]
-    data = head + pre + blank(25, 8)
+    data = head + pre + blank(24, 8)
     t = Table(data, colWidths=cw_tx, repeatRows=1)
     t.setStyle(tbl_style(1, len(data), extra=[
         ("ALIGN", (4,1), (-1,-1), "RIGHT"),

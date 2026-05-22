@@ -41,7 +41,7 @@ subtitle: "XP · Levels · Features · Notable Events"
       <td>2026-05-22</td>
       <td style="text-align:right">—</td>
       <td style="text-align:right">900</td>
-      <td>Party treasury: 11,350 GP. Purchased Javelin of Lightning (Tiberius), Gloves of Thievery (Jakhad), Mind Sharpener (Tela), Mind Sharpener ring (Aella). Party balance: 8,950 GP.</td>
+      <td>Party treasury: 11,350 GP. Purchased Javelin of Lightning (Tiberius), Gloves of Thievery (Jakhad), Mind Sharpener (Tela), Mind Sharpener ring (Aella), 2× Potion of Healing. Party balance: 8,750 GP.</td>
     </tr>
     <!-- Add session rows here -->
     <tr><td></td><td></td><td></td><td></td><td></td></tr>

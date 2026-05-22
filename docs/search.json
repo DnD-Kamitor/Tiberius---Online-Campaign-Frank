@@ -81,7 +81,7 @@
     "href": "milestones.html#session-milestone-log",
     "title": "Milestones & Level-up Log",
     "section": "Session Milestone Log",
-    "text": "Session Milestone Log\n\n\n\nSess.\nDate\nXP Earned\nTotal XP\nKey Events / Decisions / Notes\n\n\n\n\n0\n2026-05-22\n—\n900\nParty treasury: 11,350 GP. Purchased Javelin of Lightning (Tiberius), Gloves of Thievery (Jakhad), Mind Sharpener (Tela), Mind Sharpener ring (Aella). Party balance: 8,950 GP."
+    "text": "Session Milestone Log\n\n\n\nSess.\nDate\nXP Earned\nTotal XP\nKey Events / Decisions / Notes\n\n\n\n\n0\n2026-05-22\n—\n900\nParty treasury: 11,350 GP. Purchased Javelin of Lightning (Tiberius), Gloves of Thievery (Jakhad), Mind Sharpener (Tela), Mind Sharpener ring (Aella), 2× Potion of Healing. Party balance: 8,750 GP."
   },
   {
     "objectID": "milestones.html#death-save-history",
@@ -123,7 +123,7 @@
     "href": "items.html#acquisitions-changes-log",
     "title": "Item Acquisitions Log",
     "section": "Acquisitions & Changes Log",
-    "text": "Acquisitions & Changes Log\n\n\n\nSess.\nDate\nItem Name\nQty\nSource / How\nValue (GP)\nStatus\nNotes\n\n\n\n\n0\n2026-05-22\nJavelin of Lightning\n1\nPurchased\n600\nK\nMagic weapon, uncommon, no attunement"
+    "text": "Acquisitions & Changes Log\n\n\n\nSess.\nDate\nItem Name\nQty\nSource / How\nValue (GP)\nStatus\nNotes\n\n\n\n\n0\n2026-05-22\nJavelin of Lightning\n1\nPurchased\n600\nK\nMagic weapon, uncommon, no attunement\n\n\n0\n2026-05-22\nPotion of Healing\n2\nPurchased\n200 (total)\nK\nHeals 2d4+2 HP. Party stock."
   },
   {
     "objectID": "items.html#attunement-slots-max-3",
@@ -144,14 +144,14 @@
     "href": "treasury.html#current-balances",
     "title": "Treasury Ledger",
     "section": "Current Balances",
-    "text": "Current Balances\n\n\n\nLocation\nCP\nSP\nEP\nGP\nPP\n\n\n\n\nTiberius — On Person\n202\n69\n—\n586\n—\n\n\nElectrum (22 × 0.5 GP)\n—\n—\n22\n11 GP equiv.\n—\n\n\nBanked\n—\n—\n—\n450\n—\n\n\nTreasure (Silver Urn)\n—\n—\n—\n? unappraised\n—\n\n\nTOTAL (Tiberius est.)\n\n\n\n~1,058 GP\n\n\n\n\n\n\n\n\n\n\nParty treasury after Sess. 0 purchases: 11,350 − 2,400 = 8,950 GP\n\n\n\nParty balance: 8,950 GP"
+    "text": "Current Balances\n\n\n\nLocation\nCP\nSP\nEP\nGP\nPP\n\n\n\n\nTiberius — On Person\n202\n69\n—\n586\n—\n\n\nElectrum (22 × 0.5 GP)\n—\n—\n22\n11 GP equiv.\n—\n\n\nBanked\n—\n—\n—\n450\n—\n\n\nTreasure (Silver Urn)\n—\n—\n—\n? unappraised\n—\n\n\nTOTAL (Tiberius est.)\n\n\n\n~1,058 GP\n\n\n\n\n\n\n\n\n\n\nParty treasury after Sess. 0 purchases: 11,350 − 2,600 = 8,750 GP\n\n\n\nParty balance: 8,750 GP"
   },
   {
     "objectID": "treasury.html#transaction-log",
     "href": "treasury.html#transaction-log",
     "title": "Treasury Ledger",
     "section": "Transaction Log",
-    "text": "Transaction Log\n\n\n\nSess.\nDate\nType\nDescription / Source\nOut (GP)\nIn (GP)\nNet\nParty Balance\n\n\n\n\n0\n2026-05-22\nOpen\nOpening balance — party treasury (7,000 + 3,900 + 450 banked)\n\n11,350\n+11,350\n11,350\n\n\n0\n2026-05-22\nBuy\nGloves of Thievery — Jakhad (rogue)\n600\n\n−600\n10,750\n\n\n0\n2026-05-22\nBuy\nJavelin of Lightning — Tiberius\n600\n\n−600\n10,150\n\n\n0\n2026-05-22\nBuy\nMind Sharpener — Tela (druid)\n600\n\n−600\n9,550\n\n\n0\n2026-05-22\nBuy\nMind Sharpener (ring) — Aella (cleric)\n600\n\n−600\n8,950"
+    "text": "Transaction Log\n\n\n\nSess.\nDate\nType\nDescription / Source\nOut (GP)\nIn (GP)\nNet\nParty Balance\n\n\n\n\n0\n2026-05-22\nOpen\nOpening balance — party treasury (7,000 + 3,900 + 450 banked)\n\n11,350\n+11,350\n11,350\n\n\n0\n2026-05-22\nBuy\nGloves of Thievery — Jakhad (rogue)\n600\n\n−600\n10,750\n\n\n0\n2026-05-22\nBuy\nJavelin of Lightning — Tiberius\n600\n\n−600\n10,150\n\n\n0\n2026-05-22\nBuy\nMind Sharpener — Tela (druid)\n600\n\n−600\n9,550\n\n\n0\n2026-05-22\nBuy\nMind Sharpener (ring) — Aella (cleric)\n600\n\n−600\n8,950\n\n\n0\n2026-05-22\nBuy\n2× Potion of Healing (100 GP each) — party stock\n200\n\n−200\n8,750"
   },
   {
     "objectID": "treasury.html#currency-conversion-reference",

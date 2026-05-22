@@ -65,6 +65,16 @@ When you throw this javelin and speak its command word, it transforms into a bol
       <td style="text-align:center">K</td>
       <td>Magic weapon, uncommon, no attunement</td>
     </tr>
+    <tr class="credit">
+      <td style="text-align:center">0</td>
+      <td>2026-05-22</td>
+      <td>Potion of Healing</td>
+      <td style="text-align:center">2</td>
+      <td>Purchased</td>
+      <td style="text-align:right">200 (total)</td>
+      <td style="text-align:center">K</td>
+      <td>Heals 2d4+2 HP. Party stock.</td>
+    </tr>
     <!-- Add new rows here -->
     <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
     <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
