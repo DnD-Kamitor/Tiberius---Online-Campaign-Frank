@@ -1,6 +1,6 @@
 ---
 title: "Spell Tracker"
-subtitle: "Session tracker · Save DC 13 · Attack +5 · INT-based"
+subtitle: "Session tracker · Wizard: DC 14, Attack +6 (INT) · Ranger: DC 11, Attack +3 (WIS)"
 ---
 
 ::: {.callout-tip appearance="simple"}
@@ -38,15 +38,16 @@ const AR_KEY     = 'tiberius-ar-v1';
 // ── Slot configuration ──────────────────────────────────────
 const SLOT_CONFIG = [
   { level: '1st', max: 4, label: '1st Level' },
-  { level: '2nd', max: 2, label: '2nd Level' },
+  { level: '2nd', max: 3, label: '2nd Level' },
   { level: '3rd', max: 0, label: '3rd Level (future)', future: true },
 ];
 
 // ── Daily abilities ─────────────────────────────────────────
 const DAILY_ABILITIES = [
-  { id: 'javelin',   label: 'Javelin of Lightning',  note: '1/dawn · 4d6 lightning line' },
-  { id: 'ar',        label: 'Arcane Recovery',        note: '1/day on short rest' },
-  { id: 'magearmor', label: 'Mage Armor',             note: '8 hr duration — recast if needed' },
+  { id: 'javelin',    label: 'Javelin of Lightning',   note: '1/dawn · 4d6 ⚡ lightning line, DC 14 DEX' },
+  { id: 'ar',         label: 'Arcane Recovery',         note: '1/day short rest · recover up to 2 slot levels' },
+  { id: 'magearmor',  label: 'Mage Armor',              note: '8 hr duration · AC 15' },
+  { id: 'huntersmark',label: "Hunter's Mark (Ranger)",  note: '1/day free (Favored Enemy) · Conc., 1 hr' },
 ];
 
 // ── State helpers ───────────────────────────────────────────
@@ -124,24 +125,26 @@ function arcaneRecovery() {
   if (daily['ar']) { alert('Arcane Recovery already used today.'); return; }
 
   const state = loadSlots();
-  // Recover one 1st-level slot (or one 2nd-level slot — player chooses, simplified here)
-  // Find first expended slot, lowest level first
-  let recovered = false;
+  // Can recover up to 2 combined slot levels (half of Wizard level 4 = 2)
+  // Find first two expended slots starting from lowest level
+  let recovered = 0;
+  let messages = [];
   for (const cfg of SLOT_CONFIG) {
     if (cfg.future || cfg.max === 0) continue;
+    const slotLevel = parseInt(cfg.level);
     for (let i = 0; i < cfg.max; i++) {
       const key = cfg.level + '-' + i;
-      if (state[key]) {
+      if (state[key] && recovered + slotLevel <= 2) {
         state[key] = false;
-        recovered = true;
-        alert('Arcane Recovery: restored one ' + cfg.level + '-level slot.');
-        break;
+        recovered += slotLevel;
+        messages.push(cfg.level + '-level slot');
+        if (recovered >= 2) break;
       }
     }
-    if (recovered) break;
+    if (recovered >= 2) break;
   }
 
-  if (!recovered) {
+  if (recovered === 0) {
     alert('No expended slots to recover!');
     return;
   }
@@ -151,6 +154,7 @@ function arcaneRecovery() {
   saveDaily(daily);
   renderSlots();
   renderDaily();
+  alert('Arcane Recovery: restored ' + messages.join(' + ') + ' (' + recovered + ' level' + (recovered > 1 ? 's' : '') + ' total).');
 }
 
 function resetDaily() {
@@ -237,21 +241,32 @@ Use this to record every spell cast this session for the permanent ledger.
 
 | Spell | Level | Key Effect | Slots |
 |---|---|---|---|
+**Wizard spells (INT · DC 14 · +6 attack · 7 prepared)**
+
+| Spell | Level | Key Effect | Slot |
+|---|---|---|---|
 | **Mage Armor** ⭐ | 1st | AC = 13+DEX = **15**, 8 hrs | 1st |
 | **Magic Missile** | 1st | 3 darts × (1d4+1) force, auto-hit | 1st |
 | **Silvery Barbs** | 1st→2nd | Reaction: turn success → fail + give ally advantage | 2nd |
 | **Invisibility** | 2nd | Conc. 1 hr, ends on attack/cast | 2nd |
 | **Grease** | 1st | 10-ft square slippery, DEX save or prone | 1st |
 | **Silent Image** | 1st→2nd | 15-ft cube visual illusion, Conc. 10 min | 2nd |
-| **Color Spray** | 1st→3rd | Blind creatures up to 6d10 HP, 1 round | 3rd |
+| **Color Spray** | 1st→3rd | Blind up to 6d10 HP worth, 1 round | 3rd |
 | **Command** | 1st | WIS save or obey one-word command | 1st |
 | **Rope Trick** | 2nd→3rd | Extradim. safe space for 8 creatures, 1 hr | 3rd |
 | **Magic Weapon** | 2nd→3rd | +1 magic weapon, Conc. 1 hr | 3rd |
-| — | — | — | — |
+| — | Cantrip | — | — |
 | **Fire Bolt** | Cantrip | 1d10 fire, 120 ft | — |
 | **Toll the Dead** | Cantrip | 1d8/1d12 necrotic, WIS save | — |
 | **Starry Wisp** | Cantrip | 1d8 radiant + reveal, 60 ft | — |
-| **Minor Illusion** | Cantrip | Sound + image (Illusionist improved) | — |
+| **Minor Illusion** | Cantrip | Sound + image (Illusionist) | — |
 | **Guidance** | Cantrip | +1d4 to ability check | — |
+
+**Ranger spells (WIS · DC 11 · +3 attack · 1 prepared)**
+
+| Spell | Level | Key Effect | Slot |
+|---|---|---|---|
+| **Hunter's Mark** | 1st | Bonus 1d6/hit vs marked target, Conc. 1 hr · 1/day free | 1st |
+| *(+ 1 more Ranger spell — TBD)* | | | |
 
 → Full stat blocks: [Spell Cards 🃏](spellcards.qmd)

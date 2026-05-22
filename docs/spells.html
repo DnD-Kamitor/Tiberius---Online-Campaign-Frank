@@ -143,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Spell Tracker</h1>
-<p class="subtitle lead">Session tracker · Save DC 13 · Attack +5 · INT-based</p>
+<p class="subtitle lead">Session tracker · Wizard: DC 14, Attack +6 (INT) · Ranger: DC 11, Attack +3 (WIS)</p>
 </div>
 
 
@@ -200,15 +200,16 @@ const AR_KEY     = 'tiberius-ar-v1';
 // ── Slot configuration ──────────────────────────────────────
 const SLOT_CONFIG = [
   { level: '1st', max: 4, label: '1st Level' },
-  { level: '2nd', max: 2, label: '2nd Level' },
+  { level: '2nd', max: 3, label: '2nd Level' },
   { level: '3rd', max: 0, label: '3rd Level (future)', future: true },
 ];
 
 // ── Daily abilities ─────────────────────────────────────────
 const DAILY_ABILITIES = [
-  { id: 'javelin',   label: 'Javelin of Lightning',  note: '1/dawn · 4d6 lightning line' },
-  { id: 'ar',        label: 'Arcane Recovery',        note: '1/day on short rest' },
-  { id: 'magearmor', label: 'Mage Armor',             note: '8 hr duration — recast if needed' },
+  { id: 'javelin',    label: 'Javelin of Lightning',   note: '1/dawn · 4d6 ⚡ lightning line, DC 14 DEX' },
+  { id: 'ar',         label: 'Arcane Recovery',         note: '1/day short rest · recover up to 2 slot levels' },
+  { id: 'magearmor',  label: 'Mage Armor',              note: '8 hr duration · AC 15' },
+  { id: 'huntersmark',label: "Hunter's Mark (Ranger)",  note: '1/day free (Favored Enemy) · Conc., 1 hr' },
 ];
 
 // ── State helpers ───────────────────────────────────────────
@@ -286,24 +287,26 @@ function arcaneRecovery() {
   if (daily['ar']) { alert('Arcane Recovery already used today.'); return; }
 
   const state = loadSlots();
-  // Recover one 1st-level slot (or one 2nd-level slot — player chooses, simplified here)
-  // Find first expended slot, lowest level first
-  let recovered = false;
+  // Can recover up to 2 combined slot levels (half of Wizard level 4 = 2)
+  // Find first two expended slots starting from lowest level
+  let recovered = 0;
+  let messages = [];
   for (const cfg of SLOT_CONFIG) {
     if (cfg.future || cfg.max === 0) continue;
+    const slotLevel = parseInt(cfg.level);
     for (let i = 0; i < cfg.max; i++) {
       const key = cfg.level + '-' + i;
-      if (state[key]) {
+      if (state[key] && recovered + slotLevel <= 2) {
         state[key] = false;
-        recovered = true;
-        alert('Arcane Recovery: restored one ' + cfg.level + '-level slot.');
-        break;
+        recovered += slotLevel;
+        messages.push(cfg.level + '-level slot');
+        if (recovered >= 2) break;
       }
     }
-    if (recovered) break;
+    if (recovered >= 2) break;
   }
 
-  if (!recovered) {
+  if (recovered === 0) {
     alert('No expended slots to recover!');
     return;
   }
@@ -313,6 +316,7 @@ function arcaneRecovery() {
   saveDaily(daily);
   renderSlots();
   renderDaily();
+  alert('Arcane Recovery: restored ' + messages.join(' + ') + ' (' + recovered + ' level' + (recovered > 1 ? 's' : '') + ' total).');
 }
 
 function resetDaily() {
@@ -445,6 +449,19 @@ document.addEventListener('DOMContentLoaded', () => {
 </section>
 <section id="quick-spell-reference" class="level2">
 <h2 class="anchored" data-anchor-id="quick-spell-reference">Quick Spell Reference</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Spell</th>
+<th>Level</th>
+<th>Key Effect</th>
+<th>Slots</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<p><strong>Wizard spells (INT · DC 14 · +6 attack · 7 prepared)</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -457,7 +474,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <th>Spell</th>
 <th>Level</th>
 <th>Key Effect</th>
-<th>Slots</th>
+<th>Slot</th>
 </tr>
 </thead>
 <tbody>
@@ -500,7 +517,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr class="odd">
 <td><strong>Color Spray</strong></td>
 <td>1st→3rd</td>
-<td>Blind creatures up to 6d10 HP, 1 round</td>
+<td>Blind up to 6d10 HP worth, 1 round</td>
 <td>3rd</td>
 </tr>
 <tr class="even">
@@ -523,7 +540,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </tr>
 <tr class="odd">
 <td>—</td>
-<td>—</td>
+<td>Cantrip</td>
 <td>—</td>
 <td>—</td>
 </tr>
@@ -548,7 +565,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr class="odd">
 <td><strong>Minor Illusion</strong></td>
 <td>Cantrip</td>
-<td>Sound + image (Illusionist improved)</td>
+<td>Sound + image (Illusionist)</td>
 <td>—</td>
 </tr>
 <tr class="even">
@@ -556,6 +573,37 @@ document.addEventListener('DOMContentLoaded', () => {
 <td>Cantrip</td>
 <td>+1d4 to ability check</td>
 <td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ranger spells (WIS · DC 11 · +3 attack · 1 prepared)</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Spell</th>
+<th>Level</th>
+<th>Key Effect</th>
+<th>Slot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Hunter’s Mark</strong></td>
+<td>1st</td>
+<td>Bonus 1d6/hit vs marked target, Conc. 1 hr · 1/day free</td>
+<td>1st</td>
+</tr>
+<tr class="even">
+<td><em>(+ 1 more Ranger spell — TBD)</em></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>

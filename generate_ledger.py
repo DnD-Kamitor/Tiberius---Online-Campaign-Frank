@@ -34,7 +34,7 @@ CONTENT_W = PAGE_W - LMARGIN - RMARGIN
 CONTENT_H = PAGE_H - TMARGIN - BMARGIN
 
 CHARACTER_NAME = "Tiberius Inscriptus Interlinearis"
-CAMPAIGN       = "Frank's Campaign"
+CAMPAIGN       = "Frank's Campaign · Wizard 4 / Ranger 1 · Lvl 5"
 
 # ── Per-page background ───────────────────────────────────────────────────────
 def draw_page(canv, doc, title):

@@ -1,6 +1,6 @@
 ---
 title: "Spell Cards"
-subtitle: "All spells · D&D 2024 rules · Save DC 13 · Attack +5 · Spellcasting: INT"
+subtitle: "All spells · D&D 2024 · Wizard: DC 14, +6 (INT) · Ranger: DC 11, +3 (WIS)"
 toc: false
 ---
 

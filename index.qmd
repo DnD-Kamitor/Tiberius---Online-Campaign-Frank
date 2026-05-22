@@ -1,6 +1,6 @@
 ---
 title: "Tiberius Inscriptus Interlinearis"
-subtitle: "Wizard (Illusionist) · Level 3 · Frank's Campaign"
+subtitle: "Wizard 4 (Illusionist) / Ranger 1 · Character Level 5 · Frank's Campaign"
 ---
 
 ::: {.callout-note appearance="simple"}
@@ -44,39 +44,57 @@ subtitle: "Wizard (Illusionist) · Level 3 · Frank's Campaign"
 
 | Stat | Value |
 |---|---|
-| **HP** | 3 (d6/level) |
-| **AC** | 15 (Unarmoured +3) |
+| **Character Level** | 5 (Wizard 4 / Ranger 1) |
+| **AC** | 15 (Mage Armor) · *Medium armor available via Ranger* |
 | **Initiative** | +2 |
 | **Speed** | 30 ft |
-| **Proficiency Bonus** | +2 |
-| **Passive Perception** | 10 |
-| **Save DC** | 13 · **Attack Bonus** +5 · **Prepared Spells** 6 |
+| **Proficiency Bonus** | **+3** |
+| **Passive Perception** | 11 |
+| **Wizard Save DC** | **14** · **Wizard Attack** +6 · **Prepared Wizard Spells** 7 |
+| **Ranger Save DC** | 11 (WIS) · **Ranger Attack** +3 · **Prepared Ranger Spells** 1 |
+| **Spell Slots** | 1st ×4 · 2nd ×3 |
+| **Arcane Recovery** | Recover up to **2 levels** of slots on a short rest (1/day) |
+
+::: {.callout-tip appearance="simple"}
+**Multiclass spell slots (D&D 2024):** Wizard 4 = 4 full levels · Ranger 1 = 0 half-levels → Combined level 4 → **1st ×4, 2nd ×3**.
+Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger spells use WIS.
+:::
+
+---
 
 ## Class & Background
 
 | | |
 |---|---|
-| **Class** | Wizard |
-| **Subclass** | Illusionist |
+| **Primary Class** | Wizard 4 · Subclass: Illusionist |
+| **Secondary Class** | Ranger 1 · Subclass: *TBD* |
 | **Background** | Acolyte |
 | **Species** | Human |
 | **Languages** | Draconic, Common, Elven |
-| **Feat** | Magic Initiate (Cleric) |
-| **Skills (proficient)** | Arcana +7, History +5, Investigation +5, Religion +5 |
-| **Skills (half-prof)** | Acrobatics +2, Sleight of Hand +2, Stealth +2 |
+| **Feats** | Magic Initiate (Cleric) · *Wizard 4 ASI/Feat: TBD* |
+| **Wizard Skills** | Arcana +6, History +6, Investigation +6, Religion +6 |
+| **Ranger Proficiencies** | Light armor, Medium armor, Shields · Simple & Martial weapons |
+| **Ranger Skills** | *(3 from: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival — TBD)* |
+| **Saving Throws** | INT, WIS (Wizard) · STR, DEX (Ranger) |
+| **Favored Enemy** | *(creature type — TBD)* |
+
+---
 
 ## Weapons
 
 | Weapon | Attack | Damage | Notes |
 |---|---|---|---|
-| Light Crossbow | +4 | 1d8 P | Ammunition, Loading, Two-Handed; 80/320 ft |
-| Quarterstaff | +1 | 1d6 / 1d8 B | Versatile |
-| Javelin of Lightning | +1 | 1d6 P / 4d6 ⚡ | Magic; throw for 5ft×120ft line, DC 13 DEX, 1/dawn |
+| Light Crossbow | +5 | 1d8 P | Ammunition, Loading, Two-Handed; 80/320 ft |
+| Quarterstaff | +2 | 1d6/1d8 B | Versatile |
+| Javelin of Lightning | +2 | 1d6 P / 4d6 ⚡ | Magic; throw: 5ft×120ft line, DC 14 DEX, 1/dawn |
+
+---
 
 ## Quick Links
 
 - 📄 [PDF Character Sheet](Tiberius.pdf) — printable
 - 💰 [Treasury Ledger](treasury.qmd)
-- ✨ [Spell Usage Journal](spells.qmd)
-- 🎒 [Item Acquisitions Log](items.qmd)
-- 🎯 [Milestones & Level-up Log](milestones.qmd)
+- ✨ [Spell Tracker](spells.qmd)
+- 🃏 [Spell Cards](spellcards.qmd)
+- 🎒 [Items](items.qmd)
+- 🎯 [Milestones](milestones.qmd)
