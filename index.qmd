@@ -67,16 +67,24 @@ Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger 
 | | |
 |---|---|
 | **Primary Class** | Wizard 4 · Subclass: Illusionist |
-| **Secondary Class** | Ranger 1 · Subclass: *TBD* |
+| **Secondary Class** | Ranger 1 · *Conclave at Ranger 3* |
 | **Background** | Acolyte |
 | **Species** | Human |
 | **Languages** | Draconic, Common, Elven |
-| **Feats** | Magic Initiate (Cleric) · *Wizard 4 ASI/Feat: TBD* |
+| **Feats** | Magic Initiate (Cleric) · **War Caster** *(Wizard 4)* |
 | **Wizard Skills** | Arcana +6, History +6, Investigation +6, Religion +6 |
 | **Ranger Proficiencies** | Light armor, Medium armor, Shields · Simple & Martial weapons |
 | **Ranger Skills** | *(3 from: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival — TBD)* |
 | **Saving Throws** | INT, WIS (Wizard) · STR, DEX (Ranger) |
 | **Favored Enemy** | *(creature type — TBD)* |
+
+### ⚔️ War Caster *(Wizard 4 feat)*
+
+::: {.callout-tip appearance="simple"}
+- **Concentration:** Advantage on **CON saves** to maintain concentration when taking damage — huge for *Invisibility, Magic Weapon, Silent Image,* etc.
+- **Hands full:** Can perform somatic spell components even with weapons or a shield in both hands
+- **Opportunity spell:** When a hostile creature's movement triggers an opportunity attack, you can cast a **1-action spell** targeting that creature instead of the normal attack
+:::
 
 ---
 

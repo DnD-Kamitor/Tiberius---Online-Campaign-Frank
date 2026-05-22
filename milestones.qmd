@@ -10,11 +10,12 @@ subtitle: "XP · Levels · Features · Notable Events"
 | Wizard 1 | 1 | — | Spellcasting (INT), Arcane Recovery, Illusionist subclass | 1st ×2 |
 | Wizard 2 | 2 | — | Spellbook growth (+2), Improved Minor Illusion | 1st ×3 |
 | Wizard 3 | 3 | — | 2nd-level slots | 1st ×4 · 2nd ×2 |
-| **Wizard 4** | **4** | **2026-05-22** | **ASI or Feat** *(TBD)* · Prepared spells → 7 | **1st ×4 · 2nd ×3** |
+| **Wizard 4** | **4** | **2026-05-22** | **War Caster feat** · Prepared spells → 7 | **1st ×4 · 2nd ×3** |
 | **Ranger 1** ◄ | **5** | **2026-05-22** | **Spellcasting (WIS), Favored Enemy, Weapon Mastery · Medium armor + Shields + Martial weapons** | **shared pool** |
 | Wizard 5 | 6 | | 3rd-level slots | 1st×4 · 2nd×3 · 3rd×2 |
-| Ranger 2 | 7 | | Fighting Style, Spellcasting (Ranger ×1) | + |
-| Wizard 6 | 8 | | Malleable Illusions (subclass) | … |
+| Ranger 2 | 7 | | Fighting Style | + |
+| Ranger 3 | 8 | | **Ranger Conclave (subclass)** *(choose at this level)* | + |
+| Wizard 6 | 9 | | Malleable Illusions (Illusionist subclass) | … |
 | Wizard 7 | 9 | | ASI or Feat | … |
 | Wizard 8 | 10 | | | … |
 
