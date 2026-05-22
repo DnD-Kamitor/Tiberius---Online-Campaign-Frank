@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Spell Usage Journal – The Goodbook — Tiberius</title>
+<title>Spell Tracker – The Goodbook — Tiberius</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-cdaacfc258cb6f151192107f105ac881.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8de7a1a27fdf68f4f9417772b479f305.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a841aea066b890c8eb9d5ed45c4b0eff.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,7 +101,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./spells.html" aria-current="page"> 
-<span class="menu-text">✨ Spells</span></a>
+<span class="menu-text">✨ Spell Tracker</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./spellcards.html"> 
+<span class="menu-text">🃏 Spell Cards</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./items.html"> 
@@ -127,14 +131,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#spell-slots" id="toc-spell-slots" class="nav-link active" data-scroll-target="#spell-slots">Spell Slots</a></li>
-  <li><a href="#known-spells" id="toc-known-spells" class="nav-link" data-scroll-target="#known-spells">Known Spells</a>
-  <ul class="collapse">
-  <li><a href="#cantrips-always-available-no-slot" id="toc-cantrips-always-available-no-slot" class="nav-link" data-scroll-target="#cantrips-always-available-no-slot">Cantrips (always available, no slot)</a></li>
-  <li><a href="#level-1" id="toc-level-1" class="nav-link" data-scroll-target="#level-1">Level 1</a></li>
-  <li><a href="#level-2" id="toc-level-2" class="nav-link" data-scroll-target="#level-2">Level 2</a></li>
-  </ul></li>
-  <li><a href="#cast-log" id="toc-cast-log" class="nav-link" data-scroll-target="#cast-log">Cast Log</a></li>
+  <li><a href="#spell-slot-tracker" id="toc-spell-slot-tracker" class="nav-link active" data-scroll-target="#spell-slot-tracker">Spell Slot Tracker</a></li>
+  <li><a href="#session-cast-log" id="toc-session-cast-log" class="nav-link" data-scroll-target="#session-cast-log">Session Cast Log</a></li>
+  <li><a href="#quick-spell-reference" id="toc-quick-spell-reference" class="nav-link" data-scroll-target="#quick-spell-reference">Quick Spell Reference</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/chris-tonomy/Tiberius---Online-Campaign-Frank/edit/main/spells.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
@@ -143,8 +142,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Spell Usage Journal</h1>
-<p class="subtitle lead">Track every cast · Spell DC 13 · Attack +5 · INT-based</p>
+<h1 class="title">Spell Tracker</h1>
+<p class="subtitle lead">Session tracker · Save DC 13 · Attack +5 · INT-based</p>
 </div>
 
 
@@ -161,302 +160,270 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="spell-slots" class="level2">
-<h2 class="anchored" data-anchor-id="spell-slots">Spell Slots</h2>
-<p>Tick boxes each time you expend a slot. Reset on long rest.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Level</th>
-<th>Max</th>
-<th>Slots</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1st</td>
-<td>4</td>
-<td><code>[ ] [ ] [ ] [ ]</code></td>
-</tr>
-<tr class="even">
-<td>2nd</td>
-<td>2</td>
-<td><code>[ ] [ ]</code></td>
-</tr>
-<tr class="odd">
-<td>3rd</td>
-<td>—</td>
-<td><em>(future)</em></td>
-</tr>
-<tr class="even">
-<td>4th</td>
-<td>—</td>
-<td><em>(future)</em></td>
-</tr>
-<tr class="odd">
-<td>5th+</td>
-<td>—</td>
-<td><em>(future)</em></td>
-</tr>
-</tbody>
-</table>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Slots and daily abilities <strong>save in your browser</strong> — survive page refreshes during a session. Click <strong>Long Rest</strong> to reset everything.</p>
+</div>
+</div>
+</div>
+<section id="spell-slot-tracker" class="level2">
+<h2 class="anchored" data-anchor-id="spell-slot-tracker">Spell Slot Tracker</h2>
+<div class="tracker-panel">
+  <h3 class="anchored">⚡ Spell Slots</h3>
+  <div id="slot-tracker"></div>
+  <div class="tracker-buttons" style="margin-top:.75rem">
+    <button class="tracker-btn" onclick="resetLongRest()">🌙 Long Rest — reset all slots</button>
+    <button class="tracker-btn secondary" onclick="arcaneRecovery()">🔁 Arcane Recovery (Short Rest)</button>
+  </div>
+  <p style="font-size:.75rem;color:#5C3A1E;margin:.5rem 0 0">
+    <b>Arcane Recovery:</b> once per day on a short rest, recover spell slots with combined level ≤ <b>2</b> (half wizard level, rounded up).
+  </p>
+</div>
+
+<div class="tracker-panel">
+  <h3 class="anchored">☀️ Daily &amp; Per-Rest Abilities</h3>
+  <div class="daily-grid" id="daily-tracker"></div>
+  <div class="tracker-buttons" style="margin-top:.5rem">
+    <button class="tracker-btn secondary" onclick="resetDaily()">🌅 New Day — reset all daily abilities</button>
+  </div>
+</div>
+
+<script>
+const SLOTS_KEY  = 'tiberius-slots-v1';
+const DAILY_KEY  = 'tiberius-daily-v1';
+const AR_KEY     = 'tiberius-ar-v1';
+
+// ── Slot configuration ──────────────────────────────────────
+const SLOT_CONFIG = [
+  { level: '1st', max: 4, label: '1st Level' },
+  { level: '2nd', max: 2, label: '2nd Level' },
+  { level: '3rd', max: 0, label: '3rd Level (future)', future: true },
+];
+
+// ── Daily abilities ─────────────────────────────────────────
+const DAILY_ABILITIES = [
+  { id: 'javelin',   label: 'Javelin of Lightning',  note: '1/dawn · 4d6 lightning line' },
+  { id: 'ar',        label: 'Arcane Recovery',        note: '1/day on short rest' },
+  { id: 'magearmor', label: 'Mage Armor',             note: '8 hr duration — recast if needed' },
+];
+
+// ── State helpers ───────────────────────────────────────────
+function loadSlots()  { try { return JSON.parse(localStorage.getItem(SLOTS_KEY)) || {}; } catch { return {}; } }
+function saveSlots(s) { localStorage.setItem(SLOTS_KEY, JSON.stringify(s)); }
+function loadDaily()  { try { return JSON.parse(localStorage.getItem(DAILY_KEY)) || {}; } catch { return {}; } }
+function saveDaily(d) { localStorage.setItem(DAILY_KEY, JSON.stringify(d)); }
+
+// ── Render slots ────────────────────────────────────────────
+function renderSlots() {
+  const state = loadSlots();
+  const container = document.getElementById('slot-tracker');
+  container.innerHTML = '';
+
+  SLOT_CONFIG.forEach(cfg => {
+    if (cfg.future && cfg.max === 0) return; // hide empty future slots
+
+    const row = document.createElement('div');
+    row.className = 'slot-row';
+
+    const lbl = document.createElement('div');
+    lbl.className = 'slot-row-label';
+    lbl.textContent = cfg.label;
+
+    const pips = document.createElement('div');
+    pips.className = 'slot-pips';
+
+    if (cfg.future) {
+      const note = document.createElement('span');
+      note.style.cssText = 'font-size:.75rem;color:#8B6914;font-style:italic';
+      note.textContent = '(not yet available)';
+      pips.appendChild(note);
+    } else {
+      for (let i = 0; i < cfg.max; i++) {
+        const pip = document.createElement('div');
+        pip.className = 'pip' + (state[cfg.level + '-' + i] ? ' used' : '');
+        pip.title = state[cfg.level + '-' + i] ? 'Expended — click to restore' : 'Available — click to expend';
+        pip.onclick = () => toggleSlot(cfg.level, i);
+        pips.appendChild(pip);
+      }
+      // Count summary
+      const used = Object.keys(state).filter(k => k.startsWith(cfg.level + '-') && state[k]).length;
+      const rem = cfg.max - used;
+      const summary = document.createElement('span');
+      summary.style.cssText = 'font-size:.75rem;color:#5C3A1E;margin-left:.5rem';
+      summary.textContent = `${rem}/${cfg.max} remaining`;
+      pips.appendChild(summary);
+    }
+
+    row.appendChild(lbl);
+    row.appendChild(pips);
+    container.appendChild(row);
+  });
+}
+
+function toggleSlot(level, index) {
+  const state = loadSlots();
+  const key = level + '-' + index;
+  state[key] = !state[key];
+  saveSlots(state);
+  renderSlots();
+}
+
+// ── Reset functions ─────────────────────────────────────────
+function resetLongRest() {
+  if (!confirm('Long rest complete? This will restore ALL spell slots and daily abilities.')) return;
+  localStorage.removeItem(SLOTS_KEY);
+  localStorage.removeItem(DAILY_KEY);
+  renderSlots();
+  renderDaily();
+}
+
+function arcaneRecovery() {
+  const daily = loadDaily();
+  if (daily['ar']) { alert('Arcane Recovery already used today.'); return; }
+
+  const state = loadSlots();
+  // Recover one 1st-level slot (or one 2nd-level slot — player chooses, simplified here)
+  // Find first expended slot, lowest level first
+  let recovered = false;
+  for (const cfg of SLOT_CONFIG) {
+    if (cfg.future || cfg.max === 0) continue;
+    for (let i = 0; i < cfg.max; i++) {
+      const key = cfg.level + '-' + i;
+      if (state[key]) {
+        state[key] = false;
+        recovered = true;
+        alert('Arcane Recovery: restored one ' + cfg.level + '-level slot.');
+        break;
+      }
+    }
+    if (recovered) break;
+  }
+
+  if (!recovered) {
+    alert('No expended slots to recover!');
+    return;
+  }
+
+  daily['ar'] = true;
+  saveSlots(state);
+  saveDaily(daily);
+  renderSlots();
+  renderDaily();
+}
+
+function resetDaily() {
+  localStorage.removeItem(DAILY_KEY);
+  renderDaily();
+}
+
+// ── Render daily abilities ──────────────────────────────────
+function renderDaily() {
+  const state = loadDaily();
+  const container = document.getElementById('daily-tracker');
+  container.innerHTML = '';
+
+  DAILY_ABILITIES.forEach(ability => {
+    const item = document.createElement('div');
+    item.className = 'daily-item' + (state[ability.id] ? ' used' : '');
+    item.onclick = () => toggleDaily(ability.id);
+
+    const check = document.createElement('div');
+    check.className = 'daily-check';
+
+    const text = document.createElement('div');
+    text.innerHTML = '<b>' + ability.label + '</b><br><small style="color:#8B6914">' + ability.note + '</small>';
+    text.style.fontSize = '.82rem';
+
+    item.appendChild(check);
+    item.appendChild(text);
+    container.appendChild(item);
+  });
+}
+
+function toggleDaily(id) {
+  const state = loadDaily();
+  state[id] = !state[id];
+  saveDaily(state);
+  renderDaily();
+}
+
+// ── Init ────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  renderSlots();
+  renderDaily();
+});
+</script>
 <hr>
 </section>
-<section id="known-spells" class="level2">
-<h2 class="anchored" data-anchor-id="known-spells">Known Spells</h2>
-<section id="cantrips-always-available-no-slot" class="level3">
-<h3 class="anchored" data-anchor-id="cantrips-always-available-no-slot">Cantrips (always available, no slot)</h3>
-<table class="caption-top table">
+<section id="session-cast-log" class="level2">
+<h2 class="anchored" data-anchor-id="session-cast-log">Session Cast Log</h2>
+<p>Use this to record every spell cast this session for the permanent ledger.</p>
+<table id="cast-log" class="ledger caption-top table">
 <thead>
 <tr class="header">
-<th>Spell</th>
-<th>Source</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Fire Bolt</td>
-<td>Wizard</td>
-<td>1d10 fire, 120 ft</td>
-</tr>
-<tr class="even">
-<td>Poison Spray</td>
-<td>Wizard</td>
-<td>1d12 poison, 10 ft, CON save</td>
-</tr>
-<tr class="odd">
-<td>True Strike</td>
-<td>Wizard</td>
-<td>Next attack with advantage</td>
-</tr>
-<tr class="even">
-<td>Guidance</td>
-<td>Cleric (Acolyte)</td>
-<td>+1d4 to ability check</td>
-</tr>
-<tr class="odd">
-<td>Thaumaturgy</td>
-<td>Cleric (Acolyte)</td>
-<td>Minor magical effects</td>
-</tr>
-<tr class="even">
-<td>Minor Illusion</td>
-<td>Illusionist</td>
-<td>Sound or image</td>
-</tr>
-<tr class="odd">
-<td>Toll the Dead</td>
-<td>Magic Initiate</td>
-<td>1d8/1d12 necrotic, WIS save</td>
-</tr>
-<tr class="even">
-<td>Starry Wisp</td>
-<td>Magic Initiate</td>
-<td>1d8 radiant, 60 ft, reveals target</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="level-1" class="level3">
-<h3 class="anchored" data-anchor-id="level-1">Level 1</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Spell</th>
-<th>Prepared?</th>
-<th>Ritual?</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Command</td>
-<td>○</td>
-<td>—</td>
-<td>Cleric; one-word command</td>
-</tr>
-<tr class="even">
-<td>Magic Missile</td>
-<td>○</td>
-<td>—</td>
-<td>3×1d4+1 force, auto-hit</td>
-</tr>
-<tr class="odd">
-<td>Mage Armor</td>
-<td>●</td>
-<td>—</td>
-<td><strong>Prepared</strong> · AC = 13+DEX</td>
-</tr>
-<tr class="even">
-<td>Grease</td>
-<td>○</td>
-<td>—</td>
-<td>Magic Initiate</td>
-</tr>
-<tr class="odd">
-<td>Unseen Servant</td>
-<td>○</td>
-<td>®</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Find Familiar</td>
-<td>○</td>
-<td>®</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Comprehend Languages</td>
-<td>○</td>
-<td>®</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Tensor’s Floating Disk</td>
-<td>○</td>
-<td>®</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Silent Image</td>
-<td>○</td>
-<td>—</td>
-<td><em>(cast at level 2)</em></td>
-</tr>
-<tr class="even">
-<td>Silvery Barbs</td>
-<td>○</td>
-<td>—</td>
-<td><em>(cast at level 2)</em></td>
-</tr>
-<tr class="odd">
-<td>Color Spray</td>
-<td>○</td>
-<td>—</td>
-<td><em>(cast at level 3)</em></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="level-2" class="level3">
-<h3 class="anchored" data-anchor-id="level-2">Level 2</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Spell</th>
-<th>Prepared?</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Magic Weapon</td>
-<td>○</td>
-<td><em>(cast at level 3)</em></td>
-</tr>
-<tr class="even">
-<td>Nystul’s Magic Aura</td>
-<td>○</td>
-<td>Illusionist</td>
-</tr>
-<tr class="odd">
-<td>Invisibility</td>
-<td>○</td>
-<td>Illusionist</td>
-</tr>
-<tr class="even">
-<td>Rope Trick</td>
-<td>○</td>
-<td><em>(cast at level 3, Slot B)</em></td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-</section>
-<section id="cast-log" class="level2">
-<h2 class="anchored" data-anchor-id="cast-log">Cast Log</h2>
-<table class="ledger caption-top table">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th">Sess.</th>
-<th data-quarto-table-cell-role="th">Date</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">#</th>
 <th data-quarto-table-cell-role="th">Spell Name</th>
-<th data-quarto-table-cell-role="th">Lvl Cast</th>
 <th data-quarto-table-cell-role="th">Slot Used</th>
 <th data-quarto-table-cell-role="th">Target / Area</th>
-<th data-quarto-table-cell-role="th">Notes / Outcome</th>
+<th data-quarto-table-cell-role="th">Outcome / Notes</th>
 </tr>
 </thead>
-<tbody>
+<tbody id="cast-log-body">
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
+<td style="text-align: center;">1</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
+<td style="text-align: center;">2</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
+<td style="text-align: center;">3</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
+<td style="text-align: center;">4</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
+<td style="text-align: center;">5</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
+<td style="text-align: center;">6</td>
 <td></td>
 <td></td>
 <td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
 <td></td>
 <td></td>
 <td></td>
@@ -470,10 +437,129 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Cantrips use no slots — still worth logging for tactics review.</p>
+<p>📋 After each session, copy the cast log rows into the permanent <a href="spells-journal.qmd">Spell Usage Journal</a> (coming soon).</p>
 </div>
 </div>
 </div>
+<hr>
+</section>
+<section id="quick-spell-reference" class="level2">
+<h2 class="anchored" data-anchor-id="quick-spell-reference">Quick Spell Reference</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Spell</th>
+<th>Level</th>
+<th>Key Effect</th>
+<th>Slots</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Mage Armor</strong> ⭐</td>
+<td>1st</td>
+<td>AC = 13+DEX = <strong>15</strong>, 8 hrs</td>
+<td>1st</td>
+</tr>
+<tr class="even">
+<td><strong>Magic Missile</strong></td>
+<td>1st</td>
+<td>3 darts × (1d4+1) force, auto-hit</td>
+<td>1st</td>
+</tr>
+<tr class="odd">
+<td><strong>Silvery Barbs</strong></td>
+<td>1st→2nd</td>
+<td>Reaction: turn success → fail + give ally advantage</td>
+<td>2nd</td>
+</tr>
+<tr class="even">
+<td><strong>Invisibility</strong></td>
+<td>2nd</td>
+<td>Conc. 1 hr, ends on attack/cast</td>
+<td>2nd</td>
+</tr>
+<tr class="odd">
+<td><strong>Grease</strong></td>
+<td>1st</td>
+<td>10-ft square slippery, DEX save or prone</td>
+<td>1st</td>
+</tr>
+<tr class="even">
+<td><strong>Silent Image</strong></td>
+<td>1st→2nd</td>
+<td>15-ft cube visual illusion, Conc. 10 min</td>
+<td>2nd</td>
+</tr>
+<tr class="odd">
+<td><strong>Color Spray</strong></td>
+<td>1st→3rd</td>
+<td>Blind creatures up to 6d10 HP, 1 round</td>
+<td>3rd</td>
+</tr>
+<tr class="even">
+<td><strong>Command</strong></td>
+<td>1st</td>
+<td>WIS save or obey one-word command</td>
+<td>1st</td>
+</tr>
+<tr class="odd">
+<td><strong>Rope Trick</strong></td>
+<td>2nd→3rd</td>
+<td>Extradim. safe space for 8 creatures, 1 hr</td>
+<td>3rd</td>
+</tr>
+<tr class="even">
+<td><strong>Magic Weapon</strong></td>
+<td>2nd→3rd</td>
+<td>+1 magic weapon, Conc. 1 hr</td>
+<td>3rd</td>
+</tr>
+<tr class="odd">
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>Fire Bolt</strong></td>
+<td>Cantrip</td>
+<td>1d10 fire, 120 ft</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><strong>Toll the Dead</strong></td>
+<td>Cantrip</td>
+<td>1d8/1d12 necrotic, WIS save</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>Starry Wisp</strong></td>
+<td>Cantrip</td>
+<td>1d8 radiant + reveal, 60 ft</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><strong>Minor Illusion</strong></td>
+<td>Cantrip</td>
+<td>Sound + image (Illusionist improved)</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>Guidance</strong></td>
+<td>Cantrip</td>
+<td>+1d4 to ability check</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>→ Full stat blocks: <a href="./spellcards.html">Spell Cards 🃏</a></p>
 
 
 </section>

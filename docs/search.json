@@ -37,30 +37,30 @@
   {
     "objectID": "spells.html",
     "href": "spells.html",
-    "title": "Spell Usage Journal",
+    "title": "Spell Tracker",
     "section": "",
-    "text": "Tick boxes each time you expend a slot. Reset on long rest.\n\n\n\nLevel\nMax\nSlots\n\n\n\n\n1st\n4\n[ ] [ ] [ ] [ ]\n\n\n2nd\n2\n[ ] [ ]\n\n\n3rd\n—\n(future)\n\n\n4th\n—\n(future)\n\n\n5th+\n—\n(future)"
+    "text": "Slots and daily abilities save in your browser — survive page refreshes during a session. Click Long Rest to reset everything."
   },
   {
-    "objectID": "spells.html#spell-slots",
-    "href": "spells.html#spell-slots",
-    "title": "Spell Usage Journal",
-    "section": "",
-    "text": "Tick boxes each time you expend a slot. Reset on long rest.\n\n\n\nLevel\nMax\nSlots\n\n\n\n\n1st\n4\n[ ] [ ] [ ] [ ]\n\n\n2nd\n2\n[ ] [ ]\n\n\n3rd\n—\n(future)\n\n\n4th\n—\n(future)\n\n\n5th+\n—\n(future)"
+    "objectID": "spells.html#spell-slot-tracker",
+    "href": "spells.html#spell-slot-tracker",
+    "title": "Spell Tracker",
+    "section": "Spell Slot Tracker",
+    "text": "Spell Slot Tracker\n\n  ⚡ Spell Slots\n  \n  \n    🌙 Long Rest — reset all slots\n    🔁 Arcane Recovery (Short Rest)\n  \n  \n    Arcane Recovery: once per day on a short rest, recover spell slots with combined level ≤ 2 (half wizard level, rounded up).\n  \n\n\n\n  ☀️ Daily & Per-Rest Abilities\n  \n  \n    🌅 New Day — reset all daily abilities"
   },
   {
-    "objectID": "spells.html#known-spells",
-    "href": "spells.html#known-spells",
-    "title": "Spell Usage Journal",
-    "section": "Known Spells",
-    "text": "Known Spells\n\nCantrips (always available, no slot)\n\n\n\nSpell\nSource\nNotes\n\n\n\n\nFire Bolt\nWizard\n1d10 fire, 120 ft\n\n\nPoison Spray\nWizard\n1d12 poison, 10 ft, CON save\n\n\nTrue Strike\nWizard\nNext attack with advantage\n\n\nGuidance\nCleric (Acolyte)\n+1d4 to ability check\n\n\nThaumaturgy\nCleric (Acolyte)\nMinor magical effects\n\n\nMinor Illusion\nIllusionist\nSound or image\n\n\nToll the Dead\nMagic Initiate\n1d8/1d12 necrotic, WIS save\n\n\nStarry Wisp\nMagic Initiate\n1d8 radiant, 60 ft, reveals target\n\n\n\n\n\nLevel 1\n\n\n\nSpell\nPrepared?\nRitual?\nNotes\n\n\n\n\nCommand\n○\n—\nCleric; one-word command\n\n\nMagic Missile\n○\n—\n3×1d4+1 force, auto-hit\n\n\nMage Armor\n●\n—\nPrepared · AC = 13+DEX\n\n\nGrease\n○\n—\nMagic Initiate\n\n\nUnseen Servant\n○\n®\n\n\n\nFind Familiar\n○\n®\n\n\n\nComprehend Languages\n○\n®\n\n\n\nTensor’s Floating Disk\n○\n®\n\n\n\nSilent Image\n○\n—\n(cast at level 2)\n\n\nSilvery Barbs\n○\n—\n(cast at level 2)\n\n\nColor Spray\n○\n—\n(cast at level 3)\n\n\n\n\n\nLevel 2\n\n\n\nSpell\nPrepared?\nNotes\n\n\n\n\nMagic Weapon\n○\n(cast at level 3)\n\n\nNystul’s Magic Aura\n○\nIllusionist\n\n\nInvisibility\n○\nIllusionist\n\n\nRope Trick\n○\n(cast at level 3, Slot B)"
+    "objectID": "spells.html#session-cast-log",
+    "href": "spells.html#session-cast-log",
+    "title": "Spell Tracker",
+    "section": "Session Cast Log",
+    "text": "Session Cast Log\nUse this to record every spell cast this session for the permanent ledger.\n\n\n\n#\nSpell Name\nSlot Used\nTarget / Area\nOutcome / Notes\n\n\n\n\n1\n\n\n\n\n\n\n2\n\n\n\n\n\n\n3\n\n\n\n\n\n\n4\n\n\n\n\n\n\n5\n\n\n\n\n\n\n6\n\n\n\n\n\n\n7\n\n\n\n\n\n\n8\n\n\n\n\n\n\n\n\n\n\n\n\n\n📋 After each session, copy the cast log rows into the permanent Spell Usage Journal (coming soon)."
   },
   {
-    "objectID": "spells.html#cast-log",
-    "href": "spells.html#cast-log",
-    "title": "Spell Usage Journal",
-    "section": "Cast Log",
-    "text": "Cast Log\n\n\n\nSess.\nDate\nSpell Name\nLvl Cast\nSlot Used\nTarget / Area\nNotes / Outcome\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCantrips use no slots — still worth logging for tactics review."
+    "objectID": "spells.html#quick-spell-reference",
+    "href": "spells.html#quick-spell-reference",
+    "title": "Spell Tracker",
+    "section": "Quick Spell Reference",
+    "text": "Quick Spell Reference\n\n\n\n\n\n\n\n\n\nSpell\nLevel\nKey Effect\nSlots\n\n\n\n\nMage Armor ⭐\n1st\nAC = 13+DEX = 15, 8 hrs\n1st\n\n\nMagic Missile\n1st\n3 darts × (1d4+1) force, auto-hit\n1st\n\n\nSilvery Barbs\n1st→2nd\nReaction: turn success → fail + give ally advantage\n2nd\n\n\nInvisibility\n2nd\nConc. 1 hr, ends on attack/cast\n2nd\n\n\nGrease\n1st\n10-ft square slippery, DEX save or prone\n1st\n\n\nSilent Image\n1st→2nd\n15-ft cube visual illusion, Conc. 10 min\n2nd\n\n\nColor Spray\n1st→3rd\nBlind creatures up to 6d10 HP, 1 round\n3rd\n\n\nCommand\n1st\nWIS save or obey one-word command\n1st\n\n\nRope Trick\n2nd→3rd\nExtradim. safe space for 8 creatures, 1 hr\n3rd\n\n\nMagic Weapon\n2nd→3rd\n+1 magic weapon, Conc. 1 hr\n3rd\n\n\n—\n—\n—\n—\n\n\nFire Bolt\nCantrip\n1d10 fire, 120 ft\n—\n\n\nToll the Dead\nCantrip\n1d8/1d12 necrotic, WIS save\n—\n\n\nStarry Wisp\nCantrip\n1d8 radiant + reveal, 60 ft\n—\n\n\nMinor Illusion\nCantrip\nSound + image (Illusionist improved)\n—\n\n\nGuidance\nCantrip\n+1d4 to ability check\n—\n\n\n\n→ Full stat blocks: Spell Cards 🃏"
   },
   {
     "objectID": "milestones.html",
@@ -96,6 +96,34 @@
     "title": "Milestones & Level-up Log",
     "section": "Notes on Next Level-up (Level 4)",
     "text": "Notes on Next Level-up (Level 4)\nWhen Tiberius reaches 2,700 XP and hits Level 4:\n\nChoose ASI (+2 to one score or +1 to two) OR a Feat\nGain another spell slot (2nd becomes ×3)\nAdd 2 spells to spellbook\nSuggestions: bump INT to 18 (+4 mod, DC 14, Attack +6) or take War Caster / Resilient (CON)"
+  },
+  {
+    "objectID": "spellcards.html",
+    "href": "spellcards.html",
+    "title": "Spell Cards",
+    "section": "",
+    "text": "Top border colour = school of magic. C = Concentration · R = Ritual · ⭐ = Prepared"
+  },
+  {
+    "objectID": "spellcards.html#cantrips",
+    "href": "spellcards.html#cantrips",
+    "title": "Spell Cards",
+    "section": "Cantrips",
+    "text": "Cantrips\n\n\n  \n    Fire BoltCantrip\n    Evocation · Wizard\n    \n      Cast: ActionRange: 120 ft\n      Comp: V, SDur: Instant\n    \n    Ranged spell attack. Hit: 1d10 fire damage. Ignites unattended flammable objects within the area.\n    ↑ 2d10 @ lvl 5 · 3d10 @ lvl 11 · 4d10 @ lvl 17\n    Wizard spellbook\n  \n\n  \n    Poison SprayCantrip\n    Necromancy · Wizard\n    \n      Cast: ActionRange: 10 ft\n      Comp: V, SDur: Instant\n    \n    CON save or take 1d12 poison damage.\n    ↑ 2d12 @ lvl 5 · 3d12 @ lvl 11 · 4d12 @ lvl 17\n    Wizard spellbook\n  \n\n  \n    True StrikeCantrip\n    Evocation · Wizard (2024 updated)\n    \n      Cast: ActionRange: 5 ft (melee) / 30 ft (ranged)\n      Comp: SDur: Instant\n    \n    Make a melee or ranged spell attack. Hit: 1d6 + INT (+3) radiant damage. Uses INT instead of STR/DEX — great for a Wizard with a weapon.\n    ↑ 2d6 @ lvl 5 · 3d6 @ lvl 11 · 4d6 @ lvl 17\n    Wizard spellbook\n  \n\n  \n    GuidanceCantrip\n    Divination · Cleric (Acolyte)\n    C\n    \n      Cast: ActionRange: Touch\n      Comp: V, SDur: Conc., 1 min\n    \n    One willing creature adds 1d4 to one ability check of their choice before the spell ends.\n    Acolyte background (Cleric)\n  \n\n  \n    ThaumaturgyCantrip\n    Transmutation · Cleric (Acolyte)\n    \n      Cast: ActionRange: 30 ft\n      Comp: VDur: Up to 1 min\n    \n    Create a minor magical effect: amplify voice, make eyes glow, create a tremor, change flame colour, make doors fly open or slam shut, alter your appearance briefly. Up to 3 effects can be active simultaneously.\n    Acolyte background (Cleric)\n  \n\n  \n    Minor Illusion ⭐Cantrip\n    Illusion · Wizard (Illusionist)\n    \n      Cast: ActionRange: 30 ft\n      Comp: SDur: 1 min\n    \n    Create a sound or a visual image (5-ft cube). Investigation vs DC 13 to disbelieve on interaction.⭐ Improved Minor Illusion (Illusionist level 2): create a sound and an image simultaneously with one casting.\n    Wizard spellbook · Illusionist feature\n  \n\n  \n    Toll the DeadCantrip\n    Necromancy · Magic Initiate (Cleric)\n    \n      Cast: ActionRange: 60 ft\n      Comp: V, SDur: Instant\n    \n    WIS save or take 1d8 necrotic. If target is missing any HP, the damage increases to 1d12.\n    ↑ 2d8/2d12 @ lvl 5 · 3d8/3d12 @ lvl 11 · 4d8/4d12 @ lvl 17\n    Magic Initiate (Cleric)\n  \n\n  \n    Starry WispCantrip\n    Evocation · Magic Initiate (Cleric)\n    \n      Cast: ActionRange: 60 ft\n      Comp: V, SDur: Instant\n    \n    Ranged spell attack. Hit: 1d8 radiant. Target sheds bright light 10 ft + dim light 10 ft until start of your next turn. Target cannot be invisible while lit.\n    ↑ 2d8 @ lvl 5 · 3d8 @ lvl 11 · 4d8 @ lvl 17\n    Magic Initiate (Cleric)"
+  },
+  {
+    "objectID": "spellcards.html#level-1",
+    "href": "spellcards.html#level-1",
+    "title": "Spell Cards",
+    "section": "Level 1",
+    "text": "Level 1\n\n\n  \n    Command1st Level\n    Enchantment · Cleric (Acolyte)\n    \n      Cast: ActionRange: 60 ft\n      Comp: VDur: 1 round\n    \n    WIS save or obey a one-word command on their next turn. Examples: Approach, Drop, Flee, Grovel, Halt. No effect on undead or creatures that don't understand the language.\n    ↑ +1 extra target per slot level above 1st\n    Acolyte background (Cleric)\n  \n\n  \n    Magic Missile1st Level\n    Evocation · Wizard\n    \n      Cast: ActionRange: 120 ft\n      Comp: V, SDur: Instant\n    \n    Create 3 darts of magical force, each dealing 1d4 + 1 damage. Auto-hit — no attack roll. Can split between targets freely. Each dart hits individually.\n    ↑ +1 dart per slot level above 1st (4 darts @ 2nd, 5 @ 3rd…)\n    Wizard spellbook\n  \n\n  \n    Mage Armor ⭐1st Level · PREPARED\n    Abjuration · Wizard\n    \n      Cast: ActionRange: Touch\n      Comp: V, S, M (leather)Dur: 8 hours\n    \n    Surround the target with protective magical force. Target's AC becomes 13 + DEX modifier (currently AC 15 for Tiberius). Only works if target wears no armour. Ends if they don armour.\n    Wizard spellbook · Cast daily at start of day\n  \n\n  \n    Grease1st Level\n    Conjuration · Magic Initiate (Cleric)\n    \n      Cast: ActionRange: 60 ft\n      Comp: V, S, M (butter)Dur: 1 min\n    \n    A 10-ft square becomes difficult terrain. Each creature in the area on cast: DEX save or fall Prone. Same save when entering or ending a turn there.\n    Magic Initiate (Cleric)\n  \n\n  \n    Unseen Servant1st Level\n    Conjuration · Wizard\n    Ritual\n    \n      Cast: Action / Ritual +10 minRange: 60 ft\n      Comp: V, S, MDur: 1 hour\n    \n    Invisible mindless servant (STR 2, AC 10, 1 HP). Carries ≤ 25 lbs. Performs simple tasks: open doors, carry items, clean, pour drinks. Disappears at 0 HP.\n    Wizard spellbook (ritual — no slot needed)\n  \n\n  \n    Find Familiar1st Level\n    Conjuration · Wizard\n    Ritual\n    \n      Cast: 1 hr ritualRange: 10 ft\n      Comp: V, S, M (10 gp consumed)Dur: Until dismissed\n    \n    Summon a spirit in animal form (bat, cat, crab, frog, hawk, lizard, octopus, owl, rat, raven, sea horse, spider, weasel). Share senses as a Bonus Action. Deliver touch spells through familiar. Reappears after 0 HP with re-casting.\n    Wizard spellbook (ritual — no slot needed)\n  \n\n  \n    Comprehend Languages1st Level\n    Divination · Wizard\n    Ritual\n    \n      Cast: Action / Ritual +10 minRange: Self\n      Comp: V, S, MDur: 1 hour\n    \n    Understand any spoken language you hear. Understand any written language you see (must touch surface; 1 min/page). Does not grant ability to speak the language.\n    Wizard spellbook (ritual — no slot needed)\n  \n\n  \n    Tenser's Floating Disk1st Level\n    Conjuration · Wizard\n    Ritual\n    \n      Cast: Action / Ritual +10 minRange: 30 ft\n      Comp: V, S, MDur: 1 hour\n    \n    3-ft wide disk of force hovering 1 ft off the ground. Carries up to 500 lbs. Follows you within 20 ft automatically. Stays put if you move farther. Vanishes if you are more than 100 ft away.\n    Wizard spellbook (ritual — no slot needed)\n  \n\n  \n    Silent Image1st (cast @ 2nd slot)\n    Illusion · Wizard\n    C\n    \n      Cast: ActionRange: 60 ft\n      Comp: V, S, M (fleece)Dur: Conc., 10 min\n    \n    Create a 15-ft cube visual illusion (no sound, smell, or texture). Creatures that interact and succeed on Investigation vs DC 13 see through it. Use an Action to move it up to 20 ft.\n    Requires a 2nd-level slot to cast\n    Wizard spellbook\n  \n\n  \n    Silvery Barbs1st (cast @ 2nd slot)\n    Enchantment · Wizard\n    Reaction\n    \n      Cast: ReactionRange: 60 ft\n      Comp: VDur: Instant\n    \n    Trigger: a creature within 60 ft succeeds on an attack roll, ability check, or saving throw.Effect: that roll becomes a failure. Then choose a different creature you can see — it gains advantage on its next d20 roll (attack, check, or save).\n    Requires a 2nd-level slot to cast\n    Wizard spellbook\n  \n\n  \n    Color Spray1st (cast @ 3rd slot)\n    Illusion · Wizard\n    \n      Cast: ActionRange: Self (15-ft cone)\n      Comp: V, S, M (sand/powder)Dur: 1 round\n    \n    Creatures in cone are Blinded for 1 round. Affects creatures starting from lowest HP upward, until 6d10 HP worth are blinded. Undead and creatures that can't be blinded are immune.\n    ↑ +2d10 HP worth per slot above 1st. Requires 3rd-level slot.\n    Wizard spellbook"
+  },
+  {
+    "objectID": "spellcards.html#level-2",
+    "href": "spellcards.html#level-2",
+    "title": "Spell Cards",
+    "section": "Level 2",
+    "text": "Level 2\n\n\n  \n    Magic Weapon2nd (cast @ 3rd slot)\n    Transmutation · Wizard\n    C\n    \n      Cast: Bonus ActionRange: Touch\n      Comp: V, SDur: Conc., 1 hour\n    \n    A nonmagical weapon becomes magical with +1 bonus to attack rolls and damage rolls. Bypasses resistance and immunity to nonmagical attacks.\n    ↑ +2 bonus @ 4th-level slot · +3 bonus @ 6th-level slot. Requires 3rd-level slot.\n    Wizard spellbook\n  \n\n  \n    Nystul's Magic Aura2nd Level\n    Illusion · Wizard (Illusionist)\n    \n      Cast: ActionRange: Touch\n      Comp: V, S, M (tiny square of silk)Dur: 24 hours\n    \n    Alter one creature or object's magical aura detected by spells. Choose two effects: (1) False Aura — make nonmagical appear magical or vice versa, choose school; (2) Mask — change apparent creature type for divinations. Lasts 30 days if cast daily for 30 days.\n    Wizard spellbook (Illusionist)\n  \n\n  \n    Invisibility2nd Level\n    Illusion · Wizard (Illusionist)\n    C\n    \n      Cast: ActionRange: Touch\n      Comp: V, S, M (eyelash in gum arabic)Dur: Conc., 1 hour\n    \n    Target becomes Invisible. Everything worn or carried is also invisible. Ends immediately if target makes an attack roll, deals damage, or casts a spell.\n    ↑ +1 additional target per slot above 2nd\n    Wizard spellbook (Illusionist)\n  \n\n  \n    Rope Trick2nd (cast @ 3rd — Slot B)\n    Transmutation · Wizard\n    \n      Cast: ActionRange: Touch\n      Comp: V, S, M (powdered corn)Dur: 1 hour\n    \n    A rope rises vertically to 60 ft. The top opens to an extradimensional space large enough for up to 8 Medium creatures. The entrance is invisible from outside. Creatures inside can see out as through a 3-ft × 5-ft window. Rope can be pulled in. Everyone exits when spell ends.\n    Requires 3rd-level slot (Slot B)\n    Wizard spellbook"
   },
   {
     "objectID": "items.html",

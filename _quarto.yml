@@ -16,7 +16,9 @@ website:
       - href: treasury.qmd
         text: "💰 Treasury"
       - href: spells.qmd
-        text: "✨ Spells"
+        text: "✨ Spell Tracker"
+      - href: spellcards.qmd
+        text: "🃏 Spell Cards"
       - href: items.qmd
         text: "🎒 Items"
       - href: milestones.qmd
