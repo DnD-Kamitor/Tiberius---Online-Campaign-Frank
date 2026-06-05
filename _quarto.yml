@@ -21,6 +21,8 @@ website:
         text: "🃏 Spell Cards"
       - href: spellbook.qmd
         text: "📖 Spellbook"
+      - href: illusion-tactics.qmd
+        text: "🎭 Illusion Tactics"
       - href: items.qmd
         text: "🎒 Items"
       - href: milestones.qmd

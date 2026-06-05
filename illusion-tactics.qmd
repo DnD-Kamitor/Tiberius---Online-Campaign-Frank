@@ -1,0 +1,526 @@
+---
+title: "Illusion Tactics"
+subtitle: "Creative plays for Tiberius's illusion spells · Illusionist Wizard · D&D 2024"
+toc: true
+toc-depth: 2
+---
+
+::: {.callout-tip appearance="simple"}
+**Illusionist perks active on all tactics below:** No verbal components for illusion spells · Minor Illusion casts as Bonus Action, creates sound + image simultaneously, range 90 ft · Silent Image range 120 ft
+:::
+
+---
+
+## Minor Illusion {.sb-section-label}
+
+*Cantrip · Bonus Action or Action · 90 ft · No concentration · No verbal · Creates BOTH sound AND image*
+
+The bonus action cast is your action economy engine — every round ask: **"What does my Minor Illusion do here?"**
+
+```{=html}
+<div class="tactic-grid">
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Phantom Reinforcements</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Bonus Action — create an image of a soldier rounding a corner, plus the sound of armoured footsteps and a shouted command ("The Captain says fall back!"). Enemies must spend an Action to disbelieve it.</p>
+      <p><strong>Why it works:</strong> Forces hesitation or repositioning before enemies can use their Action. Free bonus action illusion that costs the enemy a full Action to resolve.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Action economy</span><span class="tt">Distraction</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Arrow Slit Wall</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Bonus Action — place an illusory stone wall with arrow slits in front of your party. Enemies route around it. Allies fire through the slits. No concentration means your Action is free for a real spell.</p>
+      <p><strong>Why it works:</strong> Costs zero spell slots. Forces enemies to waste movement. Runs indefinitely while you cast other things.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">No slots</span><span class="tt">Cover</span><span class="tt">Movement control</span></div>
+  </div>
+
+  <div class="tactic-card tc-social">
+    <div class="tactic-head">
+      <span class="tactic-name">Dead Guard Post</span>
+      <span class="tactic-badge badge-social">Stealth / Social</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> After a fight, project the slain guard still standing at their post with normal ambient sounds (shuffling, a cough). Passers-by see nothing wrong.</p>
+      <p><strong>Why it works:</strong> No concentration = runs indefinitely while you do other things. Buys the whole party time to search, interrogate, or loot without raising an alarm.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">No concentration</span><span class="tt">Infiltration</span></div>
+  </div>
+
+  <div class="tactic-card tc-stealth">
+    <div class="tactic-head">
+      <span class="tactic-name">Sound Bait</span>
+      <span class="tactic-badge badge-stealth">Stealth</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> At <strong>90 ft range</strong> — completely out of visual contact — create a sound: a crash, coin jingle, distant scream, a door slamming. Pull enemies away from your position.</p>
+      <p><strong>Why it works:</strong> 90 ft range means you can redirect patrols from well out of danger. Creatures moving toward the bait are moving away from the party.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">90 ft range</span><span class="tt">Patrol redirect</span></div>
+  </div>
+
+  <div class="tactic-card tc-social">
+    <div class="tactic-head">
+      <span class="tactic-name">Panic Exit</span>
+      <span class="tactic-badge badge-social">Social / Crowd</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Create an image of fire, flooding water, or structural collapse — with corresponding sound. Humanoids with survival instincts route toward exits.</p>
+      <p><strong>Why it works:</strong> No save required. You're creating environmental conditions that rational creatures respond to predictably. Especially potent in urban or social settings.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">No save</span><span class="tt">Crowd control</span></div>
+  </div>
+
+  <div class="tactic-card tc-stealth">
+    <div class="tactic-head">
+      <span class="tactic-name">Silent Decoy Self</span>
+      <span class="tactic-badge badge-stealth">Stealth</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> During stealth, Bonus Action — create an image of yourself around a corner with footsteps. Guards investigate the decoy; the party slips past.</p>
+      <p><strong>Why it works:</strong> No verbal component and Bonus Action means <strong>no Stealth check penalty</strong> and no interrupting concentration on other spells.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">No verbal</span><span class="tt">Bonus Action</span><span class="tt">Stealth</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Ambush Anchor</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Surprise round — Bonus Action Minor Illusion creates a boulder or cart between party and enemies. Melee allies have immediate hard cover. Use your Action for a real spell.</p>
+      <p><strong>Why it works:</strong> Cover + Action spell in the same round on zero spell slots. Strong opening round that costs nothing.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Surprise round</span><span class="tt">Cover</span><span class="tt">No slots</span></div>
+  </div>
+
+  <div class="tactic-card tc-social">
+    <div class="tactic-head">
+      <span class="tactic-name">Bluff Object</span>
+      <span class="tactic-badge badge-social">Social</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Conjure a visual of a sealed letter with a wax crest, a bag of gold, a key — to make a bluff credible. Looks real until physically touched.</p>
+      <p><strong>Why it works:</strong> You only need a few seconds of credibility. "I have the documents right here" buys time without Deception rolls against visual inspection.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Deception aid</span><span class="tt">Social</span></div>
+  </div>
+
+</div>
+```
+
+---
+
+## Silent Image {.sb-section-label}
+
+*1st Level (2nd-level slot) · Action · 120 ft · Concentration 10 min · No verbal · 15-ft cube, movable*
+
+Silent Image is your **battlefield architect** spell. The 15-foot cube is enormous — think entire rooms, not just objects.
+
+```{=html}
+<div class="tactic-grid">
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Illusory Wall + Arrow Slits</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Place a stone wall across a corridor. Add arrow slits. Enemies route around it. Allies fire through the slits. Move it with your Action if needed.</p>
+      <p><strong>Why it works:</strong> Full movement control for 10 minutes of concentration. At 120 ft range you're well behind the wall when you cast it.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Movement control</span><span class="tt">120 ft range</span><span class="tt">10 min</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Decoy Monster</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Create an image of a troll, giant spider, or a second Fighter. Move it toward enemies with your Action. They must spend their Action to disbelieve.</p>
+      <p><strong>Why it works:</strong> One enemy spends a full Action per round on nothing. Against a group, the decoy absorbs attention from multiple targets simultaneously.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Action tax</span><span class="tt">Threat redirect</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">False Egress Trap</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Create an image of a doorway or open corridor on a solid wall. Enemies in pursuit charge toward it, hit the real wall, and disbelieve — after wasting movement and potentially taking opportunity attacks.</p>
+      <p><strong>Why it works:</strong> Works best combined with real difficult terrain or allies waiting at the actual exit.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Pursuit trap</span><span class="tt">OA setup</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Dead Zone Floor</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Create an image of a pit, lava, or flooded floor across a chokepoint. Enemies go around (wasting movement) or spend an Action to disbelieve.</p>
+      <p><strong>Why it works:</strong> Most humanoids don't voluntarily step into lava. This is concentration-based crowd control for a 2nd-level slot.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Crowd control</span><span class="tt">Chokepoint</span></div>
+  </div>
+
+  <div class="tactic-card tc-stealth">
+    <div class="tactic-head">
+      <span class="tactic-name">Status Quo Guard</span>
+      <span class="tactic-badge badge-stealth">Stealth / Heist</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> After defeating guards, create an image of them continuing their patrol. Move the image with your Action each round. Outside NPCs see nothing unusual.</p>
+      <p><strong>Why it works:</strong> Buys the party as many rounds as you can maintain concentration to complete a heist objective. Move the "guard" naturally to keep it believable.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Heist</span><span class="tt">Sustained deception</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Advantage Opening</span>
+      <span class="tactic-badge badge-combat">Combat Setup</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Before initiative, place Silent Image of a large obstacle between party and enemies. Ranged allies are now unseen attackers — advantage on the first attack roll of the fight.</p>
+      <p><strong>Why it works:</strong> Once the shot passes through the illusion it's revealed, but you've already banked the advantage. Stack with a Surprise round for maximum effect.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Advantage</span><span class="tt">Pre-combat</span></div>
+  </div>
+
+</div>
+```
+
+---
+
+## Color Spray {.sb-section-label}
+
+*1st Level · Action · Self (15-ft cone) · No verbal · Blinded until end of your next turn*
+
+Blinded = **advantage for all your allies** on attacks against those targets + disadvantage on their attacks. It's a one-turn team buff as much as a debuff.
+
+```{=html}
+<div class="tactic-grid">
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Advantage Package</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Lead with Color Spray before your party's heaviest hitter attacks a high-AC target. Every ally attacking a Blinded creature has advantage.</p>
+      <p><strong>Why it works:</strong> Against a boss, this is ~+4–5 expected damage per ally before accounting for crit probability. Blinded also blocks reactions requiring sight.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Advantage for party</span><span class="tt">Boss fight</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Caster Shutdown</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Target the enemy caster. A Blinded spellcaster cannot see targets, so spells requiring "a creature you can see" (Fireball, Hold Person, etc.) cannot be used against your party for one turn.</p>
+      <p><strong>Why it works:</strong> 1st-level slot interrupts a high-level enemy action. Enemy casters often have middling CON — the save is beatable.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Spell denial</span><span class="tt">Priority target</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Escape Cone</span>
+      <span class="tactic-badge badge-combat">Retreat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> When fleeing, Color Spray the cluster nearest you. Blinded enemies cannot see where you run and cannot make opportunity attacks against targets they can't see (2024 rules).</p>
+      <p><strong>Why it works:</strong> One slot lets the entire party disengage and flee safely if pursuing enemies are in the cone.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Retreat</span><span class="tt">OA prevention</span></div>
+  </div>
+
+  <div class="tactic-card tc-social">
+    <div class="tactic-head">
+      <span class="tactic-name">Crowd Scatter</span>
+      <span class="tactic-badge badge-social">Social</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> In a riot or mob situation, Color Spray into the crowd. Blinded commoners don't fight — they flee. No lethality.</p>
+      <p><strong>Why it works:</strong> Crowd control with zero kills, which matters if the party needs a clean political record. Scatter a blocking mob instantly.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Non-lethal</span><span class="tt">Crowd control</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Spray-and-Illusion Combo</span>
+      <span class="tactic-badge badge-combat">Combo</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Action — Color Spray. Bonus Action — Minor Illusion blocking the blinded enemies' escape route. They can't see which way to run, and your illusion psychologically blocks the exit.</p>
+      <p><strong>Why it works:</strong> Fully self-sufficient opening round using both Action and Bonus Action. No party coordination needed.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Self-combo</span><span class="tt">Bonus Action</span><span class="tt">Opening round</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Ambush Opener</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> In a prepared ambush, Color Spray the moment enemies enter your kill zone — before any of them react. Allies knew the plan; they immediately attack with advantage.</p>
+      <p><strong>Why it works:</strong> Enemies act last, Blinded, with disadvantage on everything. Front-loads the combat disproportionately.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Ambush</span><span class="tt">Front-load</span></div>
+  </div>
+
+</div>
+```
+
+---
+
+## Invisibility {.sb-section-label}
+
+*2nd Level · Action · Touch · Concentration 1 hour · No verbal · +1 target per slot above 2nd*
+
+In 2024: attacks against you have Disadvantage, your attacks have Advantage, you are unseen. Ends if you attack, deal damage, or cast a spell. Encourages **non-combat use**.
+
+```{=html}
+<div class="tactic-grid">
+
+  <div class="tactic-card tc-stealth">
+    <div class="tactic-head">
+      <span class="tactic-name">Forward Scout</span>
+      <span class="tactic-badge badge-stealth">Stealth</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Cast Invisibility on yourself, move ahead to observe enemy positions, count guards, identify casters, note traps, then return. Up to 1 hour, no attacks needed.</p>
+      <p><strong>Why it works:</strong> Party enters with a full tactical picture. No Perception check can see you if they rely on sight.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Scouting</span><span class="tt">1 hour</span></div>
+  </div>
+
+  <div class="tactic-card tc-stealth">
+    <div class="tactic-head">
+      <span class="tactic-name">Upcast Party Escort</span>
+      <span class="tactic-badge badge-stealth">Stealth</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> At 3rd-level slot — Invisibility on two creatures. At 4th level — three. Cast on the whole party before a critical stealth passage.</p>
+      <p><strong>Why it works:</strong> Guards auto-fail Perception checks relying on sight against Invisible creatures. Near-guaranteed stealth pass for one dangerous zone.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Upcast</span><span class="tt">Party stealth</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Reposition Without OA</span>
+      <span class="tactic-badge badge-combat">Combat</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Cast Invisibility on yourself, reposition freely in combat. Opportunity attacks require seeing the target (2024 rules) — you move with impunity.</p>
+      <p><strong>Why it works:</strong> Repositioning in combat normally costs Disengage or provokes OAs. Invisibility removes this constraint for as long as you don't attack.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Repositioning</span><span class="tt">OA immunity</span></div>
+  </div>
+
+  <div class="tactic-card tc-combat">
+    <div class="tactic-head">
+      <span class="tactic-name">Potion Under Cover</span>
+      <span class="tactic-badge badge-combat">Survival</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> When bloodied, cast Invisibility and break from combat. Use your next turn to drink a healing potion — drinking doesn't break Invisibility (no attack, no damage, no spell).</p>
+      <p><strong>Why it works:</strong> Enemies can't target you, can't OA you, and can't see which direction you fled. Buys a full turn of safe healing.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Survival</span><span class="tt">Healing</span></div>
+  </div>
+
+  <div class="tactic-card tc-stealth">
+    <div class="tactic-head">
+      <span class="tactic-name">Rescue Drag</span>
+      <span class="tactic-badge badge-combat">Rescue</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> 3rd-level slot — cast on yourself AND an unconscious or downed ally. Drag the ally to safety. No OAs on either of you while you move.</p>
+      <p><strong>Why it works:</strong> One slot buys a safe extraction of a dying party member who would otherwise be executed on their turn.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Rescue</span><span class="tt">3rd-level slot</span></div>
+  </div>
+
+  <div class="tactic-card tc-social">
+    <div class="tactic-head">
+      <span class="tactic-name">Diplomatic Eavesdrop</span>
+      <span class="tactic-badge badge-social">Social / Intel</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> In a social setting (court, negotiation, tavern meeting), Invisibility lets you move around eavesdropping, examining documents, or passing objects without detection.</p>
+      <p><strong>Why it works:</strong> You can whisper to allies who can hear you. Excellent for gathering intelligence during events the party is attending openly.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Intelligence</span><span class="tt">Social</span></div>
+  </div>
+
+</div>
+```
+
+---
+
+## Nystul's Magic Aura {.sb-section-label}
+
+*2nd Level · Action · Touch · 24 hours (permanent after 30 consecutive days) · No verbal · Hides or fakes magical aura / creature type*
+
+This is an **information warfare** spell. It attacks the intelligence systems enemies use to identify threats. Best used in planning, not reaction.
+
+```{=html}
+<div class="tactic-grid">
+
+  <div class="tactic-card tc-social">
+    <div class="tactic-head">
+      <span class="tactic-name">Gear Smuggling</span>
+      <span class="tactic-badge badge-social">Social / Infiltration</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Cast on any magic item to make it appear nonmagical to Detect Magic. Cross checkpoints and guard inspections without losing your gear. Recast every 24 hours.</p>
+      <p><strong>Why it works:</strong> Completely reliable. Spellbook, Javelin of Lightning, magical armour — all appears mundane to any inspection short of True Seeing.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Infiltration</span><span class="tt">Gear protection</span></div>
+  </div>
+
+  <div class="tactic-card tc-social">
+    <div class="tactic-head">
+      <span class="tactic-name">False School</span>
+      <span class="tactic-badge badge-social">Social</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Change a magic item's apparent school. A politically toxic Necromancy item appears as Transmutation. Show gear to factions without revealing its true nature.</p>
+      <p><strong>Why it works:</strong> Factions that react differently to different schools can be manipulated. Show the church your "Transmutation staff" that's actually Necromancy.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Faction politics</span><span class="tt">Deception</span></div>
+  </div>
+
+  <div class="tactic-card tc-social">
+    <div class="tactic-head">
+      <span class="tactic-name">Creature Type Mask</span>
+      <span class="tactic-badge badge-social">Utility</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Cast on a party member or NPC to change their apparent creature type for all spells and magical effects. Make an Undead companion appear as a Humanoid — it can be healed and won't trigger Turn Undead.</p>
+      <p><strong>Why it works:</strong> Also protects allies from creature-type-specific spells (Charm Person, Hold Person only work on Humanoids). Mask your Fighter as a Construct to make them immune to those spells from hostile casters.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Spell immunity</span><span class="tt">Undead allies</span></div>
+  </div>
+
+  <div class="tactic-card tc-social">
+    <div class="tactic-head">
+      <span class="tactic-name">False Threat Plant</span>
+      <span class="tactic-badge badge-social">Deception</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> Cast on a mundane object to make it appear magical (with any school you choose). Plant it somewhere enemies will detect it. They waste time investigating and neutralising a fake magical threat.</p>
+      <p><strong>Why it works:</strong> Draws enemy casters into preparing countermeasures against something that doesn't exist. Classic misdirection.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Misdirection</span><span class="tt">Enemy action waste</span></div>
+  </div>
+
+  <div class="tactic-card tc-social">
+    <div class="tactic-head">
+      <span class="tactic-name">The Long Con (30 Days)</span>
+      <span class="tactic-badge badge-social">Campaign</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>How:</strong> With 30 consecutive days of casting on the same target, the effect becomes <strong>permanent</strong>. A cursed item appears clean forever. A forbidden artefact appears mundane. A wanted criminal appears as a different creature type to all magical detection permanently.</p>
+      <p><strong>Why it works:</strong> World-altering effect from a 2nd-level slot investment during downtime. Best long-term investment in the spellbook.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Permanent</span><span class="tt">Downtime</span><span class="tt">Campaign-level</span></div>
+  </div>
+
+</div>
+```
+
+---
+
+## Cross-Spell Combos {.sb-section-label}
+
+```{=html}
+<div class="tactic-grid">
+
+  <div class="tactic-card tc-combo">
+    <div class="tactic-head">
+      <span class="tactic-name">Silent Stalker</span>
+      <span class="tactic-badge badge-combo">Combo</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>Spells:</strong> Invisibility + Minor Illusion (Bonus Action)</p>
+      <p>You're invisible. Drop an auditory distraction 90 ft away in a different direction. Guards investigate the sound while you slip past.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Invisibility</span><span class="tt">Minor Illusion</span><span class="tt">Infiltration</span></div>
+  </div>
+
+  <div class="tactic-card tc-combo">
+    <div class="tactic-head">
+      <span class="tactic-name">Full Decoy</span>
+      <span class="tactic-badge badge-combo">Combo</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>Spells:</strong> Silent Image + Minor Illusion (Bonus Action)</p>
+      <p>Silent Image creates a moving figure; Minor Illusion adds its voice and footsteps. Stack both to create the most convincing possible fake person without spending a Major Image slot.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Silent Image</span><span class="tt">Minor Illusion</span><span class="tt">Deception</span></div>
+  </div>
+
+  <div class="tactic-card tc-combo">
+    <div class="tactic-head">
+      <span class="tactic-name">Spray and Block</span>
+      <span class="tactic-badge badge-combo">Combo</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>Spells:</strong> Color Spray (Action) + Minor Illusion blocking exit (Bonus Action)</p>
+      <p>Blind the cluster, then immediately drop an illusion blocking the direction they'd flee. They can't see the exit, and your illusion psychologically blocks the gap.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Color Spray</span><span class="tt">Minor Illusion</span><span class="tt">Trap</span></div>
+  </div>
+
+  <div class="tactic-card tc-combo">
+    <div class="tactic-head">
+      <span class="tactic-name">Ghost Patrol</span>
+      <span class="tactic-badge badge-combo">Combo</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>Spells:</strong> Silent Image (moving figure) + Minor Illusion (sound) + Nystul's Aura (pre-cast on the party)</p>
+      <p>Fake guard patrols with convincing movement and sound while the party's own magical signatures are hidden. Total information blackout for any watching enemy.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Silent Image</span><span class="tt">Nystul's</span><span class="tt">Heist</span></div>
+  </div>
+
+  <div class="tactic-card tc-combo">
+    <div class="tactic-head">
+      <span class="tactic-name">Wrapped Scout</span>
+      <span class="tactic-badge badge-combo">Combo</span>
+    </div>
+    <div class="tactic-body">
+      <p><strong>Spells:</strong> Nystul's Magic Aura (pre-cast, hides gear) + Invisibility</p>
+      <p>Nystul's masks your spellcasting signature. Invisibility makes you physically unseen. You pass every layer of magical and physical detection simultaneously.</p>
+    </div>
+    <div class="tactic-tags"><span class="tt">Nystul's</span><span class="tt">Invisibility</span><span class="tt">Scouting</span></div>
+  </div>
+
+</div>
+```
+
+::: {.callout-note appearance="simple"}
+**Physical interaction disbelieves an illusion.** Enemies who walk through a wall, fire into apparent smoke, or touch a fake object get to make an Investigation check vs. DC 15 to see through it. Plan your illusions so the enemy has *no reason* to physically interact — that's the real skill.
+:::
