@@ -79,7 +79,7 @@ Top border colour = school of magic. **C** = Concentration · **R** = Ritual · 
       <span><b>Cast:</b> Action or <b>Bonus Action</b></span><span><b>Range:</b> 90 ft <small>(30+60)</small></span>
       <span><b>Comp:</b> S, M (fleece)</span><span><b>Dur:</b> 1 min</span>
     </div>
-    <div class="spell-desc">Creates <b>sound AND image</b> (5-ft cube) simultaneously (Improved Minor Illusion). Investigation vs <b>DC 15</b> to disbelieve on physical interaction.<br><br>⭐ <b>Illusionist perks:</b> Bonus Action cast · 90 ft range · no verbal component needed.</div>
+    <div class="spell-desc">Creates <b>sound AND image</b> (5-ft cube) simultaneously (Improved Minor Illusion). Physical interaction <b>automatically reveals it</b> (things pass through). Study action + <b>Investigation vs. spell save DC</b> to identify at range — illusion then appears faint.<br><br>⭐ <b>Illusionist perks:</b> Bonus Action cast · 90 ft range · no verbal component.</div>
     <div class="spell-source">Illusionist feature (always known) · No verbal needed</div>
   </div>
 

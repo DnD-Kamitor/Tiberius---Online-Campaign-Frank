@@ -134,8 +134,8 @@ toc: false
     </div>
     <div class="sb-body">
       <p><b>Improved Minor Illusion (Illusionist):</b> Create a <b>sound AND an image</b> simultaneously with a single casting. Can be cast as a <b>Bonus Action</b>. No verbal component needed.</p>
-      <p><b>Sound:</b> Any sound you choose originating from any point within range — from a whisper to a scream.</p>
-      <p><b>Image:</b> An object no larger than a <b>5-foot cube</b>. No sound, smell, texture, or temperature. A creature that physically interacts with it can make an <b>Investigation check vs. DC 15</b> to disbelieve.</p>
+      <p><b>Sound:</b> Any sound from a whisper to a scream, originating from any point within range. Can be continuous or discrete sounds at different times.</p>
+      <p><b>Image:</b> An object no larger than a <b>5-foot cube</b>. No sound, light, smell, or other sensory effect. <b>Physical interaction automatically reveals it</b> (things pass through it). A creature that uses the <b>Study action</b> to examine it may make an <b>Intelligence (Investigation) check vs. your spell save DC</b> — on success, the illusion appears faint to them.</p>
     </div>
     <div class="sb-footer">Wizard spellbook · Illusionist subclass (always known) · No verbal needed</div>
   </div>

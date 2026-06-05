@@ -152,7 +152,7 @@ SPELLS = [
          # Illusionist: can cast as Bonus Action; creates BOTH sound AND image
          casting_time="Action or Bonus Action", range="90 ft (30+60 Illusionist)",
          components="S, M (fleece)", duration="1 minute",
-         desc="Create a SOUND and an IMAGE (5-ft cube) simultaneously — both at once thanks to Improved Minor Illusion. Investigation vs DC 15 to disbelieve on physical interaction. Can be cast as a Bonus Action.",
+         desc="Create a SOUND and an IMAGE (5-ft cube) simultaneously — both at once thanks to Improved Minor Illusion. Physical interaction automatically reveals it (things pass through). Study action + Investigation vs. spell save DC to identify at range — illusion then appears faint. Can be cast as a Bonus Action.",
          upcast=None),
 
     dict(section="Cantrips",
