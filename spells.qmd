@@ -356,7 +356,6 @@ Use this to record every spell cast this session for the permanent ledger.
 | **Silent Image** | 1st→2nd | 15-ft cube visual illusion, Conc. 10 min | 2nd |
 | **Color Spray ⭐** | 1st+ | Blind up to 6d10 HP worth, 1 round | 1st+ |
 | **Command** | 1st | WIS save or obey one-word command | 1st |
-| **Rope Trick** | 2nd→3rd | Extradim. safe space for 8 creatures, 1 hr | 3rd |
 | **Magic Weapon** | 2nd→3rd | +1 magic weapon, Conc. 1 hr | 3rd |
 | — | Cantrip | — | — |
 | **Fire Bolt** | Cantrip | 1d10 fire, 120 ft | — |

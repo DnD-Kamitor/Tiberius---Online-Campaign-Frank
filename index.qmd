@@ -81,6 +81,17 @@ Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger 
 | **Favored Enemy** | **Hobgoblin** — Hunter's Mark always prepared; 1/day no slot cost |
 | **Weapon Mastery** | Light Crossbow (**Slow** — target speed −10 ft) · Warhammer (**Push** — push 10 ft) |
 
+### 🎭 Illusionist Subclass Features *(Wizard 3)*
+
+::: {.callout-tip appearance="simple"}
+**Improved Illusions** — applies to all Illusion school spells Tiberius casts:
+
+- **No verbal components** — all Illusion spells can be cast without the verbal (V) component. Silence, stealth, restraint — no problem.
+- **Extended range** — if an Illusion spell has a range of 10 ft or more, the range increases by **60 ft**.
+  - Minor Illusion: 30 → **90 ft** · Silent Image: 60 → **120 ft** *(Touch spells unchanged)*
+- **Minor Illusion (always known):** Can create a **sound and an image simultaneously** with a single casting. Can be cast as a **Bonus Action** instead of an Action.
+:::
+
 ### ⚔️ War Caster *(Wizard 4 feat)*
 
 ::: {.callout-tip appearance="simple"}

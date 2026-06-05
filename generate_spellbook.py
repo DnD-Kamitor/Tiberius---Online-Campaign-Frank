@@ -299,14 +299,6 @@ SPELLS = [
          desc="Target becomes Invisible (everything worn/carried too). Ends immediately if target makes an attack roll, deals damage, or casts a spell.",
          upcast="+1 additional target per slot above 2nd"),
 
-    dict(section="Level 2 Spells",
-         name="Rope Trick", school="Transmutation", level="2nd Level (3rd slot)",
-         source="Wizard · costs 3rd-level slot",
-         tags=[],
-         casting_time="Action", range="Touch",
-         components="V, S, M (powdered corn)", duration="1 hour",
-         desc="A rope rises to 60 ft. Top opens to extradimensional space for up to 8 Medium creatures. Entrance invisible from outside. Creatures inside see out through a 3×5 ft window.",
-         upcast="Requires 3rd-level slot"),
 
     # ── Ranger ────────────────────────────────────────────────────────────────
     dict(section="Ranger Spells",
