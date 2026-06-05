@@ -121,12 +121,11 @@ def page_treasury(s):
     # Current balances
     bal = [
         ["CURRENT BALANCES", "", "", "", "", ""],
-        ["Location",              "CP",  "SP", "EP", "GP",             "PP"],
-        ["On Person",             "202", "69", "",   "586",            ""],
-        ["Electrum (22 x 0.5)",   "",    "",   "22", "11 GP equiv.",   ""],
-        ["Banked",                "",    "",   "",   "450",            ""],
-        ["Treasure (Silver Urn)", "",    "",   "",   "? (unappraised)",""],
-        ["TOTAL (est. GP)",       "",    "",   "",   "~1,058",         ""],
+        ["Location",              "CP", "SP", "EP", "GP",             "PP"],
+        ["On Person",             "0",  "0",  "",   "0",              ""],
+        ["Treasure (Silver Urn)", "",   "",   "",   "? (unappraised)",""],
+        ["Banked (all remaining)","",   "",   "",   "10,329",         ""],
+        ["TOTAL",                 "",   "",   "",   "10,329 GP",      ""],
     ]
     cw6 = [CONTENT_W * f for f in (0.22, 0.10, 0.10, 0.10, 0.28, 0.20)]
     bt = Table(bal, colWidths=cw6)
@@ -146,8 +145,8 @@ def page_treasury(s):
         ("FONTNAME",      (0,2), (-1,-1), "Times-Roman"),
         ("FONTSIZE",      (0,2), (-1,-1), 8),
         ("TEXTCOLOR",     (0,2), (-1,-1), INK_DARK),
-        ("BACKGROUND",    (0,6), (-1,6),  SHADE_ROW),
-        ("FONTNAME",      (0,6), (-1,6),  "Times-Bold"),
+        ("BACKGROUND",    (0,5), (-1,5),  SHADE_ROW),
+        ("FONTNAME",      (0,5), (-1,5),  "Times-Bold"),
         ("TOPPADDING",    (0,0), (-1,-1), 2),
         ("BOTTOMPADDING", (0,0), (-1,-1), 2),
         ("LEFTPADDING",   (0,0), (-1,-1), 3),
@@ -183,8 +182,15 @@ def page_treasury(s):
         ["0", "2026-05-22", "Buy",
          "Adventuring supplies: lighting, exploration, writing & tactical kits",
          "21", "", "−21", "8,729"],
+        # ── Session 1: dungeon loot ────────────────────────────────────────────
+        ["1", "2026-05-23", "Loot",
+         "300 GP — gold coins looted, dungeon",
+         "", "300", "+300", "9,029"],
+        ["1", "2026-05-23", "Loot",
+         "7 gems (appraised) — dungeon loot",
+         "", "1,300", "+1,300", "10,329"],
     ]
-    data = head + pre + blank(23, 8)
+    data = head + pre + blank(21, 8)
     t = Table(data, colWidths=cw_tx, repeatRows=1)
     t.setStyle(tbl_style(1, len(data), extra=[
         ("ALIGN", (4,1), (-1,-1), "RIGHT"),
