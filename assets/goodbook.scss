@@ -231,6 +231,52 @@ table.ledger tbody td {
 .sc-abjuration   { border-top-color: #2B4B7C; }
 
 /* ══════════════════════════════════════════════════
+   SPELLCASTING STATS BAR
+   ══════════════════════════════════════════════════ */
+.sc-stat-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.sc-stat-box {
+  border-radius: 6px;
+  padding: .75rem 1rem;
+  border: 2px solid $rule-color;
+}
+.sc-wizard {
+  background: $header-bg;
+  color: $parchment;
+  border-color: $rule-color;
+}
+.sc-ranger {
+  background: #1E8449;
+  color: $parchment;
+  border-color: #145A32;
+}
+.sc-stat-title {
+  font-family: "Palatino Linotype", Palatino, serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: .4rem;
+}
+.sc-stat-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: .85rem;
+  padding: .1rem 0;
+  border-bottom: 1px solid rgba(255,255,255,.15);
+}
+.sc-lbl { opacity: .8; }
+.sc-val { font-weight: bold; font-size: .95rem; }
+.sc-stat-note {
+  font-size: .72rem;
+  opacity: .75;
+  font-style: italic;
+  margin-top: .4rem;
+}
+
+/* ══════════════════════════════════════════════════
    INTERACTIVE SPELL TRACKER
    ══════════════════════════════════════════════════ */
 .tracker-panel {
@@ -297,10 +343,10 @@ table.ledger tbody td {
 .tracker-btn.secondary:hover { background: $shade-row; }
 
 .daily-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: .4rem;
-  margin-top: .5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  margin-top: .25rem;
 }
 .daily-item {
   display: flex;

@@ -123,22 +123,21 @@ toc: false
   <div class="sb-card">
     <div class="sb-head sbh-illusion">
       <span class="sb-name">Minor Illusion ⭐</span>
-      <span class="sb-sublabel">Illusion Cantrip · Wizard · Illusionist feature</span>
+      <span class="sb-sublabel">Illusion Cantrip · Wizard · Illusionist (always known)</span>
     </div>
     <div class="sb-tags"><span class="sb-tag prepared">Always Prepared</span></div>
     <div class="sb-stats-grid">
-      <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action</span></div>
-      <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">30 ft</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action <em>or</em> Bonus Action</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">90 ft <small>(30+60 Illusionist)</small></span></div>
       <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">S, M (fleece)</span></div>
       <div class="sb-stat"><span class="sb-stat-lbl">Duration</span><span class="sb-stat-val">1 minute</span></div>
     </div>
     <div class="sb-body">
-      <p>Create a <b>sound</b> or an <b>image</b> of an object within range that lasts for the duration.</p>
-      <p><b>Sound:</b> Your choice of a creature's voice, a distinct voice, animal sounds, musical instruments — originating from any point within range. Volume can be a whisper or a scream.</p>
-      <p><b>Image:</b> An object no larger than a <b>5-foot cube</b>. No sound, smell, texture, or temperature. A creature that interacts with it can make an <b>Investigation check vs. DC 15</b> to disbelieve.</p>
-      <p>⭐ <b>Improved Minor Illusion (Illusionist, level 2):</b> You can create both a sound <em>and</em> an image simultaneously with a single casting.</p>
+      <p><b>Improved Minor Illusion (Illusionist):</b> Create a <b>sound AND an image</b> simultaneously with a single casting. Can be cast as a <b>Bonus Action</b>. No verbal component needed.</p>
+      <p><b>Sound:</b> Any sound you choose originating from any point within range — from a whisper to a scream.</p>
+      <p><b>Image:</b> An object no larger than a <b>5-foot cube</b>. No sound, smell, texture, or temperature. A creature that physically interacts with it can make an <b>Investigation check vs. DC 15</b> to disbelieve.</p>
     </div>
-    <div class="sb-footer">Wizard spellbook · Illusionist subclass feature</div>
+    <div class="sb-footer">Wizard spellbook · Illusionist subclass (always known) · No verbal needed</div>
   </div>
 
   <!-- Toll the Dead -->
@@ -366,8 +365,8 @@ toc: false
     <div class="sb-tags"><span class="sb-tag conc">C</span></div>
     <div class="sb-stats-grid">
       <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action</span></div>
-      <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">60 ft</span></div>
-      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">V, S, M (fleece)</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">120 ft <small>(60+60 Illusionist)</small></span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">S, M (fleece) <small>— no verbal (Illusionist)</small></span></div>
       <div class="sb-stat"><span class="sb-stat-lbl">Duration</span><span class="sb-stat-val">Concentration, 10 min</span></div>
     </div>
     <div class="sb-body">
@@ -410,7 +409,7 @@ toc: false
     <div class="sb-stats-grid">
       <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action</span></div>
       <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">Self (15-ft cone)</span></div>
-      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">V, S, M (sand/powder)</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">S, M (sand/powder) <small>— no verbal (Illusionist)</small></span></div>
       <div class="sb-stat"><span class="sb-stat-lbl">Duration</span><span class="sb-stat-val">1 round</span></div>
     </div>
     <div class="sb-body">
@@ -462,7 +461,7 @@ toc: false
     <div class="sb-stats-grid">
       <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action</span></div>
       <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">Touch</span></div>
-      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">V, S, M (silk square)</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">S, M (silk square) <small>— no verbal (Illusionist)</small></span></div>
       <div class="sb-stat"><span class="sb-stat-lbl">Duration</span><span class="sb-stat-val">24 hours</span></div>
     </div>
     <div class="sb-body">
@@ -485,13 +484,13 @@ toc: false
     <div class="sb-stats-grid">
       <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action</span></div>
       <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">Touch</span></div>
-      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">V, S, M (eyelash in gum arabic)</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">S, M (eyelash in gum arabic) <small>— no verbal (Illusionist)</small></span></div>
       <div class="sb-stat"><span class="sb-stat-lbl">Duration</span><span class="sb-stat-val">Concentration, 1 hour</span></div>
     </div>
     <div class="sb-body">
       <p>A creature you touch becomes <b>Invisible</b> until the spell ends. Anything the target is wearing or carrying is Invisible as long as it is on the target's person.</p>
       <p>The spell ends for a target that makes an <b>attack roll, deals damage, or casts a spell</b>.</p>
-      <p><em>⭐ War Caster: maintain concentration with Advantage on CON saves when taking damage.</em></p>
+      <p><em>No verbal component needed — Illusionist feature. Useful for silent scenarios.</em></p>
     </div>
     <div class="sb-upcast"><strong>Higher Slots:</strong> You can target one additional creature for each slot level above 2nd.</div>
     <div class="sb-footer">Wizard spellbook (Illusionist) · Uses 2nd-level slot</div>

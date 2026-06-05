@@ -23,6 +23,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install reportlab
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
@@ -30,6 +38,13 @@ jobs:
 
       - name: Render Quarto site
         run: quarto render
+
+      - name: Generate PDFs
+        run: |
+          python generate_ledger.py
+          python generate_spellbook.py
+          cp Tiberius-Ledger.pdf docs/
+          cp Tiberius-Spellbook.pdf docs/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

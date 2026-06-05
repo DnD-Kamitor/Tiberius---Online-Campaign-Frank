@@ -74,13 +74,13 @@ Top border colour = school of magic. **C** = Concentration · **R** = Ritual · 
 
   <div class="spell-card sc-illusion">
     <div class="spell-header"><span class="spell-name">Minor Illusion ⭐</span><span class="spell-level-badge">Cantrip</span></div>
-    <div class="spell-school">Illusion · Wizard (Illusionist)</div>
+    <div class="spell-school">Illusion · Wizard (Illusionist — always known)</div>
     <div class="spell-stats">
-      <span><b>Cast:</b> Action</span><span><b>Range:</b> 30 ft</span>
-      <span><b>Comp:</b> S</span><span><b>Dur:</b> 1 min</span>
+      <span><b>Cast:</b> Action or <b>Bonus Action</b></span><span><b>Range:</b> 90 ft <small>(30+60)</small></span>
+      <span><b>Comp:</b> S, M (fleece)</span><span><b>Dur:</b> 1 min</span>
     </div>
-    <div class="spell-desc">Create a <b>sound</b> or a <b>visual image</b> (5-ft cube). Investigation vs <b>DC 15</b> to disbelieve on interaction.<br><br>⭐ <b>Improved Minor Illusion (Illusionist level 2):</b> create a sound <i>and</i> an image simultaneously with one casting.</div>
-    <div class="spell-source">Wizard spellbook · Illusionist feature</div>
+    <div class="spell-desc">Creates <b>sound AND image</b> (5-ft cube) simultaneously (Improved Minor Illusion). Investigation vs <b>DC 15</b> to disbelieve on physical interaction.<br><br>⭐ <b>Illusionist perks:</b> Bonus Action cast · 90 ft range · no verbal component needed.</div>
+    <div class="spell-source">Illusionist feature (always known) · No verbal needed</div>
   </div>
 
   <div class="spell-card sc-necromancy">
@@ -216,11 +216,11 @@ Top border colour = school of magic. **C** = Concentration · **R** = Ritual · 
     <div class="spell-school">Illusion · Wizard</div>
     <div class="spell-tags"><span class="spell-tag conc">C</span></div>
     <div class="spell-stats">
-      <span><b>Cast:</b> Action</span><span><b>Range:</b> 60 ft</span>
-      <span><b>Comp:</b> V, S, M (fleece)</span><span><b>Dur:</b> Conc., 10 min</span>
+      <span><b>Cast:</b> Action</span><span><b>Range:</b> 120 ft <small>(60+60 Illusionist)</small></span>
+      <span><b>Comp:</b> S, M (fleece) — no verbal</span><span><b>Dur:</b> Conc., 10 min</span>
     </div>
     <div class="spell-desc">Create a <b>15-ft cube</b> visual illusion (no sound, smell, or texture). Creatures that interact and succeed on Investigation vs <b>DC 15</b> see through it. Use an Action to move it up to 20 ft.</div>
-    <div class="spell-upcast">Requires a 2nd-level slot to cast</div>
+    <div class="spell-upcast">Requires a 2nd-level slot · No verbal needed (Illusionist)</div>
     <div class="spell-source">Wizard spellbook</div>
   </div>
 
@@ -242,7 +242,7 @@ Top border colour = school of magic. **C** = Concentration · **R** = Ritual · 
     <div class="spell-school">Illusion · Wizard</div>
     <div class="spell-stats">
       <span><b>Cast:</b> Action</span><span><b>Range:</b> Self (15-ft cone)</span>
-      <span><b>Comp:</b> V, S, M (sand/powder)</span><span><b>Dur:</b> 1 round</span>
+      <span><b>Comp:</b> S, M (sand/powder) — no verbal</span><span><b>Dur:</b> 1 round</span>
     </div>
     <div class="spell-desc">Creatures in cone are <b>Blinded</b> for 1 round. Affects creatures starting from <b>lowest HP</b> upward, until <b>6d10 HP</b> worth are blinded. Undead and creatures that can't be blinded are immune.</div>
     <div class="spell-upcast">↑ +2d10 HP worth per slot above 1st. Requires 3rd-level slot.</div>
@@ -277,7 +277,7 @@ Top border colour = school of magic. **C** = Concentration · **R** = Ritual · 
     <div class="spell-school">Illusion · Wizard (Illusionist)</div>
     <div class="spell-stats">
       <span><b>Cast:</b> Action</span><span><b>Range:</b> Touch</span>
-      <span><b>Comp:</b> V, S, M (tiny square of silk)</span><span><b>Dur:</b> 24 hours</span>
+      <span><b>Comp:</b> S, M (tiny square of silk) — no verbal</span><span><b>Dur:</b> 24 hours</span>
     </div>
     <div class="spell-desc">Alter one creature or object's magical aura detected by spells. Choose two effects: (1) <b>False Aura</b> — make nonmagical appear magical or vice versa, choose school; (2) <b>Mask</b> — change apparent creature type for divinations. Lasts 30 days if cast daily for 30 days.</div>
     <div class="spell-source">Wizard spellbook (Illusionist)</div>
@@ -289,7 +289,7 @@ Top border colour = school of magic. **C** = Concentration · **R** = Ritual · 
     <div class="spell-tags"><span class="spell-tag conc">C</span></div>
     <div class="spell-stats">
       <span><b>Cast:</b> Action</span><span><b>Range:</b> Touch</span>
-      <span><b>Comp:</b> V, S, M (eyelash in gum arabic)</span><span><b>Dur:</b> Conc., 1 hour</span>
+      <span><b>Comp:</b> S, M (eyelash in gum arabic) — no verbal</span><span><b>Dur:</b> Conc., 1 hour</span>
     </div>
     <div class="spell-desc">Target becomes <b>Invisible</b>. Everything worn or carried is also invisible. Ends <b>immediately</b> if target makes an attack roll, deals damage, or casts a spell.</div>
     <div class="spell-upcast">↑ +1 additional target per slot above 2nd</div>

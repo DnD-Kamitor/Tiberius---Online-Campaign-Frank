@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-cdaacfc258cb6f151192107f105ac881.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5ee52a53e37b9877d6f84a522f17cb7d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ff497eaa17d3618011c9cbd73e705e45.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -135,7 +135,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#spell-slot-tracker" id="toc-spell-slot-tracker" class="nav-link active" data-scroll-target="#spell-slot-tracker">Spell Slot Tracker</a></li>
+  <li><a href="#spellcasting-stats" id="toc-spellcasting-stats" class="nav-link active" data-scroll-target="#spellcasting-stats">Spellcasting Stats</a></li>
+  <li><a href="#spell-slot-tracker" id="toc-spell-slot-tracker" class="nav-link" data-scroll-target="#spell-slot-tracker">Spell Slot Tracker</a></li>
   <li><a href="#session-cast-log" id="toc-session-cast-log" class="nav-link" data-scroll-target="#session-cast-log">Session Cast Log</a></li>
   <li><a href="#quick-spell-reference" id="toc-quick-spell-reference" class="nav-link" data-scroll-target="#quick-spell-reference">Quick Spell Reference</a></li>
   </ul>
@@ -174,6 +175,25 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<section id="spellcasting-stats" class="level2">
+<h2 class="anchored" data-anchor-id="spellcasting-stats">Spellcasting Stats</h2>
+<div class="sc-stat-bar">
+  <div class="sc-stat-box sc-wizard">
+    <div class="sc-stat-title">🧙 Wizard · INT 18</div>
+    <div class="sc-stat-row"><span class="sc-lbl">Spell DC</span><span class="sc-val">15</span></div>
+    <div class="sc-stat-row"><span class="sc-lbl">Attack Bonus</span><span class="sc-val">+7</span></div>
+    <div class="sc-stat-row"><span class="sc-lbl">Modifier</span><span class="sc-val">+4</span></div>
+    <div class="sc-stat-note">Schools: all · Illusionist perks apply to Illusion spells</div>
+  </div>
+  <div class="sc-stat-box sc-ranger">
+    <div class="sc-stat-title">🏹 Ranger · WIS 10</div>
+    <div class="sc-stat-row"><span class="sc-lbl">Spell DC</span><span class="sc-val">11</span></div>
+    <div class="sc-stat-row"><span class="sc-lbl">Attack Bonus</span><span class="sc-val">+3</span></div>
+    <div class="sc-stat-row"><span class="sc-lbl">Modifier</span><span class="sc-val">+0</span></div>
+    <div class="sc-stat-note">Spells: Hunter's Mark (2× free/day) · Cure Wounds</div>
+  </div>
+</div>
+</section>
 <section id="spell-slot-tracker" class="level2">
 <h2 class="anchored" data-anchor-id="spell-slot-tracker">Spell Slot Tracker</h2>
 <div class="tracker-panel">
@@ -221,14 +241,35 @@ const SLOT_CONFIG = [
   { level: '3rd', max: 0, label: '3rd Level (Wizard 5)', future: true },
 ];
 
-// ── Daily abilities ─────────────────────────────────────────
-const DAILY_ABILITIES = [
-  { id: 'javelin',    label: 'Javelin of Lightning',   note: '1/dawn · 4d6 ⚡ lightning line, DC 14 DEX' },
-  { id: 'ar',         label: 'Arcane Recovery',         note: '1/day short rest · recover up to 2 slot levels' },
-  { id: 'magearmor',  label: 'Mage Armor',              note: '8 hr duration · AC 15' },
-  { id: 'huntersmark1', label: "Hunter's Mark — use 1",   note: '2× free/day (Favored Enemy: Hobgoblin) · Conc., 1 hr' },
-  { id: 'huntersmark2', label: "Hunter's Mark — use 2",   note: '2nd free use · uses a slot if both spent' },
+// ── Daily abilities (grouped by class) ──────────────────────
+const DAILY_GROUPS = [
+  {
+    label: '🧙 Wizard Abilities',
+    color: '#3D2B0F',
+    abilities: [
+      { id: 'ar',        label: 'Arcane Recovery',  note: '1/day on short rest · recover up to 2 slot levels (INT)' },
+      { id: 'magearmor', label: 'Mage Armor',        note: '8 hr · AC 15 (obsolete — Scale Mail AC 16 is better)' },
+    ],
+  },
+  {
+    label: '🏹 Ranger Abilities (WIS)',
+    color: '#1E8449',
+    abilities: [
+      { id: 'huntersmark1', label: "Hunter's Mark — use 1", note: 'Free (Favored Enemy: Hobgoblin) · Conc., 1 hr · +1d6/hit' },
+      { id: 'huntersmark2', label: "Hunter's Mark — use 2", note: '2nd free use/day · costs a slot once both are spent' },
+    ],
+  },
+  {
+    label: '⚡ Magic Items',
+    color: '#8B6914',
+    abilities: [
+      { id: 'javelin', label: 'Javelin of Lightning', note: '1/dawn · throw to create 5×120 ft line · DC 13 DEX or 4d6 ⚡' },
+    ],
+  },
 ];
+
+// Flat list for backward compatibility with toggle/reset
+const DAILY_ABILITIES = DAILY_GROUPS.flatMap(g => g.abilities);
 
 // ── State helpers ───────────────────────────────────────────
 function loadSlots()  { try { return JSON.parse(localStorage.getItem(SLOTS_KEY)) || {}; } catch { return {}; } }
@@ -342,27 +383,38 @@ function resetDaily() {
   renderDaily();
 }
 
-// ── Render daily abilities ──────────────────────────────────
+// ── Render daily abilities (grouped by class) ───────────────
 function renderDaily() {
   const state = loadDaily();
   const container = document.getElementById('daily-tracker');
   container.innerHTML = '';
 
-  DAILY_ABILITIES.forEach(ability => {
-    const item = document.createElement('div');
-    item.className = 'daily-item' + (state[ability.id] ? ' used' : '');
-    item.onclick = () => toggleDaily(ability.id);
+  DAILY_GROUPS.forEach(group => {
+    // Group header
+    const hdr = document.createElement('div');
+    hdr.style.cssText = `font-size:.75rem;font-weight:bold;color:${group.color};` +
+      'margin:.6rem 0 .2rem;padding:.2rem .4rem;' +
+      `border-left:3px solid ${group.color};background:#F5EDD6`;
+    hdr.textContent = group.label;
+    container.appendChild(hdr);
 
-    const check = document.createElement('div');
-    check.className = 'daily-check';
+    group.abilities.forEach(ability => {
+      const item = document.createElement('div');
+      item.className = 'daily-item' + (state[ability.id] ? ' used' : '');
+      item.onclick = () => toggleDaily(ability.id);
 
-    const text = document.createElement('div');
-    text.innerHTML = '<b>' + ability.label + '</b><br><small style="color:#8B6914">' + ability.note + '</small>';
-    text.style.fontSize = '.82rem';
+      const check = document.createElement('div');
+      check.className = 'daily-check';
 
-    item.appendChild(check);
-    item.appendChild(text);
-    container.appendChild(item);
+      const text = document.createElement('div');
+      text.innerHTML = '<b>' + ability.label + '</b><br>' +
+        '<small style="color:#8B6914">' + ability.note + '</small>';
+      text.style.fontSize = '.82rem';
+
+      item.appendChild(check);
+      item.appendChild(text);
+      container.appendChild(item);
+    });
   });
 }
 
@@ -415,12 +467,18 @@ document.addEventListener('DOMContentLoaded', () => {
 <section id="session-cast-log" class="level2">
 <h2 class="anchored" data-anchor-id="session-cast-log">Session Cast Log</h2>
 <p>Use this to record every spell cast this session for the permanent ledger.</p>
+<p style="font-size:.78rem;color:#5C3A1E;margin:.5rem 0">
+  <b>Wizard (Wiz):</b> INT 18 · DC 15 · +7 attack &nbsp;|&nbsp;
+  <b>Ranger (Rgr):</b> WIS 10 · DC 11 · +3 attack
+</p>
+
 <table id="cast-log" class="ledger caption-top table">
 <thead>
 <tr class="header">
-<th style="text-align: center;" data-quarto-table-cell-role="th">#</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; width: 2rem;">#</th>
 <th data-quarto-table-cell-role="th">Spell Name</th>
-<th data-quarto-table-cell-role="th">Slot Used</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; width: 4rem;">Class</th>
+<th data-quarto-table-cell-role="th" style="width: 5rem">Slot Used</th>
 <th data-quarto-table-cell-role="th">Target / Area</th>
 <th data-quarto-table-cell-role="th">Outcome / Notes</th>
 </tr>
@@ -429,6 +487,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr class="odd">
 <td style="text-align: center;">1</td>
 <td></td>
+<td style="text-align: center; color: #3D2B0F; font-size: .75rem;">Wiz / Rgr</td>
 <td></td>
 <td></td>
 <td></td>
@@ -436,6 +495,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr class="even">
 <td style="text-align: center;">2</td>
 <td></td>
+<td style="text-align: center; color: #3D2B0F; font-size: .75rem;">Wiz / Rgr</td>
 <td></td>
 <td></td>
 <td></td>
@@ -443,6 +503,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr class="odd">
 <td style="text-align: center;">3</td>
 <td></td>
+<td style="text-align: center; color: #3D2B0F; font-size: .75rem;">Wiz / Rgr</td>
 <td></td>
 <td></td>
 <td></td>
@@ -450,6 +511,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr class="even">
 <td style="text-align: center;">4</td>
 <td></td>
+<td style="text-align: center; color: #3D2B0F; font-size: .75rem;">Wiz / Rgr</td>
 <td></td>
 <td></td>
 <td></td>
@@ -457,6 +519,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr class="odd">
 <td style="text-align: center;">5</td>
 <td></td>
+<td style="text-align: center; color: #3D2B0F; font-size: .75rem;">Wiz / Rgr</td>
 <td></td>
 <td></td>
 <td></td>
@@ -464,6 +527,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr class="even">
 <td style="text-align: center;">6</td>
 <td></td>
+<td style="text-align: center; color: #3D2B0F; font-size: .75rem;">Wiz / Rgr</td>
 <td></td>
 <td></td>
 <td></td>
@@ -471,6 +535,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr class="odd">
 <td style="text-align: center;">7</td>
 <td></td>
+<td style="text-align: center; color: #3D2B0F; font-size: .75rem;">Wiz / Rgr</td>
 <td></td>
 <td></td>
 <td></td>
@@ -478,6 +543,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr class="even">
 <td style="text-align: center;">8</td>
 <td></td>
+<td style="text-align: center; color: #3D2B0F; font-size: .75rem;">Wiz / Rgr</td>
 <td></td>
 <td></td>
 <td></td>
