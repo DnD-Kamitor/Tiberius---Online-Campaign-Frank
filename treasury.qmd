@@ -8,29 +8,29 @@ subtitle: "Party Gold · Session-by-session accounting"
 :::
 
 ::: {.callout-warning appearance="simple"}
-**If Tiberius dies:** only what's **On Person** is at risk. **Banked** gold is safe in the vault regardless.
+**If Tiberius dies:** only **On Person** gold is at risk. **Banked** gold is safe in the vault regardless.
 :::
 
 ## Current Balances
 
 ### 🏦 Banked *(safe — survives Tiberius's death)*
-| Location | GP |
-|---|---|
-| Bank vault | **10,329 GP** |
+| GP |
+|---|
+| **8,729 GP** |
 
 ### 🎒 On Tiberius *(lost if he dies)*
-| Location | CP | SP | EP | GP | PP |
-|---|---|---|---|---|---|
-| Coin purse | 0 | 0 | 0 | 0 | — |
+| GP |
+|---|
+| **1,600 GP** *(300 coins + 1,300 gems, Sess.1 — not yet banked)* |
 
-### 📦 Unappraised Party Loot *(not yet converted to GP)*
-| Item | Notes |
-|---|---|
-| Silver Urn | Unappraised |
-| Silver pieces | **Bucketload — uncounted** (Sess.7) |
-| Gold torque w/ gemstones | Unappraised (Sess.7) |
+### 📦 Unappraised Loot on Person *(lost if he dies)*
+| Item | Sess. | Notes |
+|---|---|---|
+| Silver Urn | ? | Unappraised |
+| Silver pieces | 7 | **Bucketload — uncounted** |
+| Gold torque w/ gemstones | 7 | Unappraised |
 
-<span class="balance-badge">Banked: 10,329 GP · On person: 0 GP · Loot: ? unappraised</span>
+<span class="balance-badge">Banked: 8,729 GP · On person: 1,600 GP + unappraised loot</span>
 
 ---
 
