@@ -13,6 +13,8 @@ subtitle: "Party Gold · Session-by-session accounting"
 |---|---|---|---|---|---|
 | Tiberius — On Person | 0 | 0 | 0 | 0 | — |
 | Treasure (Silver Urn) | — | — | — | *? unappraised* | — |
+| Treasure (Silver pieces — uncounted) | — | *? uncounted* | — | — | — |
+| Treasure (Gold torque w/ gemstones) | — | — | — | *? unappraised* | — |
 | **Banked (all remaining)** | — | — | — | **10,329** | — |
 | **TOTAL** | | | | **10,329 GP** | |
 
@@ -140,6 +142,16 @@ subtitle: "Party Gold · Session-by-session accounting"
       <td style="text-align:right">1,300</td>
       <td style="text-align:right">+1,300</td>
       <td style="text-align:right"><strong>10,329</strong></td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">7</td>
+      <td>2026-06-19</td>
+      <td>Loot</td>
+      <td>Silver pieces (bucketload) — uncounted, Sess.7</td>
+      <td></td>
+      <td style="text-align:right">? SP</td>
+      <td style="text-align:right">?</td>
+      <td style="text-align:right"><strong>10,329 + ?</strong></td>
     </tr>
     <!-- Add new rows here -->
     <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>

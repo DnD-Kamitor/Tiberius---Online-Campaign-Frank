@@ -370,6 +370,26 @@ When you throw this javelin and speak its command word, it transforms into a bol
       <td style="text-align:center">G</td>
       <td>Given to Gerald (party fighter) · AC 18, requires STR 15</td>
     </tr>
+    <tr class="credit">
+      <td style="text-align:center">7</td>
+      <td>2026-06-19</td>
+      <td>Gold torque with gemstones</td>
+      <td style="text-align:center">1</td>
+      <td>Found — Looted</td>
+      <td style="text-align:right">? unappraised</td>
+      <td style="text-align:center">K</td>
+      <td>Gold neck torque set with gemstones — needs appraisal</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">7</td>
+      <td>2026-06-19</td>
+      <td>Silver pieces (bucketload)</td>
+      <td style="text-align:center">?</td>
+      <td>Found — Looted</td>
+      <td style="text-align:right">? uncounted</td>
+      <td style="text-align:center">K</td>
+      <td>Not yet counted — update when tallied</td>
+    </tr>
     <tr class="debit">
       <td style="text-align:center">7</td>
       <td>2026-06-19</td>
