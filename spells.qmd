@@ -367,6 +367,15 @@ Use this to record every spell cast this session for the permanent ledger.
 | **Minor Illusion** | Cantrip | Sound + image (Illusionist) | — |
 | **Guidance** | Cantrip | +1d4 to ability check | — |
 
+**Rituals — Wizard spellbook (no slot cost, +10 min casting time)**
+
+| Spell | Level | Key Effect |
+|---|---|---|
+| **Find Familiar** | 1st | Summon a familiar (1 hr cast) — scouting, Help action, touch-range spells |
+| **Unseen Servant** | 1st | Invisible servant, STR 2, 1 hr, 60 ft range |
+| **Comprehend Languages** | 1st | Understand any spoken/written language for 1 hr |
+| **Tenser's Floating Disk** | 1st | Floating disc, 500 lb capacity, follows you 1 hr |
+
 **Ranger spells (WIS · DC 11 · +3 attack · 1 prepared)**
 
 | Spell | Level | Key Effect | Slot |
