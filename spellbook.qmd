@@ -356,6 +356,48 @@ toc: false
     <div class="sb-footer">Wizard spellbook · Cast as ritual (no slot needed)</div>
   </div>
 
+  <!-- Detect Magic -->
+  <div class="sb-card">
+    <div class="sb-head sbh-divination">
+      <span class="sb-name">Detect Magic</span>
+      <span class="sb-sublabel">Divination · 1st Level · Wizard · Ritual</span>
+    </div>
+    <div class="sb-tags"><span class="sb-tag ritual">Ritual</span><span class="sb-tag conc">C</span></div>
+    <div class="sb-stats-grid">
+      <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action / Ritual +10 min</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">Self (30-ft radius)</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">V, S</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Duration</span><span class="sb-stat-val">Concentration, 10 minutes</span></div>
+    </div>
+    <div class="sb-body">
+      <p>For the duration, you sense the presence of magic within <b>30 feet</b> of yourself. If you sense magic this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its <b>school of magic</b>, if any.</p>
+      <p>The spell can penetrate most barriers but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>
+      <p><em>Primary use: identifying whether looted items are magical before wasting an Identify slot.</em></p>
+    </div>
+    <div class="sb-footer">Wizard spellbook · Cast as ritual (no slot needed)</div>
+  </div>
+
+  <!-- Identify -->
+  <div class="sb-card">
+    <div class="sb-head sbh-divination">
+      <span class="sb-name">Identify</span>
+      <span class="sb-sublabel">Divination · 1st Level · Wizard · Ritual</span>
+    </div>
+    <div class="sb-tags"><span class="sb-tag ritual">Ritual</span></div>
+    <div class="sb-stats-grid">
+      <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">1 minute / Ritual +10 min</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">Touch</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">V, S, M (pearl worth 100 GP + owl feather)</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Duration</span><span class="sb-stat-val">Instantaneous</span></div>
+    </div>
+    <div class="sb-body">
+      <p>You choose one object that you must touch throughout the casting of the spell. If it is a magic item or other magic-imbued object, you learn its <b>properties and how to use them</b>, whether it requires attunement, and how many charges it has (if any). You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.</p>
+      <p>If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.</p>
+      <p><em>⚠ Requires a pearl worth 100 GP as a material component — make sure one is in stock!</em></p>
+    </div>
+    <div class="sb-footer">Wizard spellbook · Cast as ritual (no slot needed)</div>
+  </div>
+
   <!-- Silent Image -->
   <div class="sb-card">
     <div class="sb-head sbh-illusion">

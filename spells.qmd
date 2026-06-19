@@ -371,6 +371,8 @@ Use this to record every spell cast this session for the permanent ledger.
 
 | Spell | Level | Key Effect |
 |---|---|---|
+| **Detect Magic** | 1st | Sense magic within 30 ft, see school of magic · Conc. 10 min |
+| **Identify** | 1st | Learn full properties of a magic item · ⚠ needs 100 GP pearl |
 | **Find Familiar** | 1st | Summon a familiar (1 hr cast) — scouting, Help action, touch-range spells |
 | **Unseen Servant** | 1st | Invisible servant, STR 2, 1 hr, 60 ft range |
 | **Comprehend Languages** | 1st | Understand any spoken/written language for 1 hr |
