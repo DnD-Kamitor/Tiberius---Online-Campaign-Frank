@@ -407,6 +407,19 @@ When you throw this javelin and speak its command word, it transforms into a bol
 
 ---
 
+## Shopping List
+
+::: {.callout-note appearance="simple"}
+**Not yet available to purchase** — flag these when the party reaches a city or magic shop.
+:::
+
+| Item | Cost | For | Why |
+|---|---|---|---|
+| Pearl (100 GP) | 100 GP | Tiberius | Material component for *Identify* (ritual) |
+| Diamond (300 GP) | 300 GP | Party | Material component for *Revivify* — consumed on use |
+
+---
+
 ## Attunement Slots (max 3)
 
 | Slot | Item | Status |
