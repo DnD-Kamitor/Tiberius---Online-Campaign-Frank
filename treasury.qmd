@@ -28,7 +28,7 @@ subtitle: "Party Gold · Session-by-session accounting"
 |---|---|---|
 | Silver Urn | ? | Unappraised |
 | Silver pieces | 7 | **Bucketload — uncounted** |
-| Gold torque w/ gemstones | 7 | Unappraised |
+| Gold torque w/ gemstones | 7 | Unappraised · **with Anya (ranger)** |
 
 <span class="balance-badge">Banked: 8,729 GP · On person: 1,600 GP + unappraised loot</span>
 
