@@ -1,10 +1,10 @@
 ---
 title: "Tiberius Inscriptus Interlinearis"
-subtitle: "Wizard 4 (Illusionist) / Ranger 1 · Character Level 5 · Frank's Campaign"
+subtitle: "Wizard 5 (Illusionist) / Ranger 1 · Character Level 6 · Frank's Campaign"
 ---
 
 ::: {.callout-note appearance="simple"}
-**Player:** Chris · **Campaign:** Frank's · **Character #:** 3 · **Last updated:** 2026-05-22
+**Player:** Chris · **Campaign:** Frank's · **Character #:** 3 · **Last updated:** 2026-06-13
 :::
 
 ## Core Stats
@@ -44,21 +44,21 @@ subtitle: "Wizard 4 (Illusionist) / Ranger 1 · Character Level 5 · Frank's Cam
 
 | Stat | Value |
 |---|---|
-| **Character Level** | 5 (Wizard 4 / Ranger 1) |
-| **HP** | **34** *(Wiz1: 6+2 · Wiz2-4: 3×(4+2) · Rng1: 6+2)* |
-| **Hit Dice** | 4×d6 + 1×d10 |
+| **Character Level** | 6 (Wizard 5 / Ranger 1) |
+| **HP** | **40** *(Wiz1: 6+2 · Wiz2-5: 4×(4+2) · Rng1: 6+2)* |
+| **Hit Dice** | 5×d6 + 1×d10 |
 | **AC** | **16** · Scale Mail (14) + DEX +2 · ⚠ Stealth checks at Disadvantage |
 | **Initiative** | +2 |
 | **Speed** | 30 ft |
 | **Proficiency Bonus** | **+3** |
 | **Passive Perception** | 13 *(WIS 10 + Perception proficiency +3)* |
-| **Wizard Save DC** | **15** · **Wizard Attack** +7 · **Prepared Wizard Spells** 8 |
+| **Wizard Save DC** | **15** · **Wizard Attack** +7 · **Prepared Wizard Spells** 9 |
 | **Ranger Save DC** | 11 (WIS) · **Ranger Attack** +3 · **Prepared Ranger Spells** 1 |
-| **Spell Slots** | 1st ×4 · 2nd ×3 |
-| **Arcane Recovery** | Recover up to **2 levels** of slots on a short rest (1/day) |
+| **Spell Slots** | 1st ×4 · 2nd ×3 · 3rd ×2 |
+| **Arcane Recovery** | Recover up to **3 levels** of slots on a short rest (1/day) |
 
 ::: {.callout-tip appearance="simple"}
-**Multiclass spell slots (D&D 2024):** Wizard 4 = 4 full levels · Ranger 1 = 0 half-levels (floor(1/2)) → Combined level 4 → **1st ×4, 2nd ×3**.
+**Multiclass spell slots (D&D 2024):** Wizard 5 = 5 full levels · Ranger 1 = 0 half-levels (floor(1/2)) → Combined level 5 → **1st ×4, 2nd ×3, 3rd ×2**.
 Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger spells use WIS.
 :::
 
@@ -68,7 +68,7 @@ Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger 
 
 | | |
 |---|---|
-| **Primary Class** | Wizard 4 · Subclass: Illusionist |
+| **Primary Class** | Wizard 5 · Subclass: Illusionist |
 | **Secondary Class** | Ranger 1 · *Conclave at Ranger 3* |
 | **Background** | Acolyte |
 | **Species** | Human |
@@ -107,7 +107,7 @@ Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger 
 | Weapon | Attack | Damage | Notes |
 |---|---|---|---|
 | Light Crossbow | +5 | 1d8 P | Ammunition, Loading, Two-Handed; 80/320 ft · Mastery: **Slow** |
-| Warhammer | +2 | 1d8/1d10 B | Versatile · Mastery: **Push** (10 ft) |
+| Warhammer (magic, unidentified) | +2 | 1d8/1d10 B | Versatile · Mastery: **Push** (10 ft) · ⚠ Unidentified |
 | Quarterstaff | +2 | 1d6/1d8 B | Versatile |
 | Javelin of Lightning | +2 | 1d6 P / 4d6 ⚡ | Magic; throw: 5ft×120ft line, DC 14 DEX, 1/dawn |
 

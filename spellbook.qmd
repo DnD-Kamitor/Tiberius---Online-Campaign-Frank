@@ -500,6 +500,77 @@ toc: false
 </div>
 ```
 
+<p class="sb-section-label">Level 3 Spells</p>
+
+```{=html}
+<div class="sb-grid">
+
+  <!-- Fear -->
+  <div class="sb-card">
+    <div class="sb-head sbh-illusion">
+      <span class="sb-name">Fear ⭐</span>
+      <span class="sb-sublabel">Illusion · 3rd Level · Wizard · Prepared</span>
+    </div>
+    <div class="sb-tags"><span class="sb-tag conc">C</span><span class="sb-tag prepared">Prepared</span></div>
+    <div class="sb-stats-grid">
+      <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">Self (30-ft cone)</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">S, M (white feather) <small>— no verbal (Illusionist)</small></span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Duration</span><span class="sb-stat-val">Concentration, 1 minute</span></div>
+    </div>
+    <div class="sb-body">
+      <p>You project a phantasmal image of a creature's worst fears. Each creature in a <b>30-foot cone</b> must succeed on a <b>WIS saving throw (DC 15)</b> or drop whatever it is holding and become <b>Frightened</b> for the duration.</p>
+      <p>While Frightened this way, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, it can make a WIS saving throw — on a success, the spell ends for that creature.</p>
+      <p><em>Illusion school — no verbal component needed (Illusionist). The cone range is Self so Illusionist's +60 ft range does not apply.</em></p>
+    </div>
+    <div class="sb-footer">Wizard spellbook · Illusion (no verbal) · Uses 3rd-level slot</div>
+  </div>
+
+  <!-- Fireball -->
+  <div class="sb-card">
+    <div class="sb-head sbh-evocation">
+      <span class="sb-name">Fireball</span>
+      <span class="sb-sublabel">Evocation · 3rd Level · Wizard</span>
+    </div>
+    <div class="sb-tags"></div>
+    <div class="sb-stats-grid">
+      <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">150 ft</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">V, S, M (bat guano + sulfur)</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Duration</span><span class="sb-stat-val">Instantaneous</span></div>
+    </div>
+    <div class="sb-body">
+      <p>A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a <b>20-foot-radius sphere</b> must make a <b>DEX saving throw (DC 15)</b>. A target takes <b>8d6 fire damage</b> on a failed save, or half as much on a successful one.</p>
+      <p>The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.</p>
+    </div>
+    <div class="sb-upcast"><strong>Higher Slots:</strong> +1d6 fire damage for each slot level above 3rd.</div>
+    <div class="sb-footer">Wizard spellbook · Attack: DC 15 DEX save · Uses 3rd-level slot</div>
+  </div>
+
+  <!-- Fly -->
+  <div class="sb-card">
+    <div class="sb-head sbh-transmutation">
+      <span class="sb-name">Fly</span>
+      <span class="sb-sublabel">Transmutation · 3rd Level · Wizard</span>
+    </div>
+    <div class="sb-tags"><span class="sb-tag conc">C</span></div>
+    <div class="sb-stats-grid">
+      <div class="sb-stat"><span class="sb-stat-lbl">Casting Time</span><span class="sb-stat-val">Action</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Range</span><span class="sb-stat-val">Touch</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Components</span><span class="sb-stat-val">V, S, M (wing feather)</span></div>
+      <div class="sb-stat"><span class="sb-stat-lbl">Duration</span><span class="sb-stat-val">Concentration, 10 minutes</span></div>
+    </div>
+    <div class="sb-body">
+      <p>You touch a willing creature. The target gains a <b>flying speed of 60 feet</b> for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p>
+      <p><em>Great escape route, repositioning tool, and lets Tiberius stay out of melee range entirely.</em></p>
+    </div>
+    <div class="sb-upcast"><strong>Higher Slots:</strong> You can target one additional creature for each slot level above 3rd.</div>
+    <div class="sb-footer">Wizard spellbook · Concentration (War Caster: ADV on CON saves) · Uses 3rd-level slot</div>
+  </div>
+
+</div>
+```
+
 <p class="sb-section-label">Ranger Spells</p>
 
 ```{=html}

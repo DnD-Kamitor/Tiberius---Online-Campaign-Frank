@@ -1,6 +1,6 @@
 ---
 title: "Spell Tracker"
-subtitle: "Session tracker · Wizard: DC 15, Attack +7 (INT 18) · Ranger: DC 11, Attack +3 (WIS)"
+subtitle: "Session tracker · Wizard: DC 15, Attack +7 (INT 18) · Ranger: DC 11, Attack +3 (WIS) · Slots: 1st×4 · 2nd×3 · 3rd×2"
 ---
 
 ::: {.callout-tip appearance="simple"}
@@ -39,7 +39,7 @@ Slots and daily abilities **save in your browser** — survive page refreshes du
     <button class="tracker-btn secondary" onclick="arcaneRecovery()">🔁 Arcane Recovery (Short Rest)</button>
   </div>
   <p style="font-size:.75rem;color:#5C3A1E;margin:.5rem 0 0">
-    <b>Arcane Recovery:</b> once per day on a short rest, recover spell slots with combined level ≤ <b>2</b> (half wizard level, rounded up).<br>
+    <b>Arcane Recovery:</b> once per day on a short rest, recover spell slots with combined level ≤ <b>3</b> (half wizard level 5, rounded up).<br>
     <b>Ranger spells</b> (Hunter's Mark, Cure Wounds) use the same slots · Hunter's Mark can also be cast <b>2× per day free</b> via Favored Enemy (Hobgoblin).
   </p>
 </div>
@@ -73,7 +73,7 @@ const AR_KEY     = 'tiberius-ar-v1';
 const SLOT_CONFIG = [
   { level: '1st', max: 4, label: '1st Level' },
   { level: '2nd', max: 3, label: '2nd Level' },
-  { level: '3rd', max: 0, label: '3rd Level (Wizard 5)', future: true },
+  { level: '3rd', max: 2, label: '3rd Level' },
 ];
 
 // ── Daily abilities (grouped by class) ──────────────────────
@@ -181,23 +181,23 @@ function arcaneRecovery() {
   if (daily['ar']) { alert('Arcane Recovery already used today.'); return; }
 
   const state = loadSlots();
-  // Can recover up to 2 combined slot levels (half of Wizard level 4 = 2)
-  // Find first two expended slots starting from lowest level
+  // Can recover up to 3 combined slot levels (half of Wizard level 5, rounded up = 3)
+  // Find expended slots starting from lowest level
   let recovered = 0;
   let messages = [];
   for (const cfg of SLOT_CONFIG) {
-    if (cfg.future || cfg.max === 0) continue;
+    if (cfg.max === 0) continue;
     const slotLevel = parseInt(cfg.level);
     for (let i = 0; i < cfg.max; i++) {
       const key = cfg.level + '-' + i;
-      if (state[key] && recovered + slotLevel <= 2) {
+      if (state[key] && recovered + slotLevel <= 3) {
         state[key] = false;
         recovered += slotLevel;
         messages.push(cfg.level + '-level slot');
-        if (recovered >= 2) break;
+        if (recovered >= 3) break;
       }
     }
-    if (recovered >= 2) break;
+    if (recovered >= 3) break;
   }
 
   if (recovered === 0) {
@@ -357,6 +357,9 @@ Use this to record every spell cast this session for the permanent ledger.
 | **Color Spray ⭐** | 1st+ | Blind up to 6d10 HP worth, 1 round | 1st+ |
 | **Command** | 1st | WIS save or obey one-word command | 1st |
 | **Magic Weapon** | 2nd→3rd | +1 magic weapon, Conc. 1 hr | 3rd |
+| **Fear ⭐** | 3rd | 30-ft cone, WIS save or Frightened + flee, Conc. 1 min · *Illusion — no verbal* | 3rd |
+| **Fireball** | 3rd | 20-ft radius, 8d6 fire, DEX half · 150 ft | 3rd |
+| **Fly** | 3rd | Touch, 60 ft fly speed, Conc. 10 min | 3rd |
 | — | Cantrip | — | — |
 | **Fire Bolt** | Cantrip | 1d10 fire, 120 ft | — |
 | **Toll the Dead** | Cantrip | 1d8/1d12 necrotic, WIS save | — |

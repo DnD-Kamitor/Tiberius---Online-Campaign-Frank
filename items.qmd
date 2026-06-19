@@ -6,6 +6,39 @@ subtitle: "Status: K=Kept · S=Sold · U=Used · G=Given · L=Lost"
 ## Magic Items
 
 ::: {.magic-card}
+#### Warhammer (magical, unidentified)
+::: {.rarity}
+Weapon · Magic · Unidentified · Needs Identify
+:::
+Acquired **Sess. ? · 2026-06-13** · Source: Looted
+
+Properties unknown — needs *Identify* or attunement to reveal. Using STR for attacks: +2 to hit.
+
+:::
+
+::: {.magic-card}
+#### Ring (unidentified)
+::: {.rarity}
+Ring · Magic · Unidentified · Needs Identify
+:::
+Acquired **Sess. ? · 2026-06-13** · Source: Looted
+
+Properties unknown — needs *Identify* to reveal.
+
+:::
+
+::: {.magic-card}
+#### Shield +1
+::: {.rarity}
+Armor · Uncommon · No attunement required
+:::
+Acquired **Sess. ? · 2026-06-13** · Source: Looted
+
+While holding this shield, you have a **+1 bonus to AC** in addition to the shield's normal +2. Total shield AC bonus: +3.
+
+:::
+
+::: {.magic-card}
 #### Javelin of Lightning
 ::: {.rarity}
 Weapon · Uncommon · No attunement required
@@ -25,9 +58,10 @@ When you throw this javelin and speak its command word, it transforms into a bol
 | # | Item | Qty | Source | Value | Status | Notes |
 |---|---|---|---|---|---|---|
 | 1 | Light Crossbow | 1 | Starting | 25 GP | K | Ammunition, Loading, Two-Handed · Mastery: Slow |
-| 2 | Warhammer | 1 | Ranger 1 | 15 GP | K | Versatile (1d10) · Mastery: Push |
+| 2 | Warhammer (magical, unidentified) | 1 | Found | ? | K | Versatile (1d10) · Mastery: Push · ⚠ Needs Identify |
 | 3 | Quarterstaff | 1 | Starting | 2 SP | K | Versatile 1d8 |
 | 4 | Javelin of Lightning | 1 | Purchased | 600 GP | K | Magic; 4d6 lightning line 1/dawn |
+| 5 | Shield +1 | 1 | Found | ? | K | AC +3 total (shield +2, magic +1) · No attunement |
 
 ### Worn / Equipped
 | # | Item | Qty | Source | Value | Status | Notes |
@@ -37,6 +71,8 @@ When you throw this javelin and speak its command word, it transforms into a bol
 | 3 | Necklace | 1 | Found | ? | K | **Unidentified** — needs Identify |
 | 4 | Chain Mail | 1 | Found | ? | K | **Unidentified — presumed magical** — needs Identify |
 | 5 | Scale Mail | 1 | Found | 50 GP | K | AC 14+DEX (max+2) · Stealth Disadv. · backup / sell |
+| 6 | Ring (unidentified) | 1 | Found | ? | K | **Magic, unidentified** — needs Identify |
+| 7 | Leather Armor | 1 | Found | 10 GP | K | AC 11+DEX · light armor |
 | 6 | Greatsword | 1 | Found | 50 GP | K | 2d6 S · Heavy, Two-Handed |
 
 ### Pack & Consumables
@@ -48,7 +84,7 @@ When you throw this javelin and speak its command word, it transforms into a bol
 | 4 | Ink Pen | 1 | Pack | 2 CP | K | |
 | 5 | Parchment (sheet) | 10 | Pack | 1 SP ea | K | |
 | 6 | Tinderbox | 1 | Pack | 5 SP | K | ✓ already owned |
-| 7 | Oil (flask) | 20 | Pack + Sess.0 | 1 SP ea | K | 10 from pack + 10 bought |
+| 7 | Oil (flask) | 19 | Pack + Sess.0 | 1 SP ea | K | 10 from pack + 10 bought · 1 used Sess.7 (Jakhad's funeral) |
 | 8 | Lamp | 1 | Pack | 5 SP | K | |
 | 9 | Potion of Healing | 2 | Purchased | 100 GP ea | K | Party stock; 2d4+2 HP |
 
@@ -262,6 +298,86 @@ When you throw this javelin and speak its command word, it transforms into a bol
       <td style="text-align:right">50 GP</td>
       <td style="text-align:center">K</td>
       <td>2d6 S · Heavy, Two-Handed · STR-based (+2 to hit for Tiberius)</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">?</td>
+      <td>2026-06-13</td>
+      <td>Warhammer (magical, unidentified)</td>
+      <td style="text-align:center">1</td>
+      <td>Found — Looted</td>
+      <td style="text-align:right">?</td>
+      <td style="text-align:center">K</td>
+      <td>Magic weapon — needs Identify. Mastery: Push.</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">?</td>
+      <td>2026-06-13</td>
+      <td>Ring (unidentified)</td>
+      <td style="text-align:center">1</td>
+      <td>Found — Looted</td>
+      <td style="text-align:right">?</td>
+      <td style="text-align:center">K</td>
+      <td>Magic ring — needs Identify</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">?</td>
+      <td>2026-06-13</td>
+      <td>Shield +1</td>
+      <td style="text-align:center">1</td>
+      <td>Found — Looted</td>
+      <td style="text-align:right">?</td>
+      <td style="text-align:center">K</td>
+      <td>Uncommon, no attunement · AC +3 total</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">?</td>
+      <td>2026-06-13</td>
+      <td>Leather Armor</td>
+      <td style="text-align:center">1</td>
+      <td>Found — Looted</td>
+      <td style="text-align:right">10 GP</td>
+      <td style="text-align:center">K</td>
+      <td>Light armor, AC 11+DEX</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">7</td>
+      <td>2026-06-19</td>
+      <td>Shield +1</td>
+      <td style="text-align:center">1</td>
+      <td>Looted — Jakhad (died)</td>
+      <td style="text-align:right">?</td>
+      <td style="text-align:center">G</td>
+      <td>Uncommon, no attunement · AC +3 total · given to Gerald</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">7</td>
+      <td>2026-06-19</td>
+      <td>Key</td>
+      <td style="text-align:center">1</td>
+      <td>Looted — Tala</td>
+      <td style="text-align:right">—</td>
+      <td style="text-align:center">K</td>
+      <td>Tala looted; purpose unknown</td>
+    </tr>
+    <tr class="credit">
+      <td style="text-align:center">7</td>
+      <td>2026-06-19</td>
+      <td>Plate Armor</td>
+      <td style="text-align:center">1</td>
+      <td>Found — Looted</td>
+      <td style="text-align:right">~1,500 GP</td>
+      <td style="text-align:center">G</td>
+      <td>Given to Gerald (party fighter) · AC 18, requires STR 15</td>
+    </tr>
+    <tr class="debit">
+      <td style="text-align:center">7</td>
+      <td>2026-06-19</td>
+      <td>Oil (flask)</td>
+      <td style="text-align:center">1</td>
+      <td>Used — Jakhad's funeral</td>
+      <td style="text-align:right">1 SP</td>
+      <td style="text-align:center">U</td>
+      <td>Funeral pyre for Jakhad · 19 remaining</td>
     </tr>
     <!-- Add new rows here -->
   </tbody>
