@@ -107,7 +107,7 @@ Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger 
 | Weapon | Attack | Damage | Notes |
 |---|---|---|---|
 | Light Crossbow | +5 | 1d8 P | Ammunition, Loading, Two-Handed; 80/320 ft · Mastery: **Slow** |
-| Warhammer (magic, unidentified) | +2 | 1d8/1d10 B | Versatile · Mastery: **Push** (10 ft) · ⚠ Unidentified |
+| Warhammer +1 *(probably)* | +3 | 1d8+1/1d10+1 B | Versatile · Mastery: **Push** (10 ft) · ⚠ Needs Identify |
 | Quarterstaff | +2 | 1d6/1d8 B | Versatile |
 | Javelin of Lightning | +2 | 1d6 P / 4d6 ⚡ | Magic; throw: 5ft×120ft line, DC 14 DEX, 1/dawn |
 

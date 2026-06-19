@@ -6,13 +6,14 @@ subtitle: "Status: K=Kept · S=Sold · U=Used · G=Given · L=Lost"
 ## Magic Items
 
 ::: {.magic-card}
-#### Warhammer (magical, unidentified)
+#### Warhammer +1 *(probably)*
 ::: {.rarity}
-Weapon · Magic · Unidentified · Needs Identify
+Weapon · Uncommon · No attunement required · Unconfirmed — needs Identify
 :::
 Acquired **Sess. ? · 2026-06-13** · Source: Looted
 
-Properties unknown — needs *Identify* or attunement to reveal. Using STR for attacks: +2 to hit.
+Suspected **+1 magic weapon** — +1 bonus to attack and damage rolls. Needs *Identify* to confirm.
+Attack: **+3** to hit (Prof +3, STR −1, magic +1) · Damage: **1d8+1 B** (versatile 1d10+1) · Mastery: **Push** (push 10 ft on hit).
 
 :::
 
@@ -58,7 +59,7 @@ When you throw this javelin and speak its command word, it transforms into a bol
 | # | Item | Qty | Source | Value | Status | Notes |
 |---|---|---|---|---|---|---|
 | 1 | Light Crossbow | 1 | Starting | 25 GP | K | Ammunition, Loading, Two-Handed · Mastery: Slow |
-| 2 | Warhammer (magical, unidentified) | 1 | Found | ? | K | Versatile (1d10) · Mastery: Push · ⚠ Needs Identify |
+| 2 | Warhammer +1 *(probably)* | 1 | Found | ~500 GP | K | Versatile (1d10+1) · Mastery: Push · ⚠ Needs Identify to confirm |
 | 3 | Quarterstaff | 1 | Starting | 2 SP | K | Versatile 1d8 |
 | 4 | Javelin of Lightning | 1 | Purchased | 600 GP | K | Magic; 4d6 lightning line 1/dawn |
 | 5 | Shield +1 | 1 | Found | ? | K | AC +3 total (shield +2, magic +1) · No attunement |
@@ -307,7 +308,7 @@ When you throw this javelin and speak its command word, it transforms into a bol
       <td>Found — Looted</td>
       <td style="text-align:right">?</td>
       <td style="text-align:center">K</td>
-      <td>Magic weapon — needs Identify. Mastery: Push.</td>
+      <td>Probably +1 magic weapon — needs Identify to confirm. Mastery: Push.</td>
     </tr>
     <tr class="credit">
       <td style="text-align:center">?</td>
