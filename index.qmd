@@ -54,11 +54,11 @@ subtitle: "Wizard 5 (Illusionist) / Ranger 1 · Character Level 6 · Frank's Cam
 | **Passive Perception** | 13 *(WIS 10 + Perception proficiency +3)* |
 | **Wizard Save DC** | **15** · **Wizard Attack** +7 · **Prepared Wizard Spells** 9 |
 | **Ranger Save DC** | 11 (WIS) · **Ranger Attack** +3 · **Prepared Ranger Spells** 1 |
-| **Spell Slots** | 1st ×4 · 2nd ×3 · 3rd ×2 |
+| **Spell Slots** | 1st ×6 · 2nd ×3 · 3rd ×2 |
 | **Arcane Recovery** | Recover up to **3 levels** of slots on a short rest (1/day) |
 
 ::: {.callout-tip appearance="simple"}
-**Multiclass spell slots (D&D 2024):** Wizard 5 = 5 full levels · Ranger 1 = 0 half-levels (floor(1/2)) → Combined level 5 → **1st ×4, 2nd ×3, 3rd ×2**.
+**Multiclass spell slots (Frank's table):** Wizard 5 gives 1st ×4, 2nd ×3, 3rd ×2 · Ranger 1 adds its own 2×1st-level slots on top → **1st ×6, 2nd ×3, 3rd ×2**.
 Wizard and Ranger share the same spell slot pool. Wizard spells use INT; Ranger spells use WIS.
 :::
 

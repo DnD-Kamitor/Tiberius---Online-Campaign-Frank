@@ -1,6 +1,6 @@
 ---
 title: "Spell Tracker"
-subtitle: "Session tracker · Wizard: DC 15, Attack +7 (INT 18) · Ranger: DC 11, Attack +3 (WIS) · Slots: 1st×4 · 2nd×3 · 3rd×2"
+subtitle: "Session tracker · Wizard: DC 15, Attack +7 (INT 18) · Ranger: DC 11, Attack +3 (WIS) · Slots: 1st×6 · 2nd×3 · 3rd×2"
 ---
 
 ::: {.callout-tip appearance="simple"}
@@ -71,7 +71,7 @@ const AR_KEY     = 'tiberius-ar-v1';
 
 // ── Slot configuration ──────────────────────────────────────
 const SLOT_CONFIG = [
-  { level: '1st', max: 4, label: '1st Level' },
+  { level: '1st', max: 6, label: '1st Level' },
   { level: '2nd', max: 3, label: '2nd Level' },
   { level: '3rd', max: 2, label: '3rd Level' },
 ];
@@ -82,7 +82,7 @@ const DAILY_GROUPS = [
     label: '🧙 Wizard Abilities',
     color: '#3D2B0F',
     abilities: [
-      { id: 'ar',        label: 'Arcane Recovery',  note: '1/day on short rest · recover up to 2 slot levels (INT)' },
+      { id: 'ar',        label: 'Arcane Recovery',  note: '1/day on short rest · recover up to 3 slot levels (INT)' },
       { id: 'magearmor', label: 'Mage Armor',        note: '8 hr · AC 15 (obsolete — Scale Mail AC 16 is better)' },
     ],
   },
